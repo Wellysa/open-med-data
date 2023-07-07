@@ -1,13 +1,13 @@
 name,icd-10,territory
-"Nadciśnienie tętnicze",I 10,Choroby Układu Krążenia (ChUK)
-"Chor. Niedokrw.",	I 20,Choroby Układu Krążenia (ChUK)
-"Ostry zawał serca",	I 21,Choroby Układu Krążenia (ChUK)
-"Zator płucny"	I 26,Choroby Układu Krążenia (ChUK)
-Zab. rytmu serca	I 49,Choroby Układu Krążenia (ChUK)
-Niewydolność serca	I 50,Choroby Układu Krążenia (ChUK)
-"Udar mózgu"	I 64,Choroby Układu Krążenia (ChUK)
-"Żyl.Chor. Zakrz. Zat."	I 80,Choroby Układu Krążenia (ChUK)
-"Niedociś. Tętnicze"	I 95,Choroby Układu Krążenia (ChUK)
+Nadciśnienie tętnicze,I 10,Choroby Układu Krążenia (ChUK)
+Chor. Niedokrw.,	I 20,Choroby Układu Krążenia (ChUK)
+Ostry zawał serca,	I 21,Choroby Układu Krążenia (ChUK)
+Zator płucny,	I 26,Choroby Układu Krążenia (ChUK)
+Zab. rytmu serca,	I 49,Choroby Układu Krążenia (ChUK)
+Niewydolność serca,	I 50,Choroby Układu Krążenia (ChUK)
+Udar mózgu	I 64,Choroby Układu Krążenia (ChUK)
+Żyl.Chor. Zakrz. Zat.	I 80,Choroby Układu Krążenia (ChUK)
+Niedociś. Tętnicze	I 95,Choroby Układu Krążenia (ChUK)
 Ostre zap. nosa i gardła,J 00,Choroby Układu Oddechowego
 COVID-19,U 07.1,Choroby Układu Oddechowego
 Grypa,J 10 - J 11,Choroby Układu Oddechowego
