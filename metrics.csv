@@ -49,8 +49,7 @@ Czynniki ryzyka osteoporozy;;TAK/NIE;Czynniki, które potęgują niebezpieczeńs
 Czynniki ryzyka progresji Covid-19 do ciężkiej postaci choroby;;pkt;W potwierdzonej infekcji Covid-19 o przebiegu łagodnym do umiarkowanego, z czynnikami ryzyka progresji do ciężkiej postaci istnieje możliwość otrzymania leku przeciwwirusowego (molnupirawir-Lagevrio);0.00;0.00;0.00;0.00
 Czynniki ryzyka raka przełyku;;TAK/NIE;Do głównych przyczyn i czynników ryzyka mających wpływ na podwyższone ryzyko rozwoju raka przełyku należą palenie tytoniu i spożywanie alkoholu, ale nie są to jedyne znane czynniki ryzyka raka przełyku;0.00;0.00;0.00;0.00
 Czynniki ryzyka raka szyjki macicy;;pkt;Wywiad dotyczący potencjalnych czynników zwiększających ryzyko rozwoju raka szyjki macicy;0.00;0.00;0.00;0.00
-Czynniki ryzyka raka żołądka;;TAK/NIE;"Do wzrostu ryzyka rozwoju raka żołądka w istotny sposób przyczyniają się warunki środowiskowe, w tym dieta, złożona z produktów sztucznie konserwowanych, solonych i wędzonych, ale nie tylko.
-";0.00;0.00;0.00;0.00
+Czynniki ryzyka raka żołądka;;TAK/NIE;"Do wzrostu ryzyka rozwoju raka żołądka w istotny sposób przyczyniają się warunki środowiskowe, w tym dieta, złożona z produktów sztucznie konserwowanych, solonych i wędzonych, ale nie tylko.";0.00;0.00;0.00;0.00
 Densytometria;DXA; T-score;Densytometria to badanie rentgenowskie kości wykorzystujące niewielkie dawki promieniowania wykonywane w celu oceny zaawansowania osteopenii i osteoporozy.;-1.00;1.00;-1.00;1.00
 długość cyklu miesięcznego;;dni;Cykl miesiączkowy rozpoczyna się wraz z pierwszym dniem krwawienia, a kończy tuż przed następną menstruacją. Prawidłowy cykl kobiety może trwać od 21 do 35 dni, średnio 28dni.;;;21.00;35.00
 elektrokardiografia;EKG;prawidłowy zapis/ nieprawidłowy zapis;Nieinwazyjne badanie wykonywane przy pomocy elektrod umieszczonych na klatce piersiowej pacjenta i na kończynach, wykorzystywane w celu wykrycia zaburzeń pracy serca. ;;;;
@@ -82,9 +81,7 @@ Kwestionariusz PHQ9;;pkt;Kwestionariusz  9 pytań oceniający ryzyko występowan
 Kwestionariusz ryzyka choroby nerek;;TAK;Pytania dotyczące najczęstszych objawów związanych z chorobami nerek.;0.00;1.00;0.00;1.00
 kwestionariusz ryzyka uzależnienia od alkoholu;CAGE;pkt ;Ocenia ryzyko uzależnienia od alkoholu. Jedna odpowiedź na „TAK” budzi podejrzenie problemu alkoholowego, dwie lub więcej sugerują prawdopodobieństwo poważnych problemów alkoholowych;0.00;1.00;0.00;1.00
 kwestionariusz STOP-Bang;;TAK/NIE;Kwestionariusz STOP- Bang to prosty i łatwy w użyciu kwestionariusz pomocny w samodzielnym wykrywaniu zaburzeń oddychania w czasie snu ;0.00;2.00;0.00;2.00
-Kwestionariusz wypalenia zawodowego;;pkt;"Jest to wstępny kwestionariusz, który umożliwia ocenę występowania charakterystycznych objawów wypalenia zawodowego.
-
-";0.00;19.00;0.00;19.00
+Kwestionariusz wypalenia zawodowego;;pkt;"Jest to wstępny kwestionariusz, który umożliwia ocenę występowania charakterystycznych objawów wypalenia zawodowego.";0.00;19.00;0.00;19.00
 LDL;;mg/dl;tak zwany „zły cholesterol”. Transportuje cząsteczki cholesterolu z wątroby do tkanek. ;0.00;100.00;0.00;100.00
 Magnez ;Mg;mmol/l;Magnez to obok potasu, sodu i wapnia jeden z głównych elektrolitów obecnych w organizmie człowieka. Odpowiada m.in. za skurcze mięśni, w tym mięśnia sercowego, oraz prawidłową aktywność wielu enzymów;0.65;1.20;0.65;1.20
 mammografia;;prawidłowa/nieprawidłowa;Badaniem obrazowym wykorzystujące niewielką dawkę promieniowania rentgenowskiego wykonywane w celu wczesnego wykrycia zmian w obrębie piersi, szczególnie u kobiet powyżej 50rż.;;;;
@@ -98,11 +95,8 @@ Obfite krwawienie miesięczne;;TAK/NIE;Średnia utrata krwi podczas miesiączki 
 Objawy alarmowe bólu brzucha;;TAK/NIE;Lista objawów, których wystąpienie może wskazywać na schorzenia w obrębie jamy brzusznej wymagające pilnej interwencji lekarskiej;;;;
 Objawy endometriozy;;TAK/NIE;Choroba najczęściej związana jest z nawracającymi, dotkliwymi bólami, a nieleczona może prowadzić do niepłodności i innych poważnych schorzeń. ;0.00;0.00;0.00;0.00
 objawy hiperglikemii;;pkt;oddawanie dużych ilości moczu, wzmożone pragnienie, chudnięcie, kwasica, skłonność do ropnych zakażeń skóry lub układu moczowego                                                                    ;0.00;0.00;0.00;0.00
-objawy menopauzy;;TAK/NIE;"Czy w ostatnim czasie zaobserwowałaś: uderzenia gorąca, nocne poty? Uczucie zmęczenia, drażliwość, obniżenie nastroju, pogorszenie koncentracji?
-Suchość pochwy, wzrost masy ciała?";;;;
+objawy menopauzy;;TAK/NIE;"Czy w ostatnim czasie zaobserwowałaś: uderzenia gorąca, nocne poty? Uczucie zmęczenia, drażliwość, obniżenie nastroju, pogorszenie koncentracji? Suchość pochwy, wzrost masy ciała?";;;;
 objawy odmiedniczkowego zapalenia nerek;;TAK/NIE;Ocena występowania objawów odmiedniczkowego zapalenia nerek;0.00;0.00;0.00;0.00
-Objawy sugerujące anoreksję;;pkt;"
-";0.00;0.00;0.00;0.00
 objawy sugerujące bulimię;;TAK/NIE;Podstawowym objawem bulimii są epizody objadania się, które charakteryzują się jedzeniem dużej ilości pokarmu w krótkim czasie, ale nie tylko;0.00;0.00;0.00;0.00
 objawy sugerujące raka przełyku;;TAK/NIE;;0.00;0.00;0.00;0.00
 objawy sugerujące raka żołądka;;TAK/NIE;;0.00;0.00;0.00;0.00
