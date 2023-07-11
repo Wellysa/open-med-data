@@ -20,8 +20,6 @@ Płytkokryt (hematokryt płytkowy);PCT;%; stosunek masy krążących płytek krw
 Neutrofile;NEUT;G/l;Neutrofile (granulocyty obojętnochłonne) - największa grupa leukocytów. Są pierwszą linią obrony organizmu przed drobnoustrojami. ;1.80;7.70;1.80;7.70
 Limfocyty;LYM;G/l;Rodzaj białych krwinek, który dzieli się na 2 typy - limfocyty B - odpowiedzialne głównie za tworzenie przeciwciał oraz limfocyty T, odpowiedzialne za bezpośrednie niszczenie antygenów;1.00;5.00;1.00;5.00
 Monocyty;MONO;G/l;Monocyty - jedna z pięciu grup wchodzących w skład leukocytów. Ich rola polega wydzielaniu substancji regulujących pracę układu immunologicznego i usuwanie bakterii oraz nieprawidłowych komórek.;0.00;0.80;0.00;0.80
-;;Jednostka;;;;;
-;;;;;;;
 Aminotransferaza alaninowa;ALAT;U/l;Aminotransferaza alaninowa to enzym występujący głównie w wątrobie oraz mięśniach. Prawidłowo występuje wewnątrz komórek - zwiększenie aktywności we krwi wskazuje na ich uszkodzenie.;5.00;40.00;5.00;40.00
 Aminotransferaza asparaginowa;AspAT;U/l;Aminotransferaza asparaginowa to enzym występujący głównie w wątrobie oraz mięśniach. Prawidłowo występuje wewnątrz komórek - zwiększenie aktywności we krwi wskazuje na ich uszkodzenie.;5.00;40.00;5.00;40.00
 Ateńska Skala Bezsenności;;pkt;Skala ta składa się z 8 pytań oceniających: zasypianie, budzenie się w nocy, rano, czas i jakość snu, samopoczucie, sprawność psychiczną i fizyczną następnego dnia oraz senność w ciągu dnia;0.00;7.00;0.00;7.00
@@ -47,8 +45,6 @@ Cholesterol;;mg/dl;Cholesterol jest lipidem, który w organizmie odpowiada m.in.
 ciśnienie rozkurczowe;DBP;; ciśnienie tętnicze generowane w tętnicach w trakcie rozkurczu serca. ;60.00;90.00;60.00;90.00
 ciśnienie skurczowe;SBP;mmHg; ciśnienie tętnicze generowane w tętnicach w trakcie skurczu serca.;100.00;139.00;100.00;139.00
 cytologia;;Prawidłowa/nieprawidłowa;"Cytologia polega na pobraniu wymazu z szyjki macicy za pomocą specjalnej szczoteczki, a następnie ocenie materiału przez cytologa lub histopatologa. Jest to badanie przesiewowe raka szyjki macicy.
-";;;;
-czas trwania;;;;;;;
 Czynniki ryzyka osteoporozy;;TAK/NIE;Czynniki, które potęgują niebezpieczeństwo wystąpienia tej choroby to palenie tytoniu, nadmierne spożycie kawy, niedobory wapnia, witaminy D i białka w diecie, ale nie tylko;0.00;0.00;0.00;0.00
 Czynniki ryzyka progresji Covid-19 do ciężkiej postaci choroby;;pkt;W potwierdzonej infekcji Covid-19 o przebiegu łagodnym do umiarkowanego, z czynnikami ryzyka progresji do ciężkiej postaci istnieje możliwość otrzymania leku przeciwwirusowego (molnupirawir-Lagevrio);0.00;0.00;0.00;0.00
 Czynniki ryzyka raka przełyku;;TAK/NIE;Do głównych przyczyn i czynników ryzyka mających wpływ na podwyższone ryzyko rozwoju raka przełyku należą palenie tytoniu i spożywanie alkoholu, ale nie są to jedyne znane czynniki ryzyka raka przełyku;0.00;0.00;0.00;0.00
@@ -129,12 +125,10 @@ Osad moczu - wałeczki nabłonkowe;;wpw;Wałeczki nabłonkowe to wałeczki nabł
 Osad moczu - wałeczki szkliste;;wpw;Wałeczki szkliste składają się głównie z białka naturalnie wydzielanego przez nerki. Mogą występować u osób zdrowych po wysiłku lub w czasie wysokiej gorączki;0.00;3.00;0.00;3.00
 Osad moczu - wałeczki ziarniste;;wpw;Obecność wałeczków ziarnistych może świadczyć o chorobie nerek, w tym kłębuszkowym zapaleniu nerek.;0.00;0.00;0.00;0.00
 P-LCR;;%;Odsetek dużych płytek we krwi w badanej próbce. ;13.00;43.00;13.00;43.00
-Płeć;Sex;MK;;0.00;0.00;1.00;1.00
 Potas;K;mmol/l;Potas jest, obok sodu, magnezu i wapnia, jednym z głównych elektrolitów obecnych w organizmie człowieka. Prawidłowy poziom zapewnia m.in. prawidłową funkcję mięśni, układu nerwowego i krążenia.;3.50;5.10;3.50;5.10
 Potencjalne przyczyny otyłości i nadwagi;;;Otyłość i nadwaga mają wiele przyczyn - zaliczyć do nich można czynniki genetyczne, środowiskowe (dieta, aktywność fizyczna), zaburzenia hormonalne czy efekt uboczny przyjmowanych leków.;;;;
 Predyspozycje rodzinne do chorób nowotworowych;;TAK/NIE;Kwestionariusz zawierający pytania dotyczące rodzinnej historii występowania nowotworów, w tym raka piersi i/lub jajnika.;;;;
 PSA;;ng/ml;Enzym produkowany tylko przez gruczoł krokowy. Występuje w jego komórkach, a z wiekiem jego stężenie zwiększa się. Zbyt duży wzrost powinien  skłaniać do głębszej diagnostyki, w tym raka prostaty.;0.00;4.00;0.00;0.00
-Pytanie o złamanie kości;;;;;;;
 Regularne miesiączkowanie;;;Miesiączkowanie jest jedną z oznak ogólnego dobrego stanu zdrowia kobiety i równowagi hormonalnej. Prawidłowo krwawienie miesięczne pojawia się średnio co 28 dni i trwa od 2 do 6 dni.;;;;
 Retikulocyty;RET;promile;Młode erytrocyty. Ich niedobór świadczy o dysfunkcji szpiku, gdzie powstają, nadmiar - o stanie wymagającym zwiększonej produkcji krwinek czerwonych, np. krwawieniu ;5.00;15.00;5.00;15.00
 Rozmaz manualny - bazofile;%BASO;%;Rozmaz manualny, inaczej ręczny, to ocena próbki krwi pod mikroskopem w celu szczegółowej oceny ilości i wyglądu komórek;0.00;3.00;0.00;3.00
@@ -143,14 +137,8 @@ Rozmaz manualny - komórki blastyczne;%BLAST;%;Rozmaz manualny, inaczej ręczny,
 Rozmaz manualny - limfocyty;%LYMPH;%;Rozmaz manualny, inaczej ręczny, to ocena próbki krwi pod mikroskopem w celu szczegółowej oceny ilości i wyglądu komórek;15.00;40.00;15.00;40.00
 Rozmaz manualny - monocyty;%MONO;%;Rozmaz manualny, inaczej ręczny, to ocena próbki krwi pod mikroskopem w celu szczegółowej oceny ilości i wyglądu komórek;2.00;8.00;2.00;8.00
 Rozmaz manualny - neutrofile;%NEUT;%;Rozmaz manualny, inaczej ręczny, to ocena próbki krwi pod mikroskopem w celu szczegółowej oceny ilości i wyglądu komórek;45.00;75.00;45.00;75.00
-Samobadanie;;;;;;;
-Samobadanie jąder;;Prawidłowe/nieprawidłowe;"1. Oceń wielkość symetrię, strukturę
-i konsystencję.
-2. Sprawdź czy w obrębie jąder wyczuwasz zgrubienie, bolesność, obrzęk albo zmiany o charakterze guza.
-3. Sprawdź, czy w mosznie obecny jest płyn.";;;0.00;0.00
-samobadanie piersi;;Prawidłowe/ Nieprawidłowe;"1. Obserwuj piersi przed lustrem stojąc z uniesionymi rękami
-2. Przeciwną ręką badaj pierś okrężnymi ruchami
-3. Połóż się na plecach i sprawdź obie piersi jak wyżej";;;;
+Samobadanie jąder;;Prawidłowe/nieprawidłowe;"1. Oceń wielkość symetrię, strukturę i konsystencję. 2. Sprawdź czy w obrębie jąder wyczuwasz zgrubienie, bolesność, obrzęk albo zmiany o charakterze guza. 3. Sprawdź, czy w mosznie obecny jest płyn.";;;0.00;0.00
+samobadanie piersi;;Prawidłowe/ Nieprawidłowe;"1. Obserwuj piersi przed lustrem stojąc z uniesionymi rękami 2. Przeciwną ręką badaj pierś okrężnymi ruchami 3. Połóż się na plecach i sprawdź obie piersi jak wyżej";;;;
 SCORE;;%;Kalkulator służący do oceny ryzyka sercowo-naczyniowego. Bierze pod uwagę wiek >40rż, płeć, palenie papierosów, ciśnienie skurczowe oraz cholesterol całkowity.;;;;
 Selen;Se;mcg/l;Selen to pierwiastek śladowy niezbędny do prawidłowego funkcjonowania organizmu. Uważa się, że jego niedobór wiąże się m.in. ze zwiększonym ryzykiem wystąpienia nowotworów, w tym raka piersi.;50.00;120.00;50.00;120.00
 Sód;Na;mmol/l;Sód to obok potasu, magnezu i wapnia, jeden z głównych elektrolitów obecnych w organizmie człowieka. Główną rolą jest kontrola objętości płynów pozakomórkowych i utrzymanie równowagi kwasowo-zasadowej;138.00;145.00;138.00;145.00
@@ -166,7 +154,6 @@ Tyreotropina;TSH;µU/ml;TSH jest hormonem produkowanym przez przysadkę mózgow�
 usg piersi;;prawidłowe / nieprawidłowe;Nieinwazyjne badanie do obrazowej oceny nieprawidłowości w piersiach;;;;
 usg przezpochwowe;;prawidłowe/nieprawidłowe;USG ginekologiczne wykonywane sondą nie przez brzuch, a pochwę. Za pomocą badania można ocenić narządy w miednicy mniejszej.;;;;
 Wapń;Ca;mg/dl;Wapń to obok potasu, magnezu i sodu jeden z głównych elektrolitów obecnych w organizmie człowieka. Jest głównym budulcem kości, jest również odpowiedzialny za przewodnictwo nerwowe oraz skurcz mięśni.;8.60;10.00;8.60;10.00
-wiek;;;;;;;
 witamina D3;;ng/ml;Główną rolą witaminy D jest utrzymywanie odpowiedniego poziomu wapnia w organizmie, aby utrzymać prawidłową strukturę kości. Odgrywa również rolę w odpowiedzi immunologicznej organizmu.;20.00;50.00;20.00;50.00
 Wolna trijodotyronina;fT3;pmol/l;Trijodotyronina to hormon produkowany przez tarczycę. W celu oceny stężenia jego aktywnej postaci we krwi oznacza się jego tzw. wolną frakcję, która nie jest związana z białkami transportowymi. ;4.00;7.80;4.00;7.80
 wolna tyroksyna;fT4;pmol/l;Tyroksyna to hormon produkowany przez tarczycę. W celu oceny stężenia aktywnej postaci hormonu we krwi oznacza się tzw. wolną frakcję tego hormonu, która nie jest związana z białkami transportowymi;11.80;24.60;11.80;24.60
@@ -174,15 +161,11 @@ Wskazania do hospitalizacji w przypadku infekcji Covid-19;;pkt;Covid-19 to choro
 Wskazania do operacji bariatrycznej;;;W związku z tym, że zabiegi bariatryczne są inwazyjnymi procedurami walki z otyłością, konieczne jest spełnienie pewnych kryteriów oraz brak przeciwwskazań do zabiegu.;;;;
 Wskaźnik masy ciała;BMI;kg/m2;BMI oblicza się, dzieląc masę ciała (w kilogramach) przez wzrost do kwadratu. Wykorzystuje się go przede wszystkim do oceny stopnia otyłości;18.50;24.90;18.50;24.90
 Żelazo;Fe;µg/dl;Żelazo jest składnikiem hemoglobiny – białka występującego w czerwonych krwinkach, odpowiadającego za transport tlenu z płuc do wszystkich komórek organizmu.;50.00;170.00;50.00;170.00
-;;;;;;;
 Agranulocytoza to znaczne zmniejszenie liczby podtypu krwinek białych - neutrofili.;;;;;;;
 Znacznie obniżona liczbaneutrofilów bardzo negatywnie wpływa na odporność i predysponuje do licznych i groźnych infekcji. Związana może być z wcześniej stosowanymi lekami (przeciwzapalne;;;;;;;
 psychiatryczne). Do rzadszych przyczyn obniżonej liczby neutrofilii należą choroby szpiku kostnego.;;;;;;;
-Hematologia;;;;;;;
-❌brak;;;;;;;
 Rozmaz manualny - schistocyty;;Jednostka;Schistocyty to fragmenty krwinek czerwonych, które powstają  w wyniku ich mechanicznego uszkodzenia;0.00;0.00;0.00;0.00
 Rozmaz manualny - leukoerytroblastostoza;;Jednostka;Leukoerytroblastoza to pojawienie się we krwi obwodowej młodych form komórek linii granulocytarnej i młodych krwinek czerwonych;0.00;0.00;0.00;0.00
-kwas foliowy;;;;;;;
 kwas foliowy;;ng/ml;Kwas foliowy jest niezbędny do prawidłowego wzrostu i funkcjonowania wszystkich komórek w ciele, a także w procesie tworzenia erytrocytów - niedobór może prowadzić do niedokrwistości makrocytarnej;3.10;17.50;3.10;17.50
 witamina B12;;pg/ml;Witamina B12 odgrywa ważną rolę w powstawaniu erytrocytów oraz funkcjonowaniu układu nerwowego. Niedobór może prowadzić do niedokrwistości makrocytarnej oraz zaburzeń neurologicznych;197.00;771.00;197.00;771.00
 rozmaz manualny - rulonizacja erytrocytów;;obecne/nieobecne;Rulonizacja erytrocytów to widoczne pod mikroskopem zwijanie się i przyleganie do siebie krwinek czerwonych, spowodowane opłaszczeniem erytrocytów przez immunoglobuliny;0.00;0.00;0.00;0.00
