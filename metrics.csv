@@ -3,7 +3,7 @@ Leukocyty;WBC;G/l;Krwinki białe (leukocyty) -  komórki odpornościowe krwi. Wy
 Erytrocyty;RBC;T/l;Erytrocyty, krwinki czerwone, to komórki transportujące tlen z płuc do wszystkich tkanek  organizmu, a także dwutlenek węgla z tkanek do płuc, skąd jest wydalany do powietrza atmosferycznego.;4.50;6.50;4.50;6.50
 Hemoglobina;Hb;g/dl;Hemoglobina to cząsteczka białka - globuliny i hemu zawierającego cząsteczkę żelaza (Fe) w krwinkach czerwonych.  Odpowiada za transport tlenu z płuc do tkanek organizmu i z powrotem dwutlenku węgla.;13.00;18.00;12.00;16.00
 Hematokryt;Ht;%;Hematokryt to parametr informujący, jaki procent całej objętości krwi krążącej w organizmie stanowią krwinki czerwone. ;40.00;54.00;37.00;47.00
-MCV;MCV;fl;MCV to skrót od "mean corpuscular volume" czyli średniej objętości krwinki. Oblicza się ją, dzieląc hematokryt (Ht) przez liczbę erytrocytów.                                                      ";83.00;103.00;83.00;103.00
+MCV;MCV;fl;MCV to skrót od "mean corpuscular volume" czyli średniej objętości krwinki. Oblicza się ją, dzieląc hematokryt (Ht) przez liczbę erytrocytów.;83.00;103.00;83.00;103.00
 MCH;MCH;PG;MCH to skrót od "Mean Corpuscular Hemoglobin". Oznacza średnią masę hemoglobiny w erytrocycie, czyli czerwonej krwince.;28.00;34.00;28.00;34.00
 MCHC;MCHC;g/dl;MCHC to parametr określający średnie stężenie hemoglobiny w krwince czerwonej. ;32.00;36.00;32.00;36.00
 Płytki krwi;PLT;G/l;Płytki krwi (trombocyty) to bezjądrzaste komórki powstające szpiku kostnym. Główną rolą trombocytów jest udział w procesach krzepnięcia krwi.;125.00;400.00;125.00;400.00
