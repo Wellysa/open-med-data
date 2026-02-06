@@ -1,0 +1,394 @@
+{
+  "associations": [
+    {
+      "code": "RB",
+      "name": "RB",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "RN",
+      "name": "RN",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "RO",
+      "name": "RO",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    }
+  ],
+  "synonymTypes": [
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    }
+  ],
+  "sources": [
+    {
+      "code": "SNOMEDCT_US",
+      "name": "US Edition of SNOMED CT, 2025_03_01",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    }
+  ],
+  "termTypes": [
+    {
+      "code": "FN",
+      "name": "Full form of descriptor",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MTH_FN",
+      "name": "MTH Full form of descriptor",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MTH_PT",
+      "name": "Metathesaurus preferred term",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MTH_PTGB",
+      "name": "Metathesaurus-supplied form of British preferred term",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MTH_SY",
+      "name": "MTH Designated synonym",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MTH_SYGB",
+      "name": "Metathesaurus-supplied form of British synonym",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "PT",
+      "name": "Designated preferred name",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "PTGB",
+      "name": "British preferred term",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "SB",
+      "name": "Named subset of a source",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "SY",
+      "name": "Designated synonym",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "SYGB",
+      "name": "British synonym",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "XM",
+      "name": "Cross mapping set",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "RELA",
+      "name": "RELA",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MTH_MAPFROMEXHAUSTIVE",
+      "name": "MTH_MAPFROMEXHAUSTIVE",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "TOVSAB",
+      "name": "TOVSAB",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MODULE_NAME",
+      "name": "MODULE_NAME",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MAPSETSID",
+      "name": "MAPSETSID",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "TARGET_EFFECTIVE_TIME",
+      "name": "TARGET_EFFECTIVE_TIME",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "CASE_SIGNIFICANCE_ID",
+      "name": "CASE_SIGNIFICANCE_ID",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MTH_MAPTOEXHAUSTIVE",
+      "name": "MTH_MAPTOEXHAUSTIVE",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MAPSETVSAB",
+      "name": "MAPSETVSAB",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "TORSAB",
+      "name": "TORSAB",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MAPSETNAME",
+      "name": "MAPSETNAME",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "FROMVSAB",
+      "name": "FROMVSAB",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "FROMRSAB",
+      "name": "FROMRSAB",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "TYPE_ID",
+      "name": "TYPE_ID",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MAPSETVERSION",
+      "name": "MAPSETVERSION",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "SOS",
+      "name": "SOS",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MAPSETRSAB",
+      "name": "MAPSETRSAB",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MTH_MAPFROMCOMPLEXITY",
+      "name": "MTH_MAPFROMCOMPLEXITY",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MTH_MAPTOCOMPLEXITY",
+      "name": "MTH_MAPTOCOMPLEXITY",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MODULE_ID",
+      "name": "MODULE_ID",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "SOURCE_EFFECTIVE_TIME",
+      "name": "SOURCE_EFFECTIVE_TIME",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MTH_MAPSETCOMPLEXITY",
+      "name": "MTH_MAPSETCOMPLEXITY",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    }
+  ],
+  "definitionTypes": [
+    {
+      "code": "SNOMEDCT_US",
+      "name": "US Edition of SNOMED CT, 2025_03_01",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    }
+  ],
+  "properties": [
+    {
+      "code": "MODULE_NAME",
+      "name": "MODULE_NAME",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "CONCENTRATION_STRENGTH_NUMERATOR_VALUE",
+      "name": "CONCENTRATION_STRENGTH_NUMERATOR_VALUE",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "DEFINITION_STATUS_ID",
+      "name": "DEFINITION_STATUS_ID",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "ACTIVE",
+      "name": "ACTIVE",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "Semantic_Type",
+      "name": "Semantic_Type",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "CONCENTRATION_STRENGTH_DENOMINATOR_VALUE",
+      "name": "CONCENTRATION_STRENGTH_DENOMINATOR_VALUE",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "EFFECTIVE_TIME",
+      "name": "EFFECTIVE_TIME",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "REFSET_PATTERN",
+      "name": "REFSET_PATTERN",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "PRESENTATION_STRENGTH_DENOMINATOR_VALUE",
+      "name": "PRESENTATION_STRENGTH_DENOMINATOR_VALUE",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "UMLSRELA",
+      "name": "UMLSRELA",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "DEFAULT_MODULE_ID",
+      "name": "DEFAULT_MODULE_ID",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "COUNT_OF_BASE_OF_ACTIVE_INGREDIENT",
+      "name": "COUNT_OF_BASE_OF_ACTIVE_INGREDIENT",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "CTV3ID",
+      "name": "CTV3ID",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "UMLSREL",
+      "name": "UMLSREL",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "COUNT_OF_ACTIVE_INGREDIENT",
+      "name": "COUNT_OF_ACTIVE_INGREDIENT",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "NCI_META_CUI",
+      "name": "NCI_META_CUI",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "ICD-O-3_CODE",
+      "name": "ICD-O-3_CODE",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "MODULE_ID",
+      "name": "MODULE_ID",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "DESCRIPTION_LENGTH",
+      "name": "DESCRIPTION_LENGTH",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "PRESENTATION_STRENGTH_NUMERATOR_VALUE",
+      "name": "PRESENTATION_STRENGTH_NUMERATOR_VALUE",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "DEFAULT_LANGUAGECODE",
+      "name": "DEFAULT_LANGUAGECODE",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    },
+    {
+      "code": "DESCRIPTION_FORMAT",
+      "name": "DESCRIPTION_FORMAT",
+      "terminology": "snomedct_us",
+      "version": "2025_03_01"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# http://onkologia.org.pl/pl/nowotwory-narzadow-glowy-i-szyi-leczenie
+
+(Snapshot from KRN portal, downloaded by crawl_krn_portal.py)
+
+# Nowotwory narządów głowy i szyiLeczenie
+![](https://onkologia.org.pl/sites/default/files/media/2021-10/AdobeStock_387482282.jpeg)
+## Leczenie
+Do standardowych metod leczenia chorych na raki narządów głowy i szyi zaliczana jest chirurgia i radioterapia. Optymalnie leczenie operacyjne powinno być prowadzone przez zespoły różnych specjalistów zapewniające obok onkologicznie prawidłowego usunięcia guza również możliwość odpowiedniego z czynnościowego i estetycznego punktu widzenia odtworzenia ubytków tkanek. Radioterapia współcześnie powinna być realizowana przy użyciu nowoczesnych technologii, takich jak napromienianie 3D konformalne (napromienianie, w którym kształt napromienianego pola jest precyzyjnie dostosowany do kształtu guza za pomocą trójwymiarowego planowania leczenia na podstawie badań obrazowych) czy też napromienianie o modulowanej intensywności wiązki promieni (IMRT), które zapewnia optymalną na chwilę obecną ochronę prawidłowych tkanek.
+Chirurgia i radioterapia często są wykorzystywane łącznie w ramach leczenia skojarzonego, przy czym zwykłą kolejność stanowi napromienianie uzupełniające zabieg operacyjny.
+Chemioterapia u chorych na raka narządów głowy i szyi może być stosowana w dwojaki sposób. W ramach leczenia z zamiarem wyleczenia chemioterapia jest kojarzona z napromienianiem (najczęściej z jednoczesnym użyciem leku o nazwie cisplatyna), zaś w przypadkach zaawansowanych z zamysłem zwiększenia prawdopodobieństwa wyleczalności miejscowej, w tym jako inna możliwość zapobiegająca okaleczającym zabiegom chirurgicznym. W badaniach  jednoznacznie wykazano, że w takiej sytuacji jednoczesna chemioradioterapia jest skuteczniejsza od wyłącznego napromieniania, choć kosztem ryzyka nasilonych działań niepożądanych. Jednak ta możliwość jest wskazana jedynie dla chorych w dobrym stanie ogólnym i bez dodatkowych chorób.
+Inną możliwość leczenia skojarzonego stanowi dodanie wstępnej chemioterapii przed jednoczesną chemoradioterapią, co jest ważne przede wszystkim w przypadkach masywnych przerzutów do węzłów chłonnych szyi. Chemioterapia może być także samodzielnym leczeniem łagodzącym objawy u chorych z nieoperacyjnymi nawrotami lub przerzutami odległymi. Standardowy schemat chemioterapii składa się z 2 leków niszczących komórki raka: cisplatyny i 5-fluorouracylu. U chorych w gorszym stanie ogólnym można rozważyć leczenie innym lekiem o nazwie metotreksat.  W ciągu ostatnich lat wprowadzono także do leczenia nowe leki uszkadzające bezpośrednio komórki raka. Pierwszy z tych leków – cetuksymab – stosuje się jednocześnie z radioterapią lub  łącznie z chemioterapią w razie nawrotu choroby lub przerzutów odległych.
+Strona korzysta z ciasteczek
+Wykorzystujemy pliki cookie i inne technologie z myślą o optymalizacji witryny oraz w celach promocyjnych i marketingowych. Poza tym informacje dot. korzystania przez użytkownika z plików cookie przekazujemy naszym partnerom zajmującym się mediami społecznościowymi, reklamą i analityką. Wciśnięcie przycisku “Akceptuj wszystkie pliki cookie” oznacza wyrażenie zgody na wykorzystywanie przez nas plików cookie. Aby uzyskać więcej informacji, odwiedź politykę dotyczącą plików cookie.
+Wymagane
+Podczas odwiedzania jakiejkolwiek strony internetowej, może ona przechowywać lub pobierać informacje z przeglądarki, głównie w formie plików cookie. Informacje te mogą dotyczyć użytkownika, jego preferencji lub urządzenia i są najczęściej wykorzystywane w celu zapewnienia, że witryna będzie działać tak, jak tego oczekują użytkownicy.
+Analityka
+Informacje zazwyczaj nie identyfikują bezpośrednio użytkownika, ale mogą zapewnić mu bardziej spersonalizowane doświadczenie w sieci. Ponieważ szanujemy prawo użytkownika do prywatności, użytkownik może zrezygnować z akceptowania niektórych rodzajów plików cookie. Aby dowiedzieć się więcej i zmienić nasze ustawienia domyślne, należy kliknąć na poszczególne nagłówki kategorii. Jednakże blokowanie niektórych rodzajów plików cookie może mieć wpływ na doświadczenia użytkownika związane z witryną i usługami, które możemy zaoferować.
+Akceptuje podstawowe ustawienie
+Pokaż szczegóły
+Zapisz
+<https://www.printfriendly.com>

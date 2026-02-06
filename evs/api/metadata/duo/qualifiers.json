@@ -1,0 +1,60 @@
+[
+  {
+    "code": "rdfs:comment",
+    "name": "comment",
+    "terminology": "duo",
+    "version": "2021-02-23",
+    "synonyms": [
+      {
+        "name": "comment",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "rdfs:seeAlso",
+    "name": "seeAlso",
+    "terminology": "duo",
+    "version": "2021-02-23",
+    "synonyms": [
+      {
+        "name": "seeAlso",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0010000",
+    "name": "has axiom label",
+    "terminology": "duo",
+    "version": "2021-02-23",
+    "synonyms": [
+      {
+        "name": "has axiom label",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "Person:Alan Ruttenberg"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "has axiom id"
+      },
+      {
+        "type": "elucidation",
+        "value": "A URI that is intended to be unique label for an axiom used for tracking change to the ontology. For an axiom expressed in different languages, each expression is given the same URI"
+      },
+      {
+        "type": "rdfs:isDefinedBy",
+        "value": "http://purl.obolibrary.org/obo/iao.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "Person:Alan Ruttenberg"
+      }
+    ]
+  }
+]

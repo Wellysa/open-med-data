@@ -1,0 +1,122 @@
+{
+  "associations": [
+    {
+      "code": "RQ",
+      "name": "RQ",
+      "terminology": "icd10cm",
+      "version": "2025"
+    }
+  ],
+  "synonymTypes": [
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "icd10cm",
+      "version": "2025"
+    }
+  ],
+  "sources": [
+    {
+      "code": "ICD10CM",
+      "name": "International Classification of Diseases, 10th Edition, Clinical Modification, 2025",
+      "terminology": "icd10cm",
+      "version": "2025"
+    }
+  ],
+  "termTypes": [
+    {
+      "code": "AB",
+      "name": "Abbreviation in any source vocabulary",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "ET",
+      "name": "Entry term",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "HT",
+      "name": "Hierarchical term",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "PT",
+      "name": "Designated preferred name",
+      "terminology": "icd10cm",
+      "version": "2025"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "RELA",
+      "name": "RELA",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "EXCLUDES1",
+      "name": "EXCLUDES1",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "EXCLUDES2",
+      "name": "EXCLUDES2",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "CODE_FIRST",
+      "name": "CODE_FIRST",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "USE_ADDITIONAL",
+      "name": "USE_ADDITIONAL",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "NOTE",
+      "name": "NOTE",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "ORDER_NO",
+      "name": "ORDER_NO",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "CODE_ALSO",
+      "name": "CODE_ALSO",
+      "terminology": "icd10cm",
+      "version": "2025"
+    }
+  ],
+  "properties": [
+    {
+      "code": "Semantic_Type",
+      "name": "Semantic_Type",
+      "terminology": "icd10cm",
+      "version": "2025"
+    },
+    {
+      "code": "NCI_META_CUI",
+      "name": "NCI_META_CUI",
+      "terminology": "icd10cm",
+      "version": "2025"
+    }
+  ]
+}

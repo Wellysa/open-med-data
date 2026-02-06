@@ -1,0 +1,97 @@
+{
+  "synonymTypes": [
+    {
+      "code": "FULL_SYN",
+      "name": "FULL_SYN",
+      "terminology": "ctcae5",
+      "version": "202311"
+    }
+  ],
+  "sources": [
+    {
+      "code": "CTCAE",
+      "terminology": "ctcae5",
+      "version": "202311"
+    },
+    {
+      "code": "CTCAE_v5",
+      "terminology": "ctcae5",
+      "version": "202311"
+    },
+    {
+      "code": "NCI",
+      "terminology": "ctcae5",
+      "version": "202311"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "def-source",
+      "name": "def-source",
+      "terminology": "ctcae5",
+      "version": "202311"
+    },
+    {
+      "code": "term-group",
+      "name": "term-group",
+      "terminology": "ctcae5",
+      "version": "202311"
+    },
+    {
+      "code": "term-source",
+      "name": "term-source",
+      "terminology": "ctcae5",
+      "version": "202311"
+    }
+  ],
+  "definitionTypes": [
+    {
+      "code": "CTCAE_v5",
+      "terminology": "ctcae5",
+      "version": "202311"
+    },
+    {
+      "code": "NCI",
+      "terminology": "ctcae5",
+      "version": "202311"
+    }
+  ],
+  "properties": [
+    {
+      "code": "ALT_DEFINITION",
+      "name": "ALT_DEFINITION",
+      "terminology": "ctcae5",
+      "version": "202311"
+    },
+    {
+      "code": "DEFINITION",
+      "name": "DEFINITION",
+      "terminology": "ctcae5",
+      "version": "202311"
+    },
+    {
+      "code": "FULL_SYN",
+      "name": "FULL_SYN",
+      "terminology": "ctcae5",
+      "version": "202311"
+    },
+    {
+      "code": "MedDRA_Code",
+      "name": "MedDRA_Code",
+      "terminology": "ctcae5",
+      "version": "202311"
+    },
+    {
+      "code": "NCIt_Code",
+      "name": "NCIt_Code",
+      "terminology": "ctcae5",
+      "version": "202311"
+    },
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "ctcae5",
+      "version": "202311"
+    }
+  ]
+}

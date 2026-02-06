@@ -1,0 +1,20 @@
+[
+  {
+    "code": "Concept_Name",
+    "name": "Concept_Name",
+    "terminology": "medrt",
+    "version": "2025.11.03"
+  },
+  {
+    "code": "Preferred_Term",
+    "name": "Preferred_Term",
+    "terminology": "medrt",
+    "version": "2025.11.03"
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "medrt",
+    "version": "2025.11.03"
+  }
+]

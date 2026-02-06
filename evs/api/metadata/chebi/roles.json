@@ -1,0 +1,236 @@
+[
+  {
+    "code": "has_part",
+    "name": "has_part",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "has_part",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "BFO:0000051"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "chebi_ontology"
+      },
+      {
+        "type": "is_cyclic",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "code": "has_role",
+    "name": "has_role",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "has_role",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0000087"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "chebi_ontology"
+      },
+      {
+        "type": "is_cyclic",
+        "value": "false"
+      },
+      {
+        "type": "is_transitive",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "code": "is_conjugate_base_of",
+    "name": "is_conjugate_base_of",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "is_conjugate_base_of",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "has_obo_namespace",
+        "value": "chebi_ontology"
+      },
+      {
+        "type": "is_cyclic",
+        "value": "true"
+      },
+      {
+        "type": "is_transitive",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "code": "is_conjugate_acid_of",
+    "name": "is_conjugate_acid_of",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "is_conjugate_acid_of",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "has_obo_namespace",
+        "value": "chebi_ontology"
+      },
+      {
+        "type": "is_cyclic",
+        "value": "true"
+      },
+      {
+        "type": "is_transitive",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "code": "is_tautomer_of",
+    "name": "is_tautomer_of",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "is_tautomer_of",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "has_obo_namespace",
+        "value": "chebi_ontology"
+      },
+      {
+        "type": "is_cyclic",
+        "value": "true"
+      }
+    ]
+  },
+  {
+    "code": "is_substituent_group_from",
+    "name": "is_substituent_group_from",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "is_substituent_group_from",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "has_obo_namespace",
+        "value": "chebi_ontology"
+      },
+      {
+        "type": "is_cyclic",
+        "value": "false"
+      },
+      {
+        "type": "is_transitive",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "code": "has_functional_parent",
+    "name": "has_functional_parent",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "has_functional_parent",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "has_obo_namespace",
+        "value": "chebi_ontology"
+      },
+      {
+        "type": "is_cyclic",
+        "value": "false"
+      },
+      {
+        "type": "is_transitive",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "code": "is_enantiomer_of",
+    "name": "is_enantiomer_of",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "is_enantiomer_of",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "has_obo_namespace",
+        "value": "chebi_ontology"
+      },
+      {
+        "type": "is_cyclic",
+        "value": "true"
+      },
+      {
+        "type": "is_transitive",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "code": "has_parent_hydride",
+    "name": "has_parent_hydride",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "has_parent_hydride",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "has_obo_namespace",
+        "value": "chebi_ontology"
+      },
+      {
+        "type": "is_cyclic",
+        "value": "false"
+      },
+      {
+        "type": "is_transitive",
+        "value": "false"
+      }
+    ]
+  }
+]

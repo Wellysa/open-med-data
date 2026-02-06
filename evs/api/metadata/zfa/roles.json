@@ -1,0 +1,206 @@
+[
+  {
+    "code": "overlaps",
+    "name": "overlaps",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "overlaps",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002131"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "zebrafish_anatomical_ontology"
+      },
+      {
+        "type": "shorthand",
+        "value": "overlaps"
+      }
+    ]
+  },
+  {
+    "code": "continuous_with",
+    "name": "continuous with",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "continuous_with",
+        "type": "has_exact_synonym"
+      },
+      {
+        "name": "continuous with",
+        "type": "rdfs:label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "X continuous_with Y if and only if X and Y share a fiat boundary.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002150"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "zebrafish_anatomical_ontology"
+      },
+      {
+        "type": "shorthand",
+        "value": "continuous_with"
+      }
+    ]
+  },
+  {
+    "code": "develops_from",
+    "name": "develops from",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "develops from",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002202"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "zebrafish_anatomical_ontology"
+      },
+      {
+        "type": "shorthand",
+        "value": "develops_from"
+      }
+    ]
+  },
+  {
+    "code": "has_developmental_contribution_from",
+    "name": "has developmental contribution from",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "has_developmental_contribution_from",
+        "type": "has_exact_synonym"
+      },
+      {
+        "name": "has developmental contribution from",
+        "type": "rdfs:label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "x has developmental contribution from y iff x has some part z such that z develops from y.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002254"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "zebrafish_anatomical_ontology"
+      },
+      {
+        "type": "shorthand",
+        "value": "has_developmental_contribution_from"
+      }
+    ]
+  },
+  {
+    "code": "start",
+    "name": "start stage",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "starts_during",
+        "type": "has_exact_synonym"
+      },
+      {
+        "name": "existence starts during",
+        "type": "has_related_synonym"
+      },
+      {
+        "name": "start stage",
+        "type": "rdfs:label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "c existence starts during s iff start_of(c) part_of s.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002496"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "zebrafish_anatomical_ontology"
+      },
+      {
+        "type": "shorthand",
+        "value": "start"
+      }
+    ]
+  },
+  {
+    "code": "end",
+    "name": "end stage",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "ends_during",
+        "type": "has_exact_synonym"
+      },
+      {
+        "name": "existence ends during",
+        "type": "has_related_synonym"
+      },
+      {
+        "name": "end stage",
+        "type": "rdfs:label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "c existence ends during s iff  end_of(c) part_of s.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002497"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "zebrafish_anatomical_ontology"
+      },
+      {
+        "type": "shorthand",
+        "value": "end"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "code": "CTCAE",
+    "terminology": "ctcae5",
+    "version": "202311"
+  },
+  {
+    "code": "CTCAE_v5",
+    "terminology": "ctcae5",
+    "version": "202311"
+  },
+  {
+    "code": "NCI",
+    "terminology": "ctcae5",
+    "version": "202311"
+  }
+]

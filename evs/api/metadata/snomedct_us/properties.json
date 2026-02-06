@@ -1,0 +1,398 @@
+[
+  {
+    "code": "MODULE_NAME",
+    "name": "MODULE_NAME",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MODULE_NAME",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Module Name",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "CONCENTRATION_STRENGTH_NUMERATOR_VALUE",
+    "name": "CONCENTRATION_STRENGTH_NUMERATOR_VALUE",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "CONCENTRATION_STRENGTH_NUMERATOR_VALUE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Concentration strength numerator value (defining)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "DEFINITION_STATUS_ID",
+    "name": "DEFINITION_STATUS_ID",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "DEFINITION_STATUS_ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Definition status ID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ACTIVE",
+    "name": "ACTIVE",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "ACTIVE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Active",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "Semantic_Type",
+    "name": "Semantic_Type",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "Semantic_Type",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Semantic Type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "CONCENTRATION_STRENGTH_DENOMINATOR_VALUE",
+    "name": "CONCENTRATION_STRENGTH_DENOMINATOR_VALUE",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "CONCENTRATION_STRENGTH_DENOMINATOR_VALUE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Concentration strength denominator value (defining)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "EFFECTIVE_TIME",
+    "name": "EFFECTIVE_TIME",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "EFFECTIVE_TIME",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Effective time",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "REFSET_PATTERN",
+    "name": "REFSET_PATTERN",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "REFSET_PATTERN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Refset pattern",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "PRESENTATION_STRENGTH_DENOMINATOR_VALUE",
+    "name": "PRESENTATION_STRENGTH_DENOMINATOR_VALUE",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "PRESENTATION_STRENGTH_DENOMINATOR_VALUE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Presentation strength denominator value (defining)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "UMLSRELA",
+    "name": "UMLSRELA",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "UMLSRELA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "UMLS relationship attribute",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "DEFAULT_MODULE_ID",
+    "name": "DEFAULT_MODULE_ID",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "DEFAULT_MODULE_ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Default module ID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "COUNT_OF_BASE_OF_ACTIVE_INGREDIENT",
+    "name": "COUNT_OF_BASE_OF_ACTIVE_INGREDIENT",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "COUNT_OF_BASE_OF_ACTIVE_INGREDIENT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Count of base of active ingredient (defining)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "CTV3ID",
+    "name": "CTV3ID",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "CTV3ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "The Read Code for a SNOMED CT concept taken from the United Kingdom?s Clinical Terms Version 3 terminology.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "UMLSREL",
+    "name": "UMLSREL",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "UMLSREL",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "The UMLS Metathesaurus REL relationship (SY, CHD, RN, RB, RO) assigned to SNOMED CT relationship identifiers.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "COUNT_OF_ACTIVE_INGREDIENT",
+    "name": "COUNT_OF_ACTIVE_INGREDIENT",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "COUNT_OF_ACTIVE_INGREDIENT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Count of active ingredient (defining)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "NCI_META_CUI",
+    "name": "NCI_META_CUI",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "NCI_META_CUI",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "CUI assignment in the NCI Metatehsaurus",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ICD-O-3_CODE",
+    "name": "ICD-O-3_CODE",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "ICD-O-3_CODE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "ICD-O-3 Code",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MODULE_ID",
+    "name": "MODULE_ID",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MODULE_ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Module ID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "DESCRIPTION_LENGTH",
+    "name": "DESCRIPTION_LENGTH",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "DESCRIPTION_LENGTH",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Description length",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "PRESENTATION_STRENGTH_NUMERATOR_VALUE",
+    "name": "PRESENTATION_STRENGTH_NUMERATOR_VALUE",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "PRESENTATION_STRENGTH_NUMERATOR_VALUE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Presentation strength numerator value (defining)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "DEFAULT_LANGUAGECODE",
+    "name": "DEFAULT_LANGUAGECODE",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "DEFAULT_LANGUAGECODE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Default language code value",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "DESCRIPTION_FORMAT",
+    "name": "DESCRIPTION_FORMAT",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "DESCRIPTION_FORMAT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Description format",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

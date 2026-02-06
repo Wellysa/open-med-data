@@ -1,0 +1,196 @@
+{
+  "synonymTypes": [
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasBroadSynonym",
+      "name": "has_broad_synonym",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasExactSynonym",
+      "name": "has_exact_synonym",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasNarrowSynonym",
+      "name": "has_narrow_synonym",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasRelatedSynonym",
+      "name": "has_related_synonym",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    }
+  ],
+  "roles": [
+    {
+      "code": "overlaps",
+      "name": "overlaps",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "continuous_with",
+      "name": "continuous with",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "develops_from",
+      "name": "develops from",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "has_developmental_contribution_from",
+      "name": "has developmental contribution from",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "start",
+      "name": "start stage",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "end",
+      "name": "end stage",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "oboInOwl:hasDbXref",
+      "name": "database_cross_reference",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasSynonymType",
+      "name": "has_synonym_type",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    }
+  ],
+  "properties": [
+    {
+      "code": "rdfs:comment",
+      "name": "comment",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "owl:deprecated",
+      "name": "deprecated",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "IAO_0000231",
+      "name": "IAO_0000231",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:consider",
+      "name": "consider",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:created_by",
+      "name": "created by",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:creation_date",
+      "name": "creation date",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "name": "database_cross_reference",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "IAO_0000115",
+      "name": "definition",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasAlternativeId",
+      "name": "has_alternative_id",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasBroadSynonym",
+      "name": "has_broad_synonym",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasExactSynonym",
+      "name": "has_exact_synonym",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasNarrowSynonym",
+      "name": "has_narrow_synonym",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasOBONamespace",
+      "name": "has_obo_namespace",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:hasRelatedSynonym",
+      "name": "has_related_synonym",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:id",
+      "name": "id",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "oboInOwl:inSubset",
+      "name": "in_subset",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    },
+    {
+      "code": "IAO_0100001",
+      "name": "term replaced by",
+      "terminology": "zfa",
+      "version": "2019-08-02"
+    }
+  ]
+}

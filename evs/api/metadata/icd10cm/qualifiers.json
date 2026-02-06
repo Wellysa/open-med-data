@@ -1,0 +1,146 @@
+[
+  {
+    "code": "RELA",
+    "name": "RELA",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "RELA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Additional relationship label",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "EXCLUDES1",
+    "name": "EXCLUDES1",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "EXCLUDES1",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A pure excludes. It means \"NOT CODED HERE!\" Indicates that the code excluded should never be used at the same time as the code above the Excludes1 note. Used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "EXCLUDES2",
+    "name": "EXCLUDES2",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "EXCLUDES2",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Represents \"Not included here\". Indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When an Excludes2 note appears under a code it is acceptable to use both the code and the excluded code together.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "CODE_FIRST",
+    "name": "CODE_FIRST",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "CODE_FIRST",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Certain conditions have both an underlying etiology and multiple body system manifestations due to the underlying etiology. ICD-10-CM has a coding convention that requires the underlying condition be sequenced first followed by the manifestation. Wherever such a combination exists there is a \"code first\" note at the manifestation code. These instructional notes indicate the proper sequencing order of the codes, etiology followed by manifestation. In most cases the manifestation codes will have in the code title, \"in diseases classified elsewhere.\" Codes with this title are a component of the etiology/manifestation convention. The code title indicates that it is a manifestation code. \"In diseases classified elsewhere\" codes are never permitted to be used as first listed or principle diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "USE_ADDITIONAL",
+    "name": "USE_ADDITIONAL",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "USE_ADDITIONAL",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Certain conditions have both an underlying etiology and multiple body system manifestations due to the underlying etiology. ICD-10-CM has a coding convention that requires the underlying condition be sequenced first followed by the manifestation. Wherever such a combination exists there is a \"use additional code\" note at the etiology code. These instructional notes indicate the proper sequencing order of the codes, etiology followed by manifestation. In most cases the manifestation codes will have in the code title, \"in diseases classified elsewhere.\" Codes with this title are a component of the etiology/ manifestation convention. The code title indicates that it is a manifestation code. \"In diseases classified elsewhere\" codes are never permitted to be used as first listed or principle diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "NOTE",
+    "name": "NOTE",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "NOTE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Note",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ORDER_NO",
+    "name": "ORDER_NO",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "ORDER_NO",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Order number",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "CODE_ALSO",
+    "name": "CODE_ALSO",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "CODE_ALSO",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Instructs that 2 codes may be required to fully describe a condition but the sequencing of the two codes is discretionary, depending on the severity of the conditions and the reason for the encounter.",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

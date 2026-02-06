@@ -1,0 +1,92 @@
+[
+  {
+    "code": "AB",
+    "name": "Abbreviation in any source vocabulary",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "HG",
+    "name": "High Level Group Term",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "HT",
+    "name": "Hierarchical term",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "LLT",
+    "name": "Lower Level Term",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "MTH_HG",
+    "name": "MTH High Level Group Term",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "MTH_HT",
+    "name": "MTH Hierarchical term",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "MTH_LLT",
+    "name": "MTH Lower Level Term",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "MTH_OL",
+    "name": "MTH Non-current Lower Level Term",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "MTH_OS",
+    "name": "MTH System Organ Class",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "MTH_PT",
+    "name": "Metathesaurus preferred term",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "MTH_SMQ",
+    "name": "Metathesaurus version of Standardised MedDRA Query",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "OL",
+    "name": "Non-current Lower Level Term",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "OS",
+    "name": "System Organ Class",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "PT",
+    "name": "Designated preferred name",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "SMQ",
+    "name": "Standardised MedDRA Query",
+    "terminology": "mdr",
+    "version": "28_0"
+  }
+]

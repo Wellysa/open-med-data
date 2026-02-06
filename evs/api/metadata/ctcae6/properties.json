@@ -1,0 +1,164 @@
+[
+  {
+    "code": "P325",
+    "name": "P325",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "ALT_DEFINITION",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "ALT_DEFINITION",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing the English language definition of a concept from a source other than NCI.",
+        "type": "DEFINITION"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a definition"
+      }
+    ]
+  },
+  {
+    "code": "P97",
+    "name": "P97",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "DEFINITION",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "DEFINITION",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.",
+        "type": "DEFINITION"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a definition"
+      }
+    ]
+  },
+  {
+    "code": "P90",
+    "name": "P90",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "FULL_SYN",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "Synonym with Source Data",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "FULL_SYN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.",
+        "type": "DEFINITION"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "P375",
+    "name": "P375",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "Maps_To",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "Maps_To",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing that a term in another terminology has been mapped to a term in NCIt and describes the relationship between the mapped terms.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "P108",
+    "name": "P108",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "Preferred Name",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "Preferred Term",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "Preferred_Name",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "Preferred_Name",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing the word or phrase that NCI uses by preference to refer to the concept.",
+        "type": "DEFINITION"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  }
+]

@@ -1,0 +1,502 @@
+{
+  "associations": [
+    {
+      "code": "RB",
+      "name": "RB",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "RN",
+      "name": "RN",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "RO",
+      "name": "RO",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "RQ",
+      "name": "RQ",
+      "terminology": "lnc",
+      "version": "2_80"
+    }
+  ],
+  "synonymTypes": [
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "lnc",
+      "version": "2_80"
+    }
+  ],
+  "sources": [
+    {
+      "code": "LNC",
+      "name": "LOINC, 280",
+      "terminology": "lnc",
+      "version": "2_80"
+    }
+  ],
+  "termTypes": [
+    {
+      "code": "CN",
+      "name": "LOINC official component name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "DN",
+      "name": "Display Name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "HC",
+      "name": "Hierarchical class",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "HS",
+      "name": "Short or alternate version of hierarchical term",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LA",
+      "name": "LOINC answer",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LC",
+      "name": "Long common name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LG",
+      "name": "LOINC group",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LN",
+      "name": "LOINC official fully specified name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LO",
+      "name": "Obsolete official fully specified name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LS",
+      "name": "Expanded system/sample type (The expanded version was created for the Metathesaurus and includes the full name of some abbreviations.)",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "MTH_CN",
+      "name": "MTH Component, with abbreviations expanded.",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "MTH_LN",
+      "name": "MTH Official fully specified name with expanded abbreviations",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "MTH_LO",
+      "name": "MTH Expanded LOINC obsolete fully specified name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "ODN",
+      "name": "Obsolete Display Name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "OLC",
+      "name": "Obsolete Long common name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "OLG",
+      "name": "Obsolete LOINC group name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "OOSN",
+      "name": "Obsolete official short name",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "OSN",
+      "name": "Official short name",
+      "terminology": "lnc",
+      "version": "2_80"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "RELA",
+      "name": "RELA",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LOINC_METHOD_TYP",
+      "name": "LOINC_METHOD_TYP",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "VERSION_LAST_CHANGED",
+      "name": "VERSION_LAST_CHANGED",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "VERSION_FIRST_RELEASED",
+      "name": "VERSION_FIRST_RELEASED",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LOINC_TIME_ASPECT",
+      "name": "LOINC_TIME_ASPECT",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LRN2",
+      "name": "LRN2",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "HL7_ATTACHMENT_REQUEST",
+      "name": "HL7_ATTACHMENT_REQUEST",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "STATUS",
+      "name": "STATUS",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LFO",
+      "name": "LFO",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "ANSWER_CODE_SYSTEM",
+      "name": "ANSWER_CODE_SYSTEM",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LOINC_PROPERTY",
+      "name": "LOINC_PROPERTY",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LOINC_SCALE_TYP",
+      "name": "LOINC_SCALE_TYP",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "COMMON_TEST_RANK",
+      "name": "COMMON_TEST_RANK",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "ANSWER_LIST_ID",
+      "name": "ANSWER_LIST_ID",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "ASSOC_OBSERVATIONS",
+      "name": "ASSOC_OBSERVATIONS",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LOINC_COMPONENT",
+      "name": "LOINC_COMPONENT",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "COMMON_ORDER_RANK",
+      "name": "COMMON_ORDER_RANK",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "STATUS_TEXT",
+      "name": "STATUS_TEXT",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LOR",
+      "name": "LOR",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LOINC_SCORE",
+      "name": "LOINC_SCORE",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LCL",
+      "name": "LCL",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LCN",
+      "name": "LCN",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LOINC_SYSTEM",
+      "name": "LOINC_SYSTEM",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "PANEL_TYPE",
+      "name": "PANEL_TYPE",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "IMAGING_DOCUMENT_VALUE_SET",
+      "name": "IMAGING_DOCUMENT_VALUE_SET",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LCT",
+      "name": "LCT",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LCS",
+      "name": "LCS",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "STATUS_REASON",
+      "name": "STATUS_REASON",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "ANSWER_LIST_OID",
+      "name": "ANSWER_LIST_OID",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "HL7_FIELD_SUBFIELD_ID",
+      "name": "HL7_FIELD_SUBFIELD_ID",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "UNIVERSAL_LAB_ORDERS_VALUE_SET",
+      "name": "UNIVERSAL_LAB_ORDERS_VALUE_SET",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "USAGE_NOTES",
+      "name": "USAGE_NOTES",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "ANSWER_LIST_NAME",
+      "name": "ANSWER_LIST_NAME",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "DESCRIPTION",
+      "name": "DESCRIPTION",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "CHANGE_REASON_PUBLIC",
+      "name": "CHANGE_REASON_PUBLIC",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "EXAMPLE_UNITS",
+      "name": "EXAMPLE_UNITS",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "CONSUMER_NAME",
+      "name": "CONSUMER_NAME",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "ASK_AT_ORDER_ENTRY",
+      "name": "ASK_AT_ORDER_ENTRY",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "MOLECULAR_WEIGHT_OF_ANALYTE",
+      "name": "MOLECULAR_WEIGHT_OF_ANALYTE",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LUR",
+      "name": "LUR",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LEA",
+      "name": "LEA",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "IEEE_REFID",
+      "name": "IEEE_REFID",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "IEEE_CF_CODE10",
+      "name": "IEEE_CF_CODE10",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LMP",
+      "name": "LMP",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "EQUIVALENCE",
+      "name": "EQUIVALENCE",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LQT",
+      "name": "LQT",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "LQS",
+      "name": "LQS",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "HL7_ATTACHMENT_STRUCTURE",
+      "name": "HL7_ATTACHMENT_STRUCTURE",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "SUBSEQUENT_TEXT_PROMPT",
+      "name": "SUBSEQUENT_TEXT_PROMPT",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "SOS",
+      "name": "SOS",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "EXAMPLE_UCUM_UNITS",
+      "name": "EXAMPLE_UCUM_UNITS",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "COPYRIGHT",
+      "name": "COPYRIGHT",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "EXTERNAL_COPYRIGHT_LINK",
+      "name": "EXTERNAL_COPYRIGHT_LINK",
+      "terminology": "lnc",
+      "version": "2_80"
+    }
+  ],
+  "definitionTypes": [
+    {
+      "code": "LNC",
+      "name": "LOINC, 280",
+      "terminology": "lnc",
+      "version": "2_80"
+    }
+  ],
+  "properties": [
+    {
+      "code": "Semantic_Type",
+      "name": "Semantic_Type",
+      "terminology": "lnc",
+      "version": "2_80"
+    },
+    {
+      "code": "NCI_META_CUI",
+      "name": "NCI_META_CUI",
+      "terminology": "lnc",
+      "version": "2_80"
+    }
+  ]
+}

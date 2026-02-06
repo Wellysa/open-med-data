@@ -1,0 +1,344 @@
+[
+  {
+    "code": "DATE_CREATED",
+    "name": "DATE_CREATED",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "DATE_CREATED",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Date created",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "Semantic_Type",
+    "name": "Semantic_Type",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "Semantic_Type",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Semantic Type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "CITE",
+    "name": "CITE",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "CITE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Citation or edition information",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "RADLEX_VERSION_OF_CLASS_CHANGE",
+    "name": "RADLEX_VERSION_OF_CLASS_CHANGE",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "RADLEX_VERSION_OF_CLASS_CHANGE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "RadLex version of class change",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "JHU_WHITE-MATTER_TRACTOGRAPHY_ATLAS",
+    "name": "JHU_WHITE-MATTER_TRACTOGRAPHY_ATLAS",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "JHU_WHITE-MATTER_TRACTOGRAPHY_ATLAS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "JHU white-matter tractography atlas",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "FMAID",
+    "name": "FMAID",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "FMAID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "FMAID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SNOMED_ID",
+    "name": "SNOMED_ID",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "SNOMED_ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "SNOMED ID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "TALAIRACH",
+    "name": "TALAIRACH",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "TALAIRACH",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Talairach",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "AAL",
+    "name": "AAL",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "AAL",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "AAL",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "JHU_DTI-81",
+    "name": "JHU_DTI-81",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "JHU_DTI-81",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "JHU DTI-81",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "COMMENT",
+    "name": "COMMENT",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "COMMENT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Comment",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "CMA_LABEL",
+    "name": "CMA_LABEL",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "CMA_LABEL",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "CMA label",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SYNONYM_GERMAN",
+    "name": "SYNONYM_GERMAN",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "SYNONYM_GERMAN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Synonym German",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MISSPELLING_OF_TERM",
+    "name": "MISSPELLING_OF_TERM",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "MISSPELLING_OF_TERM",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Misspelling of term",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "PREFERRED_NAME_GERMAN",
+    "name": "PREFERRED_NAME_GERMAN",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "PREFERRED_NAME_GERMAN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Preferred name German",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "NCI_META_CUI",
+    "name": "NCI_META_CUI",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "NCI_META_CUI",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "CUI assignment in the NCI Metatehsaurus",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "REPLACED_BY",
+    "name": "REPLACED_BY",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "REPLACED_BY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Replaced by",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "UNSANCTIONED_TERM",
+    "name": "UNSANCTIONED_TERM",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "UNSANCTIONED_TERM",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Unsanctioned term",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "FREESURFER",
+    "name": "FREESURFER",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "FREESURFER",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "FreeSurfer",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "code": "AB",
+    "name": "Abbreviation in any source vocabulary",
+    "terminology": "icd10cm",
+    "version": "2025"
+  },
+  {
+    "code": "ET",
+    "name": "Entry term",
+    "terminology": "icd10cm",
+    "version": "2025"
+  },
+  {
+    "code": "HT",
+    "name": "Hierarchical term",
+    "terminology": "icd10cm",
+    "version": "2025"
+  },
+  {
+    "code": "PT",
+    "name": "Designated preferred name",
+    "terminology": "icd10cm",
+    "version": "2025"
+  }
+]

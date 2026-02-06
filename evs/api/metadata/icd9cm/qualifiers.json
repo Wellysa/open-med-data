@@ -1,0 +1,128 @@
+[
+  {
+    "code": "RELA",
+    "name": "RELA",
+    "terminology": "icd9cm",
+    "version": "2014",
+    "synonyms": [
+      {
+        "name": "RELA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Additional relationship label",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ICN",
+    "name": "ICN",
+    "terminology": "icd9cm",
+    "version": "2014",
+    "synonyms": [
+      {
+        "name": "ICN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "ICD Note - instruction providing additional coding information.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SOS",
+    "name": "SOS",
+    "terminology": "icd9cm",
+    "version": "2014",
+    "synonyms": [
+      {
+        "name": "SOS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Scope Statement",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ICA",
+    "name": "ICA",
+    "terminology": "icd9cm",
+    "version": "2014",
+    "synonyms": [
+      {
+        "name": "ICA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "ICD Additional Codes Note - an ICD-9-CM instruction to signal the coder that an additional code should be used if the information is available to provide a more complete picture of that diagnoses or procedure.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ICC",
+    "name": "ICC",
+    "terminology": "icd9cm",
+    "version": "2014",
+    "synonyms": [
+      {
+        "name": "ICC",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "ICD Code Also Note - an ICD-9-CM instruction to signal the coder to code additional information.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ICE",
+    "name": "ICE",
+    "terminology": "icd9cm",
+    "version": "2014",
+    "synonyms": [
+      {
+        "name": "ICE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "ICD Entry Term (e.g. Diarrhea:{dysenteric; epidemic}; Infectious diarrheal disease)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ICF",
+    "name": "ICF",
+    "terminology": "icd9cm",
+    "version": "2014",
+    "synonyms": [
+      {
+        "name": "ICF",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "ICD Fifth-digit Code Note - instruction to coders indicating use of a fifth-digit code.",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

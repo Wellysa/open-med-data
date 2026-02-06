@@ -1,0 +1,224 @@
+[
+  {
+    "code": "ACC/AHA",
+    "name": "American College of Cardiology / American Heart Association",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "BIOCARTA",
+    "name": "BioCarta online maps of molecular pathways, adapted for NCI use",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "BRIDG",
+    "name": "Biomedical Research Integrated Domain Model Group",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "BRIDG 3.0.3",
+    "name": "Biomedical Research Integrated Domain Model Group, version 3.0.3",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "BRIDG 5.3",
+    "name": "Biomedical Research Integrated Domain Model Group, version 5.3",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "CCPS",
+    "name": "Childhood Cancer Predisposition Study",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "CDISC",
+    "name": "Clinical Data Interchange Standards Consortium",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "CDISC-GLOSS",
+    "name": "CDISC Glossary Terminology",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "CRCH",
+    "name": "Cancer Research Center of Hawaii Nutrition Terminology",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "CTCAE",
+    "name": "Common Terminology Criteria for Adverse Events",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "CTCAE 3.0",
+    "name": "Common Terminology Criteria for Adverse Events, version 3.0",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "CTCAE 5.0",
+    "name": "Common Terminology Criteria for Adverse Events, version 5.0",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "CTCAE 6.0",
+    "name": "Common Terminology Criteria for Adverse Events, version 6.0",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "CTEP",
+    "name": "Cancer Therapy Evaluation Program",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "CareLex",
+    "name": "CareLex electronic Trial Master File Terminology",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "DICOM",
+    "name": "Digital Imaging Communications in Medicine",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "DIPG/DMG",
+    "name": "Diffuse Intrinsic Pontine Glioma/Diffuse Midline Glioma",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "EDQM-HC",
+    "name": "European Directorate for the Quality of Medicines & Healthcare",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "FDA",
+    "name": "U.S. Food and Drug Administration",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "FDA-NIH-MoRE",
+    "name": "FDA-NIH-Modernizing Research and Evidence",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "GAIA",
+    "name": "Global Alignment of Immunization safety Assessment in pregnancy Terminology",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "ICDO3",
+    "name": "International Classification of Diseases for Oncology, 3rd edition",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "ICH",
+    "name": "International Conference on Harmonization",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "INC",
+    "name": "International Neonatal Consortium",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "KEGG",
+    "name": "KEGG Pathway Database",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "MMHCC",
+    "name": "Mouse Models of Human Cancer Consortium",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "MRCT-Ctr",
+    "name": "MRCT Center Clinical Research Plain Language Glossary at Harvard and Brigham and Women's Hospital",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "NCI",
+    "name": "National Cancer Institute Thesaurus",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "NCI-GLOSS",
+    "name": "NCI Dictionary of Cancer Terms",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "NICHD",
+    "name": "National Institute of Child Health and Human Development",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "OORO",
+    "name": "Operational Ontology for Radiation Oncology",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "PCDC",
+    "name": "Pediatric Cancer Data Commons",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "PQCMC",
+    "name": "Pharmaceutical Quality/Chemistry, Manufacturing, and Controls",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "UBERON",
+    "name": "Uber-anatomy Ontology",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "UMD2001",
+    "name": "Universal Medical Device Nomenclature System, Version 2001",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "UWDA142",
+    "name": "University of Washington Digital Anatomist, Version 1.4.2",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "WHO",
+    "name": "World Health Organization",
+    "terminology": "ncit",
+    "version": "25.12e"
+  }
+]

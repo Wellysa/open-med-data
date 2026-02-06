@@ -1,0 +1,8 @@
+{
+  "terminology": "icd9cm",
+  "total": 22406,
+  "page_size": 500,
+  "include": "full",
+  "pages": 46,
+  "probe_errors": {}
+}

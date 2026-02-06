@@ -1,0 +1,218 @@
+[
+  {
+    "code": "SMQ_LEVEL",
+    "name": "SMQ_LEVEL",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_LEVEL",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Standardised MedDRA Query (SMQ) Level. Value between 1 and 5 identifying the level of the SMQ within the hierarchy of SMQs; 1 is the most general, 5 is the most narrow.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_NOTE",
+    "name": "SMQ_NOTE",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_NOTE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "SMQ Note",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "PRIMARY_PATH",
+    "name": "PRIMARY_PATH",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "PRIMARY_PATH",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Primary Path from the PT to the SOC",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_SOURCE",
+    "name": "SMQ_SOURCE",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_SOURCE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Standardised MedDRA Query (SMQ) Source. Source for the development of the SMQ, e.g. medical references.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "Semantic_Type",
+    "name": "Semantic_Type",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "Semantic_Type",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Semantic Type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_TERM_LEVEL",
+    "name": "SMQ_TERM_LEVEL",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_TERM_LEVEL",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Standardised MedDRA Query (SMQ) Term Level. The MedDRA hierarchy level of a term (4=PT, 5=LLT) or 0 (zero) for a child SMQ.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_ALGORITHM",
+    "name": "SMQ_ALGORITHM",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_ALGORITHM",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "SMQ Algorithm",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "NCI_META_CUI",
+    "name": "NCI_META_CUI",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "NCI_META_CUI",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "CUI assignment in the NCI Metatehsaurus",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "PRIMARY_SOC",
+    "name": "PRIMARY_SOC",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "PRIMARY_SOC",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Primary SOC",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "INTL_SOC_SORT_ORDER",
+    "name": "INTL_SOC_SORT_ORDER",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "INTL_SOC_SORT_ORDER",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Serial Code International SOC Sort Order",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "PT_IN_VERSION",
+    "name": "PT_IN_VERSION",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "PT_IN_VERSION",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "PT In Version",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_STATUS",
+    "name": "SMQ_STATUS",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_STATUS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Standardised MedDRA Query (SMQ) Status. \"A\" = active; \"I\" = inactive.",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

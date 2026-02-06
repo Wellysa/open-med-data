@@ -1,0 +1,20 @@
+[
+  {
+    "code": "RELA",
+    "name": "RELA",
+    "terminology": "icd10",
+    "version": "2016",
+    "synonyms": [
+      {
+        "name": "RELA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Additional relationship label",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

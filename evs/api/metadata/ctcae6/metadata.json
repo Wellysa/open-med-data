@@ -1,0 +1,86 @@
+{
+  "synonymTypes": [
+    {
+      "code": "P90",
+      "name": "P90",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    },
+    {
+      "code": "P108",
+      "name": "P108",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "P383",
+      "name": "P383",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    },
+    {
+      "code": "P384",
+      "name": "P384",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    },
+    {
+      "code": "P378",
+      "name": "P378",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    },
+    {
+      "code": "P393",
+      "name": "P393",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    },
+    {
+      "code": "P394",
+      "name": "P394",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    },
+    {
+      "code": "P395",
+      "name": "P395",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P325",
+      "name": "P325",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    },
+    {
+      "code": "P97",
+      "name": "P97",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    },
+    {
+      "code": "P90",
+      "name": "P90",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    },
+    {
+      "code": "P375",
+      "name": "P375",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    },
+    {
+      "code": "P108",
+      "name": "P108",
+      "terminology": "ctcae6",
+      "version": "6.0"
+    }
+  ]
+}

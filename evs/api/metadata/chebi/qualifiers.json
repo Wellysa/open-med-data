@@ -1,0 +1,48 @@
+[
+  {
+    "code": "oboInOwl:source",
+    "name": "source",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "source",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasDbXref",
+    "name": "hasDbXref",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "hasDbXref",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasSynonymType",
+    "name": "hasSynonymType",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "hasSynonymType",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym term type"
+      }
+    ]
+  }
+]

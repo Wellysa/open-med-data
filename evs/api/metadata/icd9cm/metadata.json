@@ -1,0 +1,116 @@
+{
+  "associations": [
+    {
+      "code": "RQ",
+      "name": "RQ",
+      "terminology": "icd9cm",
+      "version": "2014"
+    }
+  ],
+  "synonymTypes": [
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "icd9cm",
+      "version": "2014"
+    }
+  ],
+  "sources": [
+    {
+      "code": "ICD9CM",
+      "name": "International Classification of Diseases, Ninth Revision, Clinical Modification, 2014",
+      "terminology": "icd9cm",
+      "version": "2014"
+    }
+  ],
+  "termTypes": [
+    {
+      "code": "AB",
+      "name": "Abbreviation in any source vocabulary",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "ET",
+      "name": "Entry term",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "HT",
+      "name": "Hierarchical term",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "PT",
+      "name": "Designated preferred name",
+      "terminology": "icd9cm",
+      "version": "2014"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "RELA",
+      "name": "RELA",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "ICN",
+      "name": "ICN",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "SOS",
+      "name": "SOS",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "ICA",
+      "name": "ICA",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "ICC",
+      "name": "ICC",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "ICE",
+      "name": "ICE",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "ICF",
+      "name": "ICF",
+      "terminology": "icd9cm",
+      "version": "2014"
+    }
+  ],
+  "properties": [
+    {
+      "code": "Semantic_Type",
+      "name": "Semantic_Type",
+      "terminology": "icd9cm",
+      "version": "2014"
+    },
+    {
+      "code": "NCI_META_CUI",
+      "name": "NCI_META_CUI",
+      "terminology": "icd9cm",
+      "version": "2014"
+    }
+  ]
+}

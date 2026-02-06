@@ -1,0 +1,398 @@
+[
+  {
+    "code": "RELA",
+    "name": "RELA",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "RELA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Additional relationship label",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MTH_MAPFROMEXHAUSTIVE",
+    "name": "MTH_MAPFROMEXHAUSTIVE",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MTH_MAPFROMEXHAUSTIVE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates whether or not the \"from\" source of a map set is completely mapped",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "TOVSAB",
+    "name": "TOVSAB",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "TOVSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Versioned source abbreviation for the \"to\" identifiers of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MODULE_NAME",
+    "name": "MODULE_NAME",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MODULE_NAME",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Module Name",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MAPSETSID",
+    "name": "MAPSETSID",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MAPSETSID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Source asserted identifier for a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "TARGET_EFFECTIVE_TIME",
+    "name": "TARGET_EFFECTIVE_TIME",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "TARGET_EFFECTIVE_TIME",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Target effective time",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "CASE_SIGNIFICANCE_ID",
+    "name": "CASE_SIGNIFICANCE_ID",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "CASE_SIGNIFICANCE_ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Case significance ID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MTH_MAPTOEXHAUSTIVE",
+    "name": "MTH_MAPTOEXHAUSTIVE",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MTH_MAPTOEXHAUSTIVE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates whether or not the \"to\" source is completely mapped",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MAPSETVSAB",
+    "name": "MAPSETVSAB",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MAPSETVSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Versioned source abbreviation for a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "TORSAB",
+    "name": "TORSAB",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "TORSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Root source abbreviation for the \"to\" identifiers of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MAPSETNAME",
+    "name": "MAPSETNAME",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MAPSETNAME",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Official name of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "FROMVSAB",
+    "name": "FROMVSAB",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "FROMVSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Versioned source abbreviation for the \"from\" identifiers of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "FROMRSAB",
+    "name": "FROMRSAB",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "FROMRSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Root source abbreviation for the \"from\" identifiers of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "TYPE_ID",
+    "name": "TYPE_ID",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "TYPE_ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Type ID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MAPSETVERSION",
+    "name": "MAPSETVERSION",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MAPSETVERSION",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Version of the map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SOS",
+    "name": "SOS",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "SOS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Scope Statement",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MAPSETRSAB",
+    "name": "MAPSETRSAB",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MAPSETRSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Root source abbreviation for a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MTH_MAPFROMCOMPLEXITY",
+    "name": "MTH_MAPFROMCOMPLEXITY",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MTH_MAPFROMCOMPLEXITY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates the complexity of \"from\" expressions used in a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MTH_MAPTOCOMPLEXITY",
+    "name": "MTH_MAPTOCOMPLEXITY",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MTH_MAPTOCOMPLEXITY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates the complexity of \"to\" expressions in a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MODULE_ID",
+    "name": "MODULE_ID",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MODULE_ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Module ID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SOURCE_EFFECTIVE_TIME",
+    "name": "SOURCE_EFFECTIVE_TIME",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "SOURCE_EFFECTIVE_TIME",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Source effective time",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MTH_MAPSETCOMPLEXITY",
+    "name": "MTH_MAPSETCOMPLEXITY",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "MTH_MAPSETCOMPLEXITY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates the overall complexity of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

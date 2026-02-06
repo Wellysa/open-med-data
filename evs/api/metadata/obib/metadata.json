@@ -1,0 +1,520 @@
+{
+  "synonymTypes": [
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    }
+  ],
+  "roles": [
+    {
+      "code": "BFO_0000050",
+      "name": "part of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "BFO_0000051",
+      "name": "has part",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0002212",
+      "name": "negatively regulates",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000053",
+      "name": "has characteristic",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000056",
+      "name": "participates in",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000057",
+      "name": "has participant",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0002297",
+      "name": "results in formation of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000087",
+      "name": "has role",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "BFO_0000054",
+      "name": "realized in",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "BFO_0000055",
+      "name": "realizes",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000039",
+      "name": "has measurement unit label",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000136",
+      "name": "is about",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000219",
+      "name": "denotes",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000221",
+      "name": "is quality measurement of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000413",
+      "name": "is duration of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0000293",
+      "name": "has_specified_input",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0000299",
+      "name": "has_specified_output",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0000312",
+      "name": "is_specified_output_of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000052",
+      "name": "characteristic of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000058",
+      "name": "is concretized as",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000059",
+      "name": "concretizes",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000079",
+      "name": "function of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000085",
+      "name": "has function",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000086",
+      "name": "has quality",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000081",
+      "name": "role of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0000091",
+      "name": "has disposition",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0001000",
+      "name": "derives from",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0001015",
+      "name": "location of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0001025",
+      "name": "located in",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0002351",
+      "name": "has member",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0000107",
+      "name": "provides_service_consumer_with",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0000124",
+      "name": "is_supported_by_data",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0000417",
+      "name": "achieves_planned_objective",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0000833",
+      "name": "objective_achieved_by",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0000643",
+      "name": "has grain",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0000846",
+      "name": "is member of organization",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0001688",
+      "name": "has organization member",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0001637",
+      "name": "has disposition to bind",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0001927",
+      "name": "specifies value of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0001938",
+      "name": "has value specification",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "RO_0002223",
+      "name": "starts",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "BFO_0000156",
+      "name": "has temporal occupant",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "BFO_0000184",
+      "name": "history of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "GEO_000000329",
+      "name": "is subordinate authority of",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0020012",
+      "name": "designates",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBIB_0000037",
+      "name": "has maximum capacity",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBIB_0000038",
+      "name": "has actual load",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBIB_0000732",
+      "name": "owns",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBIB_0000735",
+      "name": "is owned by",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBIB_0000733",
+      "name": "administrates",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBIB_0000734",
+      "name": "is contact information about",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "cl:lacks_part",
+      "name": "lacks_part",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "rdfs:comment",
+      "name": "comment",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "rdfs:seeAlso",
+      "name": "seeAlso",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0010000",
+      "name": "has axiom label",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    }
+  ],
+  "properties": [
+    {
+      "code": "rdfs:comment",
+      "name": "comment",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "contributor",
+      "name": "contributor",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "rdfs:seeAlso",
+      "name": "seeAlso",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "rdfs:isDefinedBy",
+      "name": "isDefinedBy",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "source",
+      "name": "source",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "APOLLO_SV_0000040",
+      "name": "APOLLO_SV_0000040",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "BFO_0000180",
+      "name": "BFO CLIF specification label",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "BFO_0000179",
+      "name": "BFO OWL specification label",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_9991118",
+      "name": "IEDB alternative term",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0001847",
+      "name": "ISA alternative term",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "OBI_0001886",
+      "name": "NIAID GSCID-BRC alternative term",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000118",
+      "name": "alternative term",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000232",
+      "name": "curator note",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000115",
+      "name": "definition",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000119",
+      "name": "definition source",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000116",
+      "name": "editor note",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000111",
+      "name": "editor preferred term",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000600",
+      "name": "elucidation",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000112",
+      "name": "example of usage",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000602",
+      "name": "has associated axiom(fol)",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000601",
+      "name": "has associated axiom(nl)",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000114",
+      "name": "has curation status",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000231",
+      "name": "has obsolescence reason",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000412",
+      "name": "imported from",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000234",
+      "name": "ontology term requester",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000117",
+      "name": "term editor",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0100001",
+      "name": "term replaced by",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    },
+    {
+      "code": "IAO_0000233",
+      "name": "term tracker item",
+      "terminology": "obib",
+      "version": "2021-11-12"
+    }
+  ]
+}

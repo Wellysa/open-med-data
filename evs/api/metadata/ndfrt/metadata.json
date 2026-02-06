@@ -1,0 +1,326 @@
+{
+  "synonymTypes": [
+    {
+      "code": "Display_Name",
+      "name": "Display_Name",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    }
+  ],
+  "roles": [
+    {
+      "code": "C44",
+      "name": "has_DoseForm {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "R93",
+      "name": "has_PE {FDASPL}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "R83",
+      "name": "has_PE {FMTSME}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C20",
+      "name": "has_PE {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C22",
+      "name": "CI_PE {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C52",
+      "name": "effect_may_be_inhibited_by {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "R91",
+      "name": "has_Chemical_Structure {FDASPL}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C79",
+      "name": "has_Chemical_Structure {FMTSME}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C26",
+      "name": "CI_ChemClass {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C48",
+      "name": "has_active_metabolites {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C24",
+      "name": "has_Ingredient {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "R92",
+      "name": "has_MoA {FDASPL}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "R82",
+      "name": "has_MoA {FMTSME}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C28",
+      "name": "has_MoA {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C30",
+      "name": "CI_MoA {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C50",
+      "name": "site_of_metabolism {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C32",
+      "name": "has_PK {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "R86",
+      "name": "may_diagnose {FMTSME}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "R85",
+      "name": "may_prevent {FMTSME}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "R84",
+      "name": "may_treat {FMTSME}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C38",
+      "name": "may_prevent {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C42",
+      "name": "may_diagnose {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C34",
+      "name": "may_treat {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C40",
+      "name": "induces {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "C36",
+      "name": "CI_with {NDFRT}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "R81",
+      "name": "has_TC {FMTSME}",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    }
+  ],
+  "properties": [
+    {
+      "code": "Product_Component_Qualifier",
+      "name": "Product_Component_Qualifier",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "code",
+      "name": "code",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "CS_Federal_Schedule",
+      "name": "CS_Federal_Schedule",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "Class_Code",
+      "name": "Class_Code",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "Class_Description",
+      "name": "Class_Description",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "Display_Name",
+      "name": "Display_Name",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "FDA_UNII",
+      "name": "FDA_UNII",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "Level",
+      "name": "Level",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "MeSH_CUI",
+      "name": "MeSH_CUI",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "MeSH_DUI",
+      "name": "MeSH_DUI",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "MeSH_Definition",
+      "name": "MeSH_Definition",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "MeSH_Name",
+      "name": "MeSH_Name",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "NUI",
+      "name": "NUI",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "Print_Name",
+      "name": "Print_Name",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "RxNorm_CUI",
+      "name": "RxNorm_CUI",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "RxNorm_Name",
+      "name": "RxNorm_Name",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "SNOMED_CID",
+      "name": "SNOMED_CID",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "SNOMED_Child_CID",
+      "name": "SNOMED_Child_CID",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "SNOMED_Parent_CID",
+      "name": "SNOMED_Parent_CID",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "Strength",
+      "name": "Strength",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "UMLS_CUI",
+      "name": "UMLS_CUI",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "Units",
+      "name": "Units",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "VANDF_Record",
+      "name": "VANDF_Record",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "VA_National_Formulary_Name",
+      "name": "VA_National_Formulary_Name",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    },
+    {
+      "code": "VUID",
+      "name": "VUID",
+      "terminology": "ndfrt",
+      "version": "2018.02.05"
+    }
+  ]
+}

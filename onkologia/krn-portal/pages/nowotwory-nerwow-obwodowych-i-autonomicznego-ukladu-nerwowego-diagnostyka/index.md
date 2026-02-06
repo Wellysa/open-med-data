@@ -1,0 +1,20 @@
+# http://onkologia.org.pl/pl/nowotwory-nerwow-obwodowych-i-autonomicznego-ukladu-nerwowego-diagnostyka
+
+(Snapshot from KRN portal, downloaded by crawl_krn_portal.py)
+
+# Nowotwory nerwów obwodowych i autonomicznego układu nerwowegoDiagnostyka
+![](https://onkologia.org.pl/sites/default/files/media/2021-10/AdobeStock_158775625%20%281%29.jpg)
+## Diagnostyka
+Do rozpoznanie MPNST konieczne jest badanie mikroskopowe materiału pobranego z  biopsji chirurgicznej (pobranie chirurgicznie kawałka tkanki) lub gruboigłowej (pobranie wałeczka tkanki za pomocą grubej igły) ogniska nowotworu. Do określenia wielkości nowotworu, wykluczenia przerzutów, zaplanowania biopsji, a także dalszego leczenia konieczne jest zazwyczaj wykonanie również badań obrazowych (tomografia komputerowa, rezonans magnetyczny, tomografia komputerowa PET).
+Podstawowym kryterium rozpoznania większości guzów chromochłonnych i przyzwojaków  jest stwierdzenie guza/ów w badaniach obrazowych oraz zwiększonego stężenia katecholamin w surowicy lub zwiększonego wydalania ich metabolitów (związków, w które zamieniają się podczas wędrówki przez organizm) z moczem. Ostateczne rozpoznanie ustalane jest na podstawie badania mikroskopowego guza. Do oceny wyjściowego zaawansowania procesu nowotworowego pomocna może być scyntygrafia z użyciem MIBG (radioizotopu jodu).
+Rozpoznanie nerwiaka zarodkowego można postawić na podstawie badania mikroskopowego materiału pobranego z guza nowotworowego lub na podstawie biopsji aspiracyjnej szpiku (pobranie szpiku przez specjalną igłę) lub trepanobiopsji (pobranie szpiku z kawałeczkiem kości) z jednoczesnym wykryciem zwiększonych poziomów katecholamin w surowicy (dopamina, noradrenalina) lub metabolitów katecholamin w moczu (kwas wanilinomigdałowy, kwas homowanilinowy). Ze względu na duże podobieństwo nerwiaka zarodkowego do innych nowotworów drobnokomórkowych (mięsak prążkowanokomórkowy, prymitywny guz neuroektodermalny, chłoniaki) w diagnostyce mikroskopowej wykorzystywane są badania immunohistochemiczne (badania za pomocą specjalistycznych barwień preparatów tkanek pobranych od pacjenta) i molekularne (badanie genów komórek nowotworowych), które pozwalają nie tylko na odróżnienie nerwiaka zarodkowego od wymienionych nowotworów, ale również określenie typu biologicznego choroby i rokowania. Do prawidłowej oceny stopnia zaawansowania, oprócz wyżej wymienionych procedur, wykorzystywane są również badania obrazowe (tomografia komputerowa, rezonans magnetyczny, tomografia komputerowa PET) i radioizotopowe (scyntygrafia z użyciem izotopu jodu).
+Strona korzysta z ciasteczek
+Wykorzystujemy pliki cookie i inne technologie z myślą o optymalizacji witryny oraz w celach promocyjnych i marketingowych. Poza tym informacje dot. korzystania przez użytkownika z plików cookie przekazujemy naszym partnerom zajmującym się mediami społecznościowymi, reklamą i analityką. Wciśnięcie przycisku “Akceptuj wszystkie pliki cookie” oznacza wyrażenie zgody na wykorzystywanie przez nas plików cookie. Aby uzyskać więcej informacji, odwiedź politykę dotyczącą plików cookie.
+Wymagane
+Podczas odwiedzania jakiejkolwiek strony internetowej, może ona przechowywać lub pobierać informacje z przeglądarki, głównie w formie plików cookie. Informacje te mogą dotyczyć użytkownika, jego preferencji lub urządzenia i są najczęściej wykorzystywane w celu zapewnienia, że witryna będzie działać tak, jak tego oczekują użytkownicy.
+Analityka
+Informacje zazwyczaj nie identyfikują bezpośrednio użytkownika, ale mogą zapewnić mu bardziej spersonalizowane doświadczenie w sieci. Ponieważ szanujemy prawo użytkownika do prywatności, użytkownik może zrezygnować z akceptowania niektórych rodzajów plików cookie. Aby dowiedzieć się więcej i zmienić nasze ustawienia domyślne, należy kliknąć na poszczególne nagłówki kategorii. Jednakże blokowanie niektórych rodzajów plików cookie może mieć wpływ na doświadczenia użytkownika związane z witryną i usługami, które możemy zaoferować.
+Akceptuje podstawowe ustawienie
+Pokaż szczegóły
+Zapisz
+<https://www.printfriendly.com>

@@ -1,0 +1,14 @@
+[
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "radlex",
+    "version": "4_1"
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "radlex",
+    "version": "4_1"
+  }
+]

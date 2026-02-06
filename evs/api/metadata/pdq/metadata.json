@@ -1,0 +1,292 @@
+{
+  "associations": [
+    {
+      "code": "RO",
+      "name": "RO",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    }
+  ],
+  "synonymTypes": [
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    }
+  ],
+  "sources": [
+    {
+      "code": "PDQ",
+      "name": "Physician Data Query, 2016_07_31",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    }
+  ],
+  "termTypes": [
+    {
+      "code": "AB",
+      "name": "Abbreviation in any source vocabulary",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "ACR",
+      "name": "Acronym",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "BN",
+      "name": "Fully-specified drug brand name that can not be prescribed",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "CAS",
+      "name": "CAS Registry name",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "CHN",
+      "name": "Chemical structure name",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "CON",
+      "name": "Code name",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "CU",
+      "name": "Common usage",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "DN",
+      "name": "Display Name",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "FBD",
+      "name": "Foreign brand name",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "HT",
+      "name": "Hierarchical term",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "IND",
+      "name": "IND code",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "IS",
+      "name": "Obsolete Synonym",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "LV",
+      "name": "Lexical variant",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "NSC",
+      "name": "NSC code",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "PSC",
+      "name": "Protocol selection criteria",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "PT",
+      "name": "Designated preferred name",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "SY",
+      "name": "Designated synonym",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "XM",
+      "name": "Cross mapping set",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "RELA",
+      "name": "RELA",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "LT",
+      "name": "LT",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "NCI_THESAURUS_CODE",
+      "name": "NCI_THESAURUS_CODE",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    }
+  ],
+  "definitionTypes": [
+    {
+      "code": "PDQ",
+      "name": "Physician Data Query, 2016_07_31",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    }
+  ],
+  "properties": [
+    {
+      "code": "MTH_MAPFROMEXHAUSTIVE",
+      "name": "MTH_MAPFROMEXHAUSTIVE",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "TOVSAB",
+      "name": "TOVSAB",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "MAPSETSID",
+      "name": "MAPSETSID",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "MTH_MAPTOEXHAUSTIVE",
+      "name": "MTH_MAPTOEXHAUSTIVE",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "MAPSETVSAB",
+      "name": "MAPSETVSAB",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "Semantic_Type",
+      "name": "Semantic_Type",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "PID",
+      "name": "PID",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "DATE_LAST_MODIFIED",
+      "name": "DATE_LAST_MODIFIED",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "TORSAB",
+      "name": "TORSAB",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "FROMVSAB",
+      "name": "FROMVSAB",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "FROMRSAB",
+      "name": "FROMRSAB",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "DATE_FIRST_PUBLISHED",
+      "name": "DATE_FIRST_PUBLISHED",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "MAPSETVERSION",
+      "name": "MAPSETVERSION",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "MAPSETRSAB",
+      "name": "MAPSETRSAB",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "ORIG_STY",
+      "name": "ORIG_STY",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "NCI_META_CUI",
+      "name": "NCI_META_CUI",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "MTH_MAPFROMCOMPLEXITY",
+      "name": "MTH_MAPFROMCOMPLEXITY",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "PXC",
+      "name": "PXC",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "MTH_MAPTOCOMPLEXITY",
+      "name": "MTH_MAPTOCOMPLEXITY",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    },
+    {
+      "code": "MTH_MAPSETCOMPLEXITY",
+      "name": "MTH_MAPSETCOMPLEXITY",
+      "terminology": "pdq",
+      "version": "2016_07_31"
+    }
+  ]
+}

@@ -1,0 +1,1953 @@
+[
+  {
+    "code": "BFO_0000050",
+    "name": "part of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "part of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a core relation that holds between a part and its whole",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "part_of"
+      },
+      {
+        "type": "editor note",
+        "value": "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other."
+      },
+      {
+        "type": "editor note",
+        "value": "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"
+      },
+      {
+        "type": "editor note",
+        "value": "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'."
+      },
+      {
+        "type": "editor preferred term",
+        "value": "is part of"
+      },
+      {
+        "type": "example of usage",
+        "value": "my brain is part of my body (continuant parthood, two material entities)"
+      },
+      {
+        "type": "example of usage",
+        "value": "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)"
+      },
+      {
+        "type": "example of usage",
+        "value": "this day is part of this year (occurrent parthood)"
+      },
+      {
+        "type": "rdfs:seeAlso",
+        "value": "http://www.obofoundry.org/ro/#OBO_REL:part_of"
+      },
+      {
+        "type": "temporal interpretation",
+        "value": "http://purl.obolibrary.org/obo/RO_0001901"
+      }
+    ]
+  },
+  {
+    "code": "BFO_0000051",
+    "name": "has part",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has part",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a core relation that holds between a whole and its part",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "has_part"
+      },
+      {
+        "type": "editor note",
+        "value": "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part."
+      },
+      {
+        "type": "editor note",
+        "value": "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"
+      },
+      {
+        "type": "editor note",
+        "value": "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'."
+      },
+      {
+        "type": "editor preferred term",
+        "value": "has part"
+      },
+      {
+        "type": "example of usage",
+        "value": "my body has part my brain (continuant parthood, two material entities)"
+      },
+      {
+        "type": "example of usage",
+        "value": "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)"
+      },
+      {
+        "type": "example of usage",
+        "value": "this year has part this day (occurrent parthood)"
+      },
+      {
+        "type": "temporal interpretation",
+        "value": "http://purl.obolibrary.org/obo/RO_0001901"
+      }
+    ]
+  },
+  {
+    "code": "RO_0002212",
+    "name": "negatively regulates",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "negatively regulates",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/ro.owl"
+      }
+    ]
+  },
+  {
+    "code": "RO_0000053",
+    "name": "has characteristic",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has characteristic",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Inverse of characteristic_of",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "bearer_of"
+      },
+      {
+        "type": "alternative term",
+        "value": "is bearer of"
+      },
+      {
+        "type": "editor note",
+        "value": "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."
+      },
+      {
+        "type": "editor preferred term",
+        "value": "bearer of"
+      },
+      {
+        "type": "example of usage",
+        "value": "this apple is bearer of this red color"
+      },
+      {
+        "type": "example of usage",
+        "value": "this vase is bearer of this fragility"
+      },
+      {
+        "type": "temporal interpretation",
+        "value": "http://purl.obolibrary.org/obo/RO_0001901"
+      }
+    ]
+  },
+  {
+    "code": "RO_0000056",
+    "name": "participates in",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "participates in",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between a continuant and a process, in which the continuant is somehow involved in the process",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "participates_in"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "participates in"
+      },
+      {
+        "type": "example of usage",
+        "value": "this blood clot participates in this blood coagulation"
+      },
+      {
+        "type": "example of usage",
+        "value": "this input material (or this output material) participates in this process"
+      },
+      {
+        "type": "example of usage",
+        "value": "this investigator participates in this investigation"
+      }
+    ]
+  },
+  {
+    "code": "RO_0000057",
+    "name": "has participant",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has participant",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between a process and a continuant, in which the continuant is somehow involved in the process",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "has_participant"
+      },
+      {
+        "type": "editor note",
+        "value": "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time."
+      },
+      {
+        "type": "editor preferred term",
+        "value": "has participant"
+      },
+      {
+        "type": "example of usage",
+        "value": "this blood coagulation has participant this blood clot"
+      },
+      {
+        "type": "example of usage",
+        "value": "this investigation has participant this investigator"
+      },
+      {
+        "type": "example of usage",
+        "value": "this process has participant this input material (or this output material)"
+      },
+      {
+        "type": "source",
+        "value": "http://www.obofoundry.org/ro/#OBO_REL:has_participant"
+      }
+    ]
+  },
+  {
+    "code": "RO_0002297",
+    "name": "results in formation of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "results in formation of",
+        "type": "label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "example of usage",
+        "value": "an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists."
+      },
+      {
+        "type": "example of usage",
+        "value": "every \"endocardial cushion formation\" (GO:0003272) results_in_formation_of some \"endocardial cushion\" (UBERON:0002062)"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/ro.owl"
+      }
+    ]
+  },
+  {
+    "code": "RO_0000087",
+    "name": "has role",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has role",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "has_role"
+      },
+      {
+        "type": "editor note",
+        "value": "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists."
+      },
+      {
+        "type": "example of usage",
+        "value": "this person has role this investigator role (more colloquially: this person has this role of investigator)"
+      }
+    ]
+  },
+  {
+    "code": "BFO_0000054",
+    "name": "realized in",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "realized in",
+        "type": "label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "is realized by"
+      },
+      {
+        "type": "alternative term",
+        "value": "realized_in"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "realized in"
+      },
+      {
+        "type": "elucidation",
+        "value": "[copied from inverse property 'realizes'] to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])"
+      },
+      {
+        "type": "example of usage",
+        "value": "this disease is realized in this disease course"
+      },
+      {
+        "type": "example of usage",
+        "value": "this fragility is realized in this shattering"
+      },
+      {
+        "type": "example of usage",
+        "value": "this investigator role is realized in this investigation"
+      },
+      {
+        "type": "rdfs:comment",
+        "value": "Paraphrase of elucidation: a relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process"
+      },
+      {
+        "type": "rdfs:isDefinedBy",
+        "value": "http://purl.obolibrary.org/obo/bfo.owl"
+      }
+    ]
+  },
+  {
+    "code": "BFO_0000055",
+    "name": "realizes",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "realizes",
+        "type": "label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "editor preferred term",
+        "value": "realizes"
+      },
+      {
+        "type": "elucidation",
+        "value": "to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])"
+      },
+      {
+        "type": "example of usage",
+        "value": "this disease course realizes this disease"
+      },
+      {
+        "type": "example of usage",
+        "value": "this investigation realizes this investigator role"
+      },
+      {
+        "type": "example of usage",
+        "value": "this shattering realizes this fragility"
+      },
+      {
+        "type": "rdfs:comment",
+        "value": "Paraphrase of elucidation: a relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process"
+      },
+      {
+        "type": "rdfs:isDefinedBy",
+        "value": "http://purl.obolibrary.org/obo/iao.owl"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0000039",
+    "name": "has measurement unit label",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has measurement unit label",
+        "type": "label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/iao.owl"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0000136",
+    "name": "is about",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "is about",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A (currently) primitive relation that relates an information artifact to an entity.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "Smith, Ceusters, Ruttenberg, 2000 years of philosophy"
+      },
+      {
+        "type": "editor note",
+        "value": "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. \n\nWe will try to build it back up by elaborating the various subproperties that are more precisely defined.\n\nSome currently missing phenomena that should be considered \"about\" are predications - \"The only person who knows the answer is sitting beside me\" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic."
+      },
+      {
+        "type": "example of usage",
+        "value": "This document is about information artifacts and their representations"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000125"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/iao.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "person:Alan Ruttenberg"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0000219",
+    "name": "denotes",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "denotes",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to 'pick out' the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "Conversations with Barry Smith, Werner Ceusters, Bjoern Peters, Michel Dumontier, Melanie Courtot, James Malone, Bill Hogan"
+      },
+      {
+        "type": "editor note",
+        "value": "2009-11-10 Alan Ruttenberg. Old definition said the following to emphasize the generic nature of this relation. We no longer have 'specifically denotes', which would have been primitive, so make this relation primitive.\ng denotes r =def \nr is a portion of reality\nthere is some c that is a concretization of g \nevery c that is a concretization of g specifically denotes r"
+      },
+      {
+        "type": "example of usage",
+        "value": "A person's name denotes the person. A variable name in a computer program denotes some piece of memory. Lexically equivalent strings can denote different things, for instance \"Alan\" can denote different people. In each case of use, there is a case of the denotation relation obtaining, between \"Alan\" and the person that is being named."
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/iao.owl"
+      },
+      {
+        "type": "rdfs:comment"
+      },
+      {
+        "type": "term editor",
+        "value": "person:Alan Ruttenberg"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0000221",
+    "name": "is quality measurement of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "is quality measurement of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "m is a quality measurement of q at t. When q is a quality, there is a measurement process p that has specified output m, a measurement datum, that is about q",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "editor note",
+        "value": "8/6/2009 Alan Ruttenberg: The strategy is to be rather specific with this relationship. There are other kinds of measurements that are not of qualities, such as those that measure time. We will add these as separate properties for the moment and see about generalizing later"
+      },
+      {
+        "type": "editor note",
+        "value": "From the second IAO workshop [Alan Ruttenberg 8/6/2009: not completely current, though bringing in comparison is probably important]\n\nThis one is the one we are struggling with at the moment. The issue is what a measurement measures. On the one hand saying that it measures the quality would include it \"measuring\" the bearer = referring to the bearer in the measurement. However this makes comparisons of two different things not possible. On the other hand not having it inhere in the bearer, on the face of it, breaks the audit trail.\n\nWerner suggests a solution based on \"Magnitudes\" a proposal for which we are awaiting details.\n--\nFrom the second IAO workshop, various comments, [commented on by Alan Ruttenberg 8/6/2009]\n\nunit of measure is a quality, e.g. the length of a ruler.\n\n[We decided to hedge on what units of measure are, instead talking about measurement unit labels, which are the information content entities that are about whatever measurement units are. For IAO we need that information entity in any case. See the term measurement unit label]\n\n[Some struggling with the various subflavors of is_about. We subsequently removed the relation represents, and describes until and only when we have a better theory]\n\na represents b means either a denotes b or a describes\n\ndescribe:\na describes b means a is about b and a allows an inference of at least one quality of b\n\nWe have had a long discussion about denotes versus describes."
+      },
+      {
+        "type": "editor note",
+        "value": "From the second IAO workshop: An attempt at tieing the quality to the measurement datum more carefully.\n\na is a magnitude means a is a determinate quality particular inhering in some bearer b existing at a time t that can be represented/denoted by an information content entity e that has parts denoting a unit of measure, a number, and b. The unit of measure is an instance of the determinable quality."
+      },
+      {
+        "type": "editor note",
+        "value": "From the second meeting on IAO:\n\nAn attempt at defining assay using Barry's \"reliability\" wording\n\nassay:\nprocess and has_input some material entity\nand has_output some information content entity \nand which is such that instances of this process type reliably generate \noutputs that describes the input."
+      },
+      {
+        "type": "editor note",
+        "value": "This one is the one we are struggling with at the moment. The issue is what a measurement measures. On the one hand saying that it measures the quality would include it \"measuring\" the bearer = referring to the bearer in the measurement. However this makes comparisons of two different things not possible. On the other hand not having it inhere in the bearer, on the face of it, breaks the audit trail.\n\nWerner suggests a solution based on \"Magnitudes\" a proposal for which we are awaiting details."
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/iao.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "Alan Ruttenberg"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0000413",
+    "name": "is duration of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "is duration of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "relates a process to a time-measurement-datum that represents the duration of the process",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000120"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/iao.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "Person:Alan Ruttenberg"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0000293",
+    "name": "has_specified_input",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has_specified_input",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "editor note",
+        "value": "8/17/09: specified inputs of one process are not necessarily specified inputs of a larger process that it is part of. This is in contrast to how 'has participant' works."
+      },
+      {
+        "type": "editor preferred term",
+        "value": "has_specified_input"
+      },
+      {
+        "type": "example of usage",
+        "value": "see is_input_of example_of_usage"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000122"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON: Alan Ruttenberg"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON: Bjoern Peters"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON: Larry Hunter"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON: Melanie Coutot"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0000299",
+    "name": "has_specified_output",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has_specified_output",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "editor preferred term",
+        "value": "has_specified_output"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000122"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON: Alan Ruttenberg"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON: Bjoern Peters"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON: Larry Hunter"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON: Melanie Courtot"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0000312",
+    "name": "is_specified_output_of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "is_specified_output_of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "editor preferred term",
+        "value": "is_specified_output_of"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000122"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "Alan Ruttenberg"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON:Bjoern Peters"
+      }
+    ]
+  },
+  {
+    "code": "RO_0000052",
+    "name": "characteristic of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "characteristic of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "inheres_in"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "inheres in"
+      },
+      {
+        "type": "example of usage",
+        "value": "this fragility is a characteristic of this vase"
+      },
+      {
+        "type": "example of usage",
+        "value": "this red color is a characteristic of this apple"
+      },
+      {
+        "type": "rdfs:comment",
+        "value": "Note that this relation was previously called \"inheres in\", but was changed to be called \"characteristic of\" because BFO2 uses \"inheres in\" in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing."
+      },
+      {
+        "type": "temporal interpretation",
+        "value": "http://purl.obolibrary.org/obo/RO_0001901"
+      }
+    ]
+  },
+  {
+    "code": "RO_0000058",
+    "name": "is concretized as",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "is concretized as",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "example of usage",
+        "value": "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The journal article (a generically dependent continuant) is concretized as the quality (a specifically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)."
+      },
+      {
+        "type": "example of usage",
+        "value": "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process)."
+      }
+    ]
+  },
+  {
+    "code": "RO_0000059",
+    "name": "concretizes",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "concretizes",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "example of usage",
+        "value": "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The quality (a specifically dependent continuant) concretizes the journal article (a generically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)."
+      },
+      {
+        "type": "example of usage",
+        "value": "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process)."
+      }
+    ]
+  },
+  {
+    "code": "RO_0000079",
+    "name": "function of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "function of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "function_of"
+      },
+      {
+        "type": "alternative term",
+        "value": "is function of"
+      },
+      {
+        "type": "editor note",
+        "value": "A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists."
+      },
+      {
+        "type": "example of usage",
+        "value": "this catalysis function is a function of this enzyme"
+      },
+      {
+        "type": "rdfs:comment",
+        "value": "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020."
+      }
+    ]
+  },
+  {
+    "code": "RO_0000085",
+    "name": "has function",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has function",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "has_function"
+      },
+      {
+        "type": "editor note",
+        "value": "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists."
+      },
+      {
+        "type": "example of usage",
+        "value": "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/ro.owl"
+      }
+    ]
+  },
+  {
+    "code": "RO_0000086",
+    "name": "has quality",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has quality",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "has_quality"
+      },
+      {
+        "type": "editor note",
+        "value": "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."
+      },
+      {
+        "type": "example of usage",
+        "value": "this apple has quality this red color"
+      }
+    ]
+  },
+  {
+    "code": "RO_0000081",
+    "name": "role of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "role of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "is role of"
+      },
+      {
+        "type": "alternative term",
+        "value": "role_of"
+      },
+      {
+        "type": "editor note",
+        "value": "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists."
+      },
+      {
+        "type": "example of usage",
+        "value": "this investigator role is a role of this person"
+      },
+      {
+        "type": "rdfs:comment",
+        "value": "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020."
+      }
+    ]
+  },
+  {
+    "code": "RO_0000091",
+    "name": "has disposition",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has disposition",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence",
+        "type": "definition"
+      }
+    ]
+  },
+  {
+    "code": "RO_0001000",
+    "name": "derives from",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "derives from",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "derives_from"
+      },
+      {
+        "type": "editor note",
+        "value": "This is a very general relation. More specific relations are preferred when applicable, such as 'directly develops from'."
+      },
+      {
+        "type": "example of usage",
+        "value": "this cell derives from this parent cell (cell division)"
+      },
+      {
+        "type": "example of usage",
+        "value": "this nucleus derives from this parent nucleus (nuclear division)"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000125"
+      }
+    ]
+  },
+  {
+    "code": "RO_0001015",
+    "name": "location of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "location of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between two independent continuants, the location and the target, in which the target is entirely within the location",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "location_of"
+      },
+      {
+        "type": "editor note",
+        "value": "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "is location of"
+      },
+      {
+        "type": "example of usage",
+        "value": "my head is the location of my brain"
+      },
+      {
+        "type": "example of usage",
+        "value": "this cage is the location of this rat"
+      },
+      {
+        "type": "temporal interpretation",
+        "value": "http://purl.obolibrary.org/obo/RO_0001901"
+      }
+    ]
+  },
+  {
+    "code": "RO_0001025",
+    "name": "located in",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "located in",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a relation between two independent continuants, the target and the location, in which the target is entirely within the location",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "alternative term",
+        "value": "located_in"
+      },
+      {
+        "type": "editor note",
+        "value": "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus"
+      },
+      {
+        "type": "editor note",
+        "value": "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "located in"
+      },
+      {
+        "type": "example of usage",
+        "value": "my brain is located in my head"
+      },
+      {
+        "type": "example of usage",
+        "value": "this rat is located in this cage"
+      },
+      {
+        "type": "source",
+        "value": "http://www.obofoundry.org/ro/#OBO_REL:located_in"
+      },
+      {
+        "type": "temporal interpretation",
+        "value": "http://purl.obolibrary.org/obo/RO_0001901"
+      }
+    ]
+  },
+  {
+    "code": "RO_0002351",
+    "name": "has member",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has member",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "has member is a mereological relation between a collection and an item.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "SIO"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/ro.owl"
+      },
+      {
+        "type": "temporal interpretation",
+        "value": "http://purl.obolibrary.org/obo/RO_0001901"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0000107",
+    "name": "provides_service_consumer_with",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "provides_service_consumer_with",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relation between a service and the primary processual part of the service that is performed by the provider for the consumer.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "editor preferred term",
+        "value": "provides_service_consumer_with"
+      },
+      {
+        "type": "example of usage",
+        "value": "The provides_service_consumer_with relation links the service to its primary process it provides for the consumer (as opposed to secondary processual parts of a service process such as payment or documentation).  For example, a 'DNA sequencing service' provides_service_consumer_with 'DNA sequencing' as the essential process performed by the provider for the client."
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000123"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0000124",
+    "name": "is_supported_by_data",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "is_supported_by_data",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "The relation between a data item and a conclusion where the conclusion is the output of a data interpreting process and the data item is used as an input to that process",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "OBI"
+      },
+      {
+        "type": "definition source",
+        "value": "Philly 2011 workshop"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "is_supported_by_data"
+      },
+      {
+        "type": "example of usage",
+        "value": "The relation between the conclusion \"Gene tpbA is involved in EPS production\" and the data items produced using two sets of organisms, one being a tpbA knockout, the other being tpbA wildtype tested in polysacharide production assays and analyzed using an ANOVA. "
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000122"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "OBI"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0000417",
+    "name": "achieves_planned_objective",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "achieves_planned_objective",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process.",
+        "type": "definition"
+      },
+      {
+        "definition": "modified according to email thread from 1/23/09 in accordince with DT and PPPB branch",
+        "type": "curator note"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "PPPB branch derived"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "achieves_planned_objective"
+      },
+      {
+        "type": "example of usage",
+        "value": "A cell sorting process achieves the objective specification 'material separation objective'"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000120"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "BP, AR, PPPB branch"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0000833",
+    "name": "objective_achieved_by",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "objective_achieved_by",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "This relation obtains between an objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "OBI"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "objective_achieved_by"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000122"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "OBI"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0000643",
+    "name": "has grain",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has grain",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "the relation of the cells in the finger of the skin to the finger, in which an indeterminate number of grains are parts of the whole by virtue of being grains in a collective that is part of the whole, and in which removing one granular part does not nec- essarily damage or diminish the whole. Ontological Whether there is a fixed, or nearly fixed number of parts - e.g. fingers of the hand, chambers of the heart, or wheels of a car - such that there can be a notion of a single one being missing, or whether, by contrast, the number of parts is indeterminate - e.g., cells in the skin of the hand, red cells in blood, or rubber molecules in the tread of the tire of the wheel of the car.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "PAPER: Granularity, scale and collectivity: When size does and does not matter, Alan Rector, Jeremy Rogers, Thomas Bittner, Journal of Biomedical Informatics 39 (2006) 333-349"
+      },
+      {
+        "type": "editor note",
+        "value": "Discussion in Karslruhe with, among others, Alan Rector, Stefan Schulz, Marijke Keet, Melanie Courtot, and Alan Ruttenberg. Definition take from the definition of granular parthood in the cited paper. Needs work to put into standard form"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "has grain"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000120"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON: Alan Ruttenberg"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0000846",
+    "name": "is member of organization",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "is member of organization",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "2009/09/28 Alan Ruttenberg. Fucoidan-use-case",
+        "type": "curator note"
+      },
+      {
+        "definition": "Relating a legal person or organization to an organization in the case where the legal person or organization has a role as member of the organization.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "Person:Alan Ruttenberg"
+      },
+      {
+        "type": "definition source",
+        "value": "Person:Helen Parkinson"
+      },
+      {
+        "type": "editor note",
+        "value": "2009/10/01 Alan Ruttenberg. Barry prefers generic is-member-of. Question of what the range should be. For now organization. Is organization a population? Would the same relation be used to record members of a population"
+      },
+      {
+        "type": "editor note",
+        "value": "JZ: Discussed on May 7, 2012 OBI dev call. Bjoern points out that we need to allow for organizations to be members of organizations. And agreed by the other OBI developers. So, human and organization were specified in 'Domains'. The textual definition was updated based on it."
+      },
+      {
+        "type": "editor preferred term",
+        "value": "is member of organization"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000120"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "Person:Alan Ruttenberg"
+      },
+      {
+        "type": "term editor",
+        "value": "Person:Helen Parkinson"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0001688",
+    "name": "has organization member",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has organization member",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Relating an organization to a legal person or organization.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "editor note",
+        "value": "See tracker:\nhttps://sourceforge.net/tracker/index.php?func=detail&aid=3512902&group_id=177891&atid=886178"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "has organization member"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000123"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "Person: Jie Zheng"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0001637",
+    "name": "has disposition to bind",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has disposition to bind",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relationship between two material entitites that each have disposition to form a complex with the other. ",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "IEDB"
+      },
+      {
+        "type": "editor note",
+        "value": "This is a shortcut relation, and should expand to say that the two material entities have dispositions, point to the process in which they from a complex that realizes those dispositions, and points to the complex in which the two entities are 'bound to' each other"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "has disposition to bind"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000123"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0001927",
+    "name": "specifies value of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "specifies value of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relation between a value specification and an entity which the specification is about.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "editor preferred term",
+        "value": "specifies value of"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000123"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      }
+    ]
+  },
+  {
+    "code": "OBI_0001938",
+    "name": "has value specification",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has value specification",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relation between an information content entity and a value specification that specifies its value.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "OBI"
+      },
+      {
+        "type": "editor preferred term",
+        "value": "has value specification"
+      },
+      {
+        "type": "has curation status",
+        "value": "http://purl.obolibrary.org/obo/IAO_0000120"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/obi.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "PERSON: James A. Overton"
+      }
+    ]
+  },
+  {
+    "code": "RO_0002223",
+    "name": "starts",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "starts",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "inverse of starts with",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/ro.owl"
+      }
+    ]
+  },
+  {
+    "code": "BFO_0000156",
+    "name": "has temporal occupant",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has temporal occupant",
+        "type": "label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "BFO CLIF specification label",
+        "value": "spanOf"
+      },
+      {
+        "type": "BFO OWL specification label",
+        "value": "span-of"
+      },
+      {
+        "type": "elucidation",
+        "value": "[copied from inverse property 'occupies temporal region'] p occupies_temporal_region t. This is a primitive relation between an occurrent p and the temporal region t upon which the spatiotemporal region p occupies_spatiotemporal_region projects. (axiom label in BFO2 Reference: [132-001])"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/bfo/2012-07-20/bfo.owl"
+      },
+      {
+        "type": "rdfs:isDefinedBy",
+        "value": "http://purl.obolibrary.org/obo/bfo/2012-07-20/bfo.owl"
+      }
+    ]
+  },
+  {
+    "code": "BFO_0000184",
+    "name": "history of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "history of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "[copied from inverse property 'has history'] b has_history c iff c history_of b [XXX-001",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "BFO CLIF specification label",
+        "value": "historyOf"
+      },
+      {
+        "type": "BFO OWL specification label",
+        "value": "history-of"
+      },
+      {
+        "type": "elucidation",
+        "value": "b history_of c if c is a material entity or site and b is a history that is the unique history of cAxiom: if b history_of c and b history_of d then c=d [XXX-001"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/bfo/2012-07-20/bfo.owl"
+      },
+      {
+        "type": "rdfs:isDefinedBy",
+        "value": "http://purl.obolibrary.org/obo/bfo/2012-07-20/bfo.owl"
+      }
+    ]
+  },
+  {
+    "code": "GEO_000000329",
+    "name": "is subordinate authority of",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "is subordinate authority of",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A governing organization G1 is subordinate to another governing organization G2 iff there is some authority possessed by G2 that is not possessed by G1 and G1's jurisdiction falls within the relevant jurisdiction of G2.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/geo.owl"
+      },
+      {
+        "type": "rdfs:comment",
+        "value": "'is subordinate authority of'\nDomain: governing organization\nRange: governing organization\nFormal properties: transitive, anti-symmetric, irreflexive\nNatural language definition: A governing organization G1 is subordinate to another governing organization G2 iff there is some authority possessed by G2 that is not possessed by G1 and G1 falls within the relevant jurisdiction of G2."
+      }
+    ]
+  },
+  {
+    "code": "IAO_0020012",
+    "name": "designates",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "designates",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "x designates y, if for any given group of language users, x is an information content entity, is about y, and represents y in a linguistic context..",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "term editor",
+        "value": "Mathias Brochhausen"
+      }
+    ]
+  },
+  {
+    "code": "OBIB_0000037",
+    "name": "has maximum capacity",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has maximum capacity",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relation that relates a container to a measurement datum that specifies the maximum capacity of the container.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "Penn Group"
+      },
+      {
+        "type": "term editor",
+        "value": "Person: Jie Zheng, Chris Stoeckert"
+      }
+    ]
+  },
+  {
+    "code": "OBIB_0000038",
+    "name": "has actual load",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "has actual load",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A relation that relates a container to a measurement datum that specifies the actual amount of material in the container.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "Penn Group"
+      },
+      {
+        "type": "term editor",
+        "value": "Person: Jie Zheng, Chris Stoeckert"
+      }
+    ]
+  },
+  {
+    "code": "OBIB_0000732",
+    "name": "owns",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "owns",
+        "type": "label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "elucidation",
+        "value": "This is a primitive relation. This relation is the foundation to the owners right to have the owned entity at his/her full disposal."
+      },
+      {
+        "type": "source",
+        "value": "Reinach, A. Sämtliche Werke. Texkritische Ausgabe, München: Philosophia Verlag, 1989, p.189-204."
+      },
+      {
+        "type": "term editor",
+        "value": "Mathias Brochhausen"
+      }
+    ]
+  },
+  {
+    "code": "OBIB_0000735",
+    "name": "is owned by",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "is owned by",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a is owned by b if b has complete power over a. All rights and obligations of ownership are grounded in this (primitive) relation. The claims and obligations of ownership can be partially transferred to a third party by the owner, b.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "definition source",
+        "value": "Reinach, A. Sämtliche Werke. Texkritische Ausgabe, München: Philosophia Verlag, 1989, p.189-204."
+      }
+    ]
+  },
+  {
+    "code": "OBIB_0000733",
+    "name": "administrates",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "administrates",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a administrates b if c owns b and some rights and obligations grounded in the owning relation regarding b are transferred  from c to a.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "rdfs:comment",
+        "value": "A definition of \"tranfers\" object property can be found in d-acts: http:purl.obolibrary.org/iao/d-acts.owl"
+      },
+      {
+        "type": "term editor",
+        "value": "Mathias Brochhausen"
+      }
+    ]
+  },
+  {
+    "code": "OBIB_0000734",
+    "name": "is contact information about",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "is contact information about",
+        "type": "label"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "a is contact information for b, if a is a information content entity, b is a human being or an organization and a identifies a physical location or electronic resource that allows to initiate communication with a.",
+        "type": "definition"
+      }
+    ],
+    "properties": [
+      {
+        "type": "term editor",
+        "value": "Mathias Brochhausen"
+      }
+    ]
+  },
+  {
+    "code": "cl:lacks_part",
+    "name": "lacks_part",
+    "terminology": "obib",
+    "version": "2021-11-12",
+    "synonyms": [
+      {
+        "name": "lacks_part",
+        "type": "label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "expand expression to",
+        "value": "http://purl.obolibrary.org/obo/BFO_0000051 exactly 0 ?Y"
+      },
+      {
+        "type": "hasOBONamespace",
+        "value": "RO"
+      },
+      {
+        "type": "imported from",
+        "value": "http://purl.obolibrary.org/obo/cl.owl"
+      }
+    ]
+  }
+]

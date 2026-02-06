@@ -1,0 +1,514 @@
+{
+  "synonymTypes": [
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    }
+  ],
+  "roles": [
+    {
+      "code": "BFO_0000050",
+      "name": "part of",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "BFO_0000051",
+      "name": "has part",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000053",
+      "name": "bearer of",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000056",
+      "name": "participates in",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000057",
+      "name": "has participant",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0002087",
+      "name": "immediately preceded by",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0002180",
+      "name": "has component",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0002220",
+      "name": "adjacent to",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000087",
+      "name": "has role",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "BFO_0000054",
+      "name": "realized in",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "BFO_0000055",
+      "name": "realizes",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000039",
+      "name": "has measurement unit label",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000136",
+      "name": "is about",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000219",
+      "name": "denotes",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000221",
+      "name": "is quality measurement of",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000407",
+      "name": "has coordinate unit label",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000413",
+      "name": "is duration of",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000581",
+      "name": "has time stamp",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000583",
+      "name": "has measurement datum",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000293",
+      "name": "has_specified_input",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000295",
+      "name": "is_specified_input_of",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000299",
+      "name": "has_specified_output",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000312",
+      "name": "is_specified_output_of",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000052",
+      "name": "inheres in",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000058",
+      "name": "is concretized as",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000059",
+      "name": "concretizes",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000079",
+      "name": "function of",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000085",
+      "name": "has function",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000086",
+      "name": "has quality",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0000081",
+      "name": "role of",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0001000",
+      "name": "derives from",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0001025",
+      "name": "located in",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0002351",
+      "name": "has member",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000107",
+      "name": "provides_service_consumer_with",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000124",
+      "name": "is_supported_by_data",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000304",
+      "name": "is_manufactured_by",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000417",
+      "name": "achieves_planned_objective",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000833",
+      "name": "objective_achieved_by",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000643",
+      "name": "has grain",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000646",
+      "name": "provisions",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000846",
+      "name": "is member of organization",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0001688",
+      "name": "has organization member",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0000999",
+      "name": "has category label",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0001637",
+      "name": "has disposition to bind",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0001927",
+      "name": "specifies value of",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0001938",
+      "name": "has value specification",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_1110060",
+      "name": "process is result of",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_1110119",
+      "name": "bound_to",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0002219",
+      "name": "surrounded by",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "RO_0002223",
+      "name": "starts",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "rdfs:comment",
+      "name": "comment",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "rdfs:seeAlso",
+      "name": "seeAlso",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0010000",
+      "name": "has axiom label",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    }
+  ],
+  "properties": [
+    {
+      "code": "rdfs:comment",
+      "name": "comment",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "rdfs:seeAlso",
+      "name": "seeAlso",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "rdfs:isDefinedBy",
+      "name": "isDefinedBy",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "page",
+      "name": "page",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "BFO_0000180",
+      "name": "BFO CLIF specification label",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "BFO_0000179",
+      "name": "BFO OWL specification label",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "contributor",
+      "name": "Contributor",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "date",
+      "name": "Date",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_9991118",
+      "name": "IEDB alternative term",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0001847",
+      "name": "ISA alternative term",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "OBI_0001886",
+      "name": "NIAID GSCID-BRC alternative term",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "source",
+      "name": "Source",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000118",
+      "name": "alternative term",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000232",
+      "name": "curator note",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000115",
+      "name": "definition",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000119",
+      "name": "definition source",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000116",
+      "name": "editor note",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000111",
+      "name": "editor preferred label",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000600",
+      "name": "elucidation",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000112",
+      "name": "example of usage",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000602",
+      "name": "has associated axiom(fol)",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000601",
+      "name": "has associated axiom(nl)",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000114",
+      "name": "has curation status",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000231",
+      "name": "has obsolescence reason",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000412",
+      "name": "imported from",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000234",
+      "name": "ontology term requester",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000117",
+      "name": "term editor",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0100001",
+      "name": "term replaced by",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    },
+    {
+      "code": "IAO_0000233",
+      "name": "term tracker item",
+      "terminology": "obi",
+      "version": "2022-07-11"
+    }
+  ]
+}

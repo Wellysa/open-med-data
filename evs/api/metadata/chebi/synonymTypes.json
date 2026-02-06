@@ -1,0 +1,14 @@
+[
+  {
+    "code": "oboInOwl:hasExactSynonym",
+    "name": "hasExactSynonym",
+    "terminology": "chebi",
+    "version": "248.0"
+  },
+  {
+    "code": "oboInOwl:hasRelatedSynonym",
+    "name": "hasRelatedSynonym",
+    "terminology": "chebi",
+    "version": "248.0"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "code": "has_TC",
+    "name": "has_TC",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "has_TC",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "has_PE",
+    "name": "has_PE",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "has_PE",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "has_MoA",
+    "name": "has_MoA",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "has_MoA",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "has_SC",
+    "name": "has_SC",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "has_SC",
+        "type": "default"
+      }
+    ]
+  }
+]

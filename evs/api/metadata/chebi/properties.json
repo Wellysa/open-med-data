@@ -1,0 +1,258 @@
+[
+  {
+    "code": "IAO_0000231",
+    "name": "IAO_0000231",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "IAO_0000231",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0100001",
+    "name": "IAO_0100001",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "IAO_0100001",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:id",
+    "name": "id",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "id",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a concept code"
+      }
+    ]
+  },
+  {
+    "code": "charge",
+    "name": "charge",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "charge",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "generalized_empirical_formula",
+    "name": "generalized_empirical_formula",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "generalized_empirical_formula",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "inchi_key_string",
+    "name": "inchi_key_string",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "inchi_key_string",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "inchi_string",
+    "name": "inchi_string",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "inchi_string",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "mass",
+    "name": "mass",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "mass",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "monoisotopic_mass",
+    "name": "monoisotopic_mass",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "monoisotopic_mass",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "smiles_string",
+    "name": "smiles_string",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "smiles_string",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "wurcs_representation",
+    "name": "wurcs_representation",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "wurcs_representation",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasDbXref",
+    "name": "hasDbXref",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "hasDbXref",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0000115",
+    "name": "IAO_0000115",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "IAO_0000115",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a definition"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasAlternativeId",
+    "name": "hasAlternativeId",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "hasAlternativeId",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasExactSynonym",
+    "name": "hasExactSynonym",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "hasExactSynonym",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasOBONamespace",
+    "name": "hasOBONamespace",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "hasOBONamespace",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasRelatedSynonym",
+    "name": "hasRelatedSynonym",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "hasRelatedSynonym",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:inSubset",
+    "name": "inSubset",
+    "terminology": "chebi",
+    "version": "248.0",
+    "synonyms": [
+      {
+        "name": "inSubset",
+        "type": "default"
+      }
+    ]
+  }
+]

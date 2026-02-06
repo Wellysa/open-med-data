@@ -1,0 +1,20 @@
+[
+  {
+    "code": "RO",
+    "name": "RO",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "RO",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "has relationship other than synonymous, narrower, or broader",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

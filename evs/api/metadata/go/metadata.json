@@ -1,0 +1,238 @@
+{
+  "synonymTypes": [
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasBroadSynonym",
+      "name": "has_broad_synonym",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasExactSynonym",
+      "name": "has_exact_synonym",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasNarrowSynonym",
+      "name": "has_narrow_synonym",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasRelatedSynonym",
+      "name": "has_related_synonym",
+      "terminology": "go",
+      "version": "2025-10-10"
+    }
+  ],
+  "roles": [
+    {
+      "code": "has_part",
+      "name": "has part",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "occurs_in",
+      "name": "occurs in",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "happens_during",
+      "name": "happens during",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "ends_during",
+      "name": "ends during",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "regulates",
+      "name": "regulates",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "negatively_regulates",
+      "name": "negatively regulates",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "positively_regulates",
+      "name": "positively regulates",
+      "terminology": "go",
+      "version": "2025-10-10"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "oboInOwl:hasDbXref",
+      "name": "database_cross_reference",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "rdfs:comment",
+      "name": "comment",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:status",
+      "name": "status",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasSynonymType",
+      "name": "has_synonym_type",
+      "terminology": "go",
+      "version": "2025-10-10"
+    }
+  ],
+  "properties": [
+    {
+      "code": "IAO_0000231",
+      "name": "IAO_0000231",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "IAO_0000589",
+      "name": "IAO_0000589",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "RO_0002175",
+      "name": "RO_0002175",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "rdfs:comment",
+      "name": "comment",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "owl:deprecated",
+      "name": "deprecated",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:consider",
+      "name": "consider",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:created_by",
+      "name": "created by",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:creation_date",
+      "name": "creation date",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "name": "database_cross_reference",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "IAO_0000115",
+      "name": "definition",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasAlternativeId",
+      "name": "has_alternative_id",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasBroadSynonym",
+      "name": "has_broad_synonym",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasExactSynonym",
+      "name": "has_exact_synonym",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasNarrowSynonym",
+      "name": "has_narrow_synonym",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasOBONamespace",
+      "name": "has_obo_namespace",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:hasRelatedSynonym",
+      "name": "has_related_synonym",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:id",
+      "name": "id",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "oboInOwl:inSubset",
+      "name": "in_subset",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "IAO_0100001",
+      "name": "term replaced by",
+      "terminology": "go",
+      "version": "2025-10-10"
+    },
+    {
+      "code": "term_tracker_item",
+      "name": "term tracker item",
+      "terminology": "go",
+      "version": "2025-10-10"
+    }
+  ]
+}

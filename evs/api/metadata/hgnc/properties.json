@@ -1,0 +1,732 @@
+[
+  {
+    "code": "Code",
+    "name": "Code",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Code",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Preferred_Name",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Synonym",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "agr",
+    "name": "agr",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "agr",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "alias_name",
+    "name": "alias_name",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "alias_name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "alias_symbol",
+    "name": "alias_symbol",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "alias_symbol",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "bioparadigms_slc",
+    "name": "bioparadigms_slc",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "bioparadigms_slc",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "ccds_id",
+    "name": "ccds_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "ccds_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "cd",
+    "name": "cd",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "cd",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "cosmic",
+    "name": "cosmic",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "cosmic",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "date_approved_reserved",
+    "name": "date_approved_reserved",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "date_approved_reserved",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "date_modified",
+    "name": "date_modified",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "date_modified",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "date_name_changed",
+    "name": "date_name_changed",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "date_name_changed",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "date_symbol_changed",
+    "name": "date_symbol_changed",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "date_symbol_changed",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "ena",
+    "name": "ena",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "ena",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "ensembl_gene_id",
+    "name": "ensembl_gene_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "ensembl_gene_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "entrez_id",
+    "name": "entrez_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "entrez_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "enzyme_id",
+    "name": "enzyme_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "enzyme_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "gencc",
+    "name": "gencc",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "gencc",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "gene_group",
+    "name": "gene_group",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "gene_group",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "gene_group_id",
+    "name": "gene_group_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "gene_group_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "gtrnadb",
+    "name": "gtrnadb",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "gtrnadb",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "hgnc_id",
+    "name": "hgnc_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "hgnc_id",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a concept code"
+      }
+    ]
+  },
+  {
+    "code": "homeodb",
+    "name": "homeodb",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "homeodb",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "horde_id",
+    "name": "horde_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "horde_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "imgt",
+    "name": "imgt",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "imgt",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "iuphar",
+    "name": "iuphar",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "iuphar",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "lncipedia",
+    "name": "lncipedia",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "lncipedia",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "lncrnadb",
+    "name": "lncrnadb",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "lncrnadb",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "location",
+    "name": "location",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "location",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "location_sortable",
+    "name": "location_sortable",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "location_sortable",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "locus_group",
+    "name": "locus_group",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "locus_group",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "locus_type",
+    "name": "locus_type",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "locus_type",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "lsdb",
+    "name": "lsdb",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "lsdb",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "mamit-trnadb",
+    "name": "mamit-trnadb",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "mamit-trnadb",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "mane_select",
+    "name": "mane_select",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "mane_select",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "merops",
+    "name": "merops",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "merops",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "mgd_id",
+    "name": "mgd_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "mgd_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "mirbase",
+    "name": "mirbase",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "mirbase",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "name",
+    "name": "name",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "omim_id",
+    "name": "omim_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "omim_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "orphanet",
+    "name": "orphanet",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "orphanet",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "prev_name",
+    "name": "prev_name",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "prev_name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "prev_symbol",
+    "name": "prev_symbol",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "prev_symbol",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "pseudogene.org",
+    "name": "pseudogene.org",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "pseudogene.org",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "pubmed_id",
+    "name": "pubmed_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "pubmed_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "refseq_accession",
+    "name": "refseq_accession",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "refseq_accession",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "rgd_id",
+    "name": "rgd_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "rgd_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "rna_central_id",
+    "name": "rna_central_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "rna_central_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "snornabase",
+    "name": "snornabase",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "snornabase",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "status",
+    "name": "status",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "status",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "symbol",
+    "name": "symbol",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "symbol",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a preferred name"
+      }
+    ]
+  },
+  {
+    "code": "ucsc_id",
+    "name": "ucsc_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "ucsc_id",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "uniprot_ids",
+    "name": "uniprot_ids",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "uniprot_ids",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "vega_id",
+    "name": "vega_id",
+    "terminology": "hgnc",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "vega_id",
+        "type": "default"
+      }
+    ]
+  }
+]

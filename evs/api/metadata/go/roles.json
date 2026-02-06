@@ -1,0 +1,184 @@
+[
+  {
+    "code": "has_part",
+    "name": "has part",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "has part",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "BFO:0000051"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "external"
+      },
+      {
+        "type": "shorthand",
+        "value": "has_part"
+      }
+    ]
+  },
+  {
+    "code": "occurs_in",
+    "name": "occurs in",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "occurs in",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "BFO:0000066"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "external"
+      },
+      {
+        "type": "shorthand",
+        "value": "occurs_in"
+      }
+    ]
+  },
+  {
+    "code": "happens_during",
+    "name": "happens during",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "happens during",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002092"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "external"
+      },
+      {
+        "type": "shorthand",
+        "value": "happens_during"
+      }
+    ]
+  },
+  {
+    "code": "ends_during",
+    "name": "ends during",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "ends during",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002093"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "external"
+      },
+      {
+        "type": "shorthand",
+        "value": "ends_during"
+      }
+    ]
+  },
+  {
+    "code": "regulates",
+    "name": "regulates",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "regulates",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002211"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "external"
+      },
+      {
+        "type": "shorthand",
+        "value": "regulates"
+      }
+    ]
+  },
+  {
+    "code": "negatively_regulates",
+    "name": "negatively regulates",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "negatively regulates",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002212"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "external"
+      },
+      {
+        "type": "shorthand",
+        "value": "negatively_regulates"
+      }
+    ]
+  },
+  {
+    "code": "positively_regulates",
+    "name": "positively regulates",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "positively regulates",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "database_cross_reference",
+        "value": "RO:0002213"
+      },
+      {
+        "type": "has_obo_namespace",
+        "value": "external"
+      },
+      {
+        "type": "shorthand",
+        "value": "positively_regulates"
+      }
+    ]
+  }
+]

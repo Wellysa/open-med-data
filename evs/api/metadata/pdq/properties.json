@@ -1,0 +1,362 @@
+[
+  {
+    "code": "MTH_MAPFROMEXHAUSTIVE",
+    "name": "MTH_MAPFROMEXHAUSTIVE",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "MTH_MAPFROMEXHAUSTIVE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates whether or not the \"from\" source of a map set is completely mapped",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "TOVSAB",
+    "name": "TOVSAB",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "TOVSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Versioned source abbreviation for the \"to\" identifiers of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MAPSETSID",
+    "name": "MAPSETSID",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "MAPSETSID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Source asserted identifier for a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MTH_MAPTOEXHAUSTIVE",
+    "name": "MTH_MAPTOEXHAUSTIVE",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "MTH_MAPTOEXHAUSTIVE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates whether or not the \"to\" source is completely mapped",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MAPSETVSAB",
+    "name": "MAPSETVSAB",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "MAPSETVSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Versioned source abbreviation for a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "Semantic_Type",
+    "name": "Semantic_Type",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "Semantic_Type",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Semantic Type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "PID",
+    "name": "PID",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "PID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Legacy PDQ ID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "DATE_LAST_MODIFIED",
+    "name": "DATE_LAST_MODIFIED",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "DATE_LAST_MODIFIED",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Date last modified",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "TORSAB",
+    "name": "TORSAB",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "TORSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Root source abbreviation for the \"to\" identifiers of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "FROMVSAB",
+    "name": "FROMVSAB",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "FROMVSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Versioned source abbreviation for the \"from\" identifiers of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "FROMRSAB",
+    "name": "FROMRSAB",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "FROMRSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Root source abbreviation for the \"from\" identifiers of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "DATE_FIRST_PUBLISHED",
+    "name": "DATE_FIRST_PUBLISHED",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "DATE_FIRST_PUBLISHED",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Date first published",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MAPSETVERSION",
+    "name": "MAPSETVERSION",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "MAPSETVERSION",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Version of the map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MAPSETRSAB",
+    "name": "MAPSETRSAB",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "MAPSETRSAB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Root source abbreviation for a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ORIG_STY",
+    "name": "ORIG_STY",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "ORIG_STY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Original semantic type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "NCI_META_CUI",
+    "name": "NCI_META_CUI",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "NCI_META_CUI",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "CUI assignment in the NCI Metatehsaurus",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MTH_MAPFROMCOMPLEXITY",
+    "name": "MTH_MAPFROMCOMPLEXITY",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "MTH_MAPFROMCOMPLEXITY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates the complexity of \"from\" expressions used in a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "PXC",
+    "name": "PXC",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "PXC",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "PDQ Protocol Exclusion Criteria - terms with type \"exclusion criteria,\" which may be indexed on protocol records to identify conditions that exclude a patient from eligibility.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MTH_MAPTOCOMPLEXITY",
+    "name": "MTH_MAPTOCOMPLEXITY",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "MTH_MAPTOCOMPLEXITY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates the complexity of \"to\" expressions in a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MTH_MAPSETCOMPLEXITY",
+    "name": "MTH_MAPSETCOMPLEXITY",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "MTH_MAPSETCOMPLEXITY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates the overall complexity of a map set",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

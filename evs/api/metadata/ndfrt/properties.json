@@ -1,0 +1,476 @@
+[
+  {
+    "code": "Product_Component_Qualifier",
+    "name": "Product_Component_Qualifier",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "Product_Component_Qualifier",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "code",
+    "name": "code",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "code",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "AHC0"
+      },
+      {
+        "type": "readOnly",
+        "value": "true"
+      }
+    ]
+  },
+  {
+    "code": "CS_Federal_Schedule",
+    "name": "CS_Federal_Schedule",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "CS_Federal_Schedule",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C62"
+      }
+    ]
+  },
+  {
+    "code": "Class_Code",
+    "name": "Class_Code",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "Class_Code",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C130"
+      }
+    ]
+  },
+  {
+    "code": "Class_Description",
+    "name": "Class_Description",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "Class_Description",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C262717"
+      }
+    ]
+  },
+  {
+    "code": "Display_Name",
+    "name": "Display_Name",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "Display_Name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C264"
+      },
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "FDA_UNII",
+    "name": "FDA_UNII",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "FDA_UNII",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C12847068852884"
+      }
+    ]
+  },
+  {
+    "code": "Level",
+    "name": "Level",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "Level",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C98"
+      }
+    ]
+  },
+  {
+    "code": "MeSH_CUI",
+    "name": "MeSH_CUI",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "MeSH_CUI",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C176"
+      }
+    ]
+  },
+  {
+    "code": "MeSH_DUI",
+    "name": "MeSH_DUI",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "MeSH_DUI",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C134"
+      }
+    ]
+  },
+  {
+    "code": "MeSH_Definition",
+    "name": "MeSH_Definition",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "MeSH_Definition",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C142"
+      }
+    ]
+  },
+  {
+    "code": "MeSH_Name",
+    "name": "MeSH_Name",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "MeSH_Name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C287"
+      }
+    ]
+  },
+  {
+    "code": "NUI",
+    "name": "NUI",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "NUI",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C10490107818172"
+      }
+    ]
+  },
+  {
+    "code": "Print_Name",
+    "name": "Print_Name",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "Print_Name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C114"
+      }
+    ]
+  },
+  {
+    "code": "RxNorm_CUI",
+    "name": "RxNorm_CUI",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "RxNorm_CUI",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C818"
+      }
+    ]
+  },
+  {
+    "code": "RxNorm_Name",
+    "name": "RxNorm_Name",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "RxNorm_Name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C819"
+      }
+    ]
+  },
+  {
+    "code": "SNOMED_CID",
+    "name": "SNOMED_CID",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "SNOMED_CID",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C28502475289736"
+      }
+    ]
+  },
+  {
+    "code": "SNOMED_Child_CID",
+    "name": "SNOMED_Child_CID",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "SNOMED_Child_CID",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "P911"
+      }
+    ]
+  },
+  {
+    "code": "SNOMED_Parent_CID",
+    "name": "SNOMED_Parent_CID",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "SNOMED_Parent_CID",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "P910"
+      }
+    ]
+  },
+  {
+    "code": "Strength",
+    "name": "Strength",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "Strength",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C100"
+      }
+    ]
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "Synonym",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C136"
+      }
+    ]
+  },
+  {
+    "code": "UMLS_CUI",
+    "name": "UMLS_CUI",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "UMLS_CUI",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C140"
+      }
+    ]
+  },
+  {
+    "code": "Units",
+    "name": "Units",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "Units",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C102"
+      }
+    ]
+  },
+  {
+    "code": "VANDF_Record",
+    "name": "VANDF_Record",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "VANDF_Record",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C262721"
+      }
+    ]
+  },
+  {
+    "code": "VA_National_Formulary_Name",
+    "name": "VA_National_Formulary_Name",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "VA_National_Formulary_Name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C68"
+      }
+    ]
+  },
+  {
+    "code": "VUID",
+    "name": "VUID",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "VUID",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C262777"
+      }
+    ]
+  }
+]

@@ -118,6 +118,31 @@ TABLE_CONFIGS = {
         'display_fields': 'id,name',
         'value_cols': [0, 1],
         'estimated_size': 19903
+    },
+    # Phase 4 tables - Genomics
+    'disease_names': {
+        'api_path': '/api/disease_names/v3/search',
+        'output_file': 'nlm/genetic_diseases.csv',
+        'search_fields': 'DiseaseName,ConceptID',
+        'display_fields': 'DiseaseName,ConceptID',
+        'value_cols': [0],
+        'estimated_size': 46108
+    },
+    'ncbi_genes': {
+        'api_path': '/api/ncbi_genes/v3/search',
+        'output_file': 'nlm/ncbi_genes.csv',
+        'search_fields': 'Symbol',
+        'display_fields': 'CodeSystem,GeneCode,Chromosome,Symbol,Description,TypeOfGene',
+        'value_cols': [3],
+        'estimated_size': 193685
+    },
+    'refseqs': {
+        'api_path': '/api/refseqs/v3/search',
+        'output_file': 'nlm/refseq.csv',
+        'search_fields': 'RefSeq',
+        'display_fields': 'RefSeq,Gene,NP_RefSeq,NC_RefSeq',
+        'value_cols': [0],
+        'estimated_size': 82202
     }
 }
 
@@ -186,6 +211,12 @@ def download_by_pagination(base_url, config):
         search_terms = ['*', 'HP:', 'HP:0', 'HP:1', 'HP:2', 'HP:3', 'HP:4', 'HP:5', 'HP:6', 'HP:7', 'HP:8', 'HP:9']
         # Also try letters for names
         search_terms.extend(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    elif 'disease_names' in config.get('api_path', ''):
+        # Genetic diseases - try letters and common prefixes
+        search_terms = ['*', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    elif 'ncbi_genes' in config.get('api_path', '') or 'refseqs' in config.get('api_path', ''):
+        # NCBI Genes and RefSeq - try letters and numbers
+        search_terms = ['*', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     
     for search_term in search_terms:
         if search_term == '' and offset > 0:
@@ -626,13 +657,14 @@ def main():
     table_arg = sys.argv[1].lower()
     
     if table_arg == 'all':
-        # Download all phase 1, 2 and 3 tables
+        # Download all phase 1, 2, 3 and 4 tables
         phase1_tables = ['ucum', 'cytogenetic_locs', 'star_alleles', 'drug_ingredients', 'rxterms']
         phase2_tables = ['icd9cm_dx', 'icd9cm_sg', 'icd11_codes', 'conditions', 'procedures']
         phase3_tables = ['hpo']
-        all_tables = phase1_tables + phase2_tables + phase3_tables
+        phase4_tables = ['disease_names', 'ncbi_genes', 'refseqs']
+        all_tables = phase1_tables + phase2_tables + phase3_tables + phase4_tables
         print("="*60)
-        print("Downloading all Phase 1, Phase 2 and Phase 3 tables")
+        print("Downloading all Phase 1, 2, 3 and 4 tables")
         print("="*60)
         
         for table_name in all_tables:
@@ -650,7 +682,7 @@ def main():
                 time.sleep(5)
         
         print("\n" + "="*60)
-        print("ALL PHASE 1, PHASE 2 AND PHASE 3 TABLES DOWNLOAD COMPLETE")
+        print("ALL PHASE 1, 2, 3 AND 4 TABLES DOWNLOAD COMPLETE")
         print("="*60)
     else:
         download_table(table_arg)

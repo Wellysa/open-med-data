@@ -1,0 +1,194 @@
+[
+  {
+    "code": "P383",
+    "name": "P383",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "term-group",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing a two or three character abbreviation that indicates the nature of each FULL_SYN term associated with a concept. (e.g., PT=Preferred Term; SY=Synonym)",
+        "type": "DEFINITION"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym term type"
+      }
+    ]
+  },
+  {
+    "code": "P384",
+    "name": "P384",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "term-source",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing the organization that is the supplier or owner of each FULL_SYN term.",
+        "type": "DEFINITION"
+      }
+    ],
+    "properties": [
+      {
+        "type": "Definition Source",
+        "value": "NCI"
+      },
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym source"
+      }
+    ]
+  },
+  {
+    "code": "P378",
+    "name": "P378",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "Definition Source",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "Definition Source",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing the organization that is the supplier or owner of each DEFINITION or ALT_DEFINITION associated with a concept.",
+        "type": "DEFINITION"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a definition source"
+      }
+    ]
+  },
+  {
+    "code": "P393",
+    "name": "P393",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "Relationship_to_Target",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "Relationship_to_Target",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing the relationship of the NCI Thesaurus (NCIt) concept to the term from the outside source. There are four possibilities: 1) Has Synonym: the two terms are synonymous; 2) Broader Than: the NCIt concept is broader than the mapped (target) term; 3) Narrower Than: the NCIt concept is narrower than the mapped (target) term; 4) Related To: the NCIt concept is somehow related to the mapped (target) term.",
+        "type": "DEFINITION"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a relationship to target"
+      }
+    ]
+  },
+  {
+    "code": "P394",
+    "name": "P394",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "Target_Term_Type",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "Target_Term_Type",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing the term type designation in the mapped (target) database.",
+        "type": "DEFINITION"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a map target term type"
+      }
+    ]
+  },
+  {
+    "code": "P395",
+    "name": "P395",
+    "terminology": "ctcae6",
+    "version": "6.0",
+    "synonyms": [
+      {
+        "name": "Target_Code",
+        "type": "FULL_SYN"
+      },
+      {
+        "name": "Target_Code",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A property representing the code assigned to the target term in the mapped (target) database. Some databases may not have codes.",
+        "type": "DEFINITION"
+      }
+    ],
+    "properties": [
+      {
+        "type": "Definition Source",
+        "value": "NCI"
+      },
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a map target"
+      }
+    ]
+  }
+]

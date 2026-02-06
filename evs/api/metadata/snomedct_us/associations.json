@@ -1,0 +1,56 @@
+[
+  {
+    "code": "RB",
+    "name": "RB",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "RB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "has a broader relationship",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "RN",
+    "name": "RN",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "RN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "has a narrower relationship",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "RO",
+    "name": "RO",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01",
+    "synonyms": [
+      {
+        "name": "RO",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "has relationship other than synonymous, narrower, or broader",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

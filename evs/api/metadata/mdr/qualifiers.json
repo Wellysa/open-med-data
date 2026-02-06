@@ -1,0 +1,128 @@
+[
+  {
+    "code": "RELA",
+    "name": "RELA",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "RELA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Additional relationship label",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_TERM_LMVERSION",
+    "name": "SMQ_TERM_LMVERSION",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_TERM_LMVERSION",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Standardised MedDRA Query (SMQ) Last Modified Version. Version of MedDRA in which term was last modified in the SMQ.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_TERM_CAT",
+    "name": "SMQ_TERM_CAT",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_TERM_CAT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Standardised MedDRA Query (SMQ) Term Category. A single alphabetical letter indicating the category of the term for application of the SMQ algorithm. If the SMQ does not use algorithms, then all Term_category values are assigned \"A.\" For a child SMQ, this field is assigned \"S.\"",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_TERM_SCOPE",
+    "name": "SMQ_TERM_SCOPE",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_TERM_SCOPE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Standardised MedDRA Query (SMQ) Term Scope. Defines the MedDRA term as a member of the broad scope (1), narrow scope (2) of the SMQ search, or a child SMQ (0) (zero).",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_TERM_WEIGHT",
+    "name": "SMQ_TERM_WEIGHT",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_TERM_WEIGHT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Standardised MedDRA Query (SMQ) Term Weight. Used for some SMQ algorithms; \"0\" is used as default.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_TERM_STATUS",
+    "name": "SMQ_TERM_STATUS",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_TERM_STATUS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Standardised MedDRA Query (SMQ) Term Status. Identifies a term as active (\"A\") or inactive (\"I\") within this SMQ.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SMQ_TERM_ADDVERSION",
+    "name": "SMQ_TERM_ADDVERSION",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "SMQ_TERM_ADDVERSION",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Standardised MedDRA Query (SMQ) Addition Version. Version of MedDRA in which term was added to the SMQ.",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "code": "RELA",
+    "name": "RELA",
+    "terminology": "radlex",
+    "version": "4_1",
+    "synonyms": [
+      {
+        "name": "RELA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Additional relationship label",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

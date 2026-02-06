@@ -1,0 +1,68 @@
+[
+  {
+    "code": "def-source",
+    "name": "def-source",
+    "terminology": "ctcae5",
+    "version": "202311",
+    "synonyms": [
+      {
+        "name": "def-source",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a definition source"
+      }
+    ]
+  },
+  {
+    "code": "term-group",
+    "name": "term-group",
+    "terminology": "ctcae5",
+    "version": "202311",
+    "synonyms": [
+      {
+        "name": "term-group",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym term type"
+      }
+    ]
+  },
+  {
+    "code": "term-source",
+    "name": "term-source",
+    "terminology": "ctcae5",
+    "version": "202311",
+    "synonyms": [
+      {
+        "name": "term-source",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym source"
+      }
+    ]
+  }
+]

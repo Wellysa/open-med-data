@@ -1,0 +1,614 @@
+[
+  {
+    "code": "RELA",
+    "name": "RELA",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "RELA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Additional relationship label",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7AI",
+    "name": "HL7AI",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7AI",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 approved indicator",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7IN",
+    "name": "HL7IN",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7IN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 inverse name",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7SY",
+    "name": "HL7SY",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7SY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 symmetry",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7IR",
+    "name": "HL7IR",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7IR",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 inverse relationship",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7IS",
+    "name": "HL7IS",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7IS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 is selectable",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7II",
+    "name": "HL7II",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7II",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 is immutable",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7CC",
+    "name": "HL7CC",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7CC",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 complete codes indicator",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7CD",
+    "name": "HL7CD",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7CD",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 conductible",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7IM",
+    "name": "HL7IM",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7IM",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 is mandatory indicator",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7OD",
+    "name": "HL7OD",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7OD",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 OID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7ID",
+    "name": "HL7ID",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 internal Id",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7MI",
+    "name": "HL7MI",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7MI",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 maintained indicator",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7SCS",
+    "name": "HL7SCS",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7SCS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 supported code system",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7SL",
+    "name": "HL7SL",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7SL",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 supported language",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7UN",
+    "name": "HL7UN",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7UN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 usage notes",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7OA",
+    "name": "HL7OA",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7OA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 owning affiliate",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7DI",
+    "name": "HL7DI",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7DI",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 deprecation info",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7TY",
+    "name": "HL7TY",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7TY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 property type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7CSC",
+    "name": "HL7CSC",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7CSC",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 conceptual space for class code",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7DC",
+    "name": "HL7DC",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7DC",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 is document characteristic",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7TR",
+    "name": "HL7TR",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7TR",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 transitive",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7HI",
+    "name": "HL7HI",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7HI",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 history item",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7PL",
+    "name": "HL7PL",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7PL",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 preferred for language",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7HA",
+    "name": "HL7HA",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7HA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 how applies",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7RK",
+    "name": "HL7RK",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7RK",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 relationship kind",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7CS",
+    "name": "HL7CS",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7CS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 code status",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7VC",
+    "name": "HL7VC",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7VC",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 value set content",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7VD",
+    "name": "HL7VD",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7VD",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 version date",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7AP",
+    "name": "HL7AP",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7AP",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 associated concept property",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7NA",
+    "name": "HL7NA",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7NA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 is navigable",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7RF",
+    "name": "HL7RF",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7RF",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 reflexivity",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7RD",
+    "name": "HL7RD",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7RD",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 release date",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7AT",
+    "name": "HL7AT",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "HL7AT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 applies to",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

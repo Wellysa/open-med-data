@@ -1,0 +1,470 @@
+[
+  {
+    "code": "C44",
+    "name": "has_DoseForm {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C44",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C44"
+      }
+    ]
+  },
+  {
+    "code": "R93",
+    "name": "has_PE {FDASPL}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "R93",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "R93"
+      }
+    ]
+  },
+  {
+    "code": "R83",
+    "name": "has_PE {FMTSME}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "R83",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "R83"
+      }
+    ]
+  },
+  {
+    "code": "C20",
+    "name": "has_PE {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C20",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C20"
+      }
+    ]
+  },
+  {
+    "code": "C22",
+    "name": "CI_PE {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C22",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C22"
+      }
+    ]
+  },
+  {
+    "code": "C52",
+    "name": "effect_may_be_inhibited_by {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C52",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C52"
+      }
+    ]
+  },
+  {
+    "code": "R91",
+    "name": "has_Chemical_Structure {FDASPL}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "R91",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "R91"
+      }
+    ]
+  },
+  {
+    "code": "C79",
+    "name": "has_Chemical_Structure {FMTSME}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C79",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C79"
+      }
+    ]
+  },
+  {
+    "code": "C26",
+    "name": "CI_ChemClass {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C26",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C26"
+      }
+    ]
+  },
+  {
+    "code": "C48",
+    "name": "has_active_metabolites {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C48",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C48"
+      }
+    ]
+  },
+  {
+    "code": "C24",
+    "name": "has_Ingredient {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C24",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C24"
+      }
+    ]
+  },
+  {
+    "code": "R92",
+    "name": "has_MoA {FDASPL}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "R92",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "R92"
+      }
+    ]
+  },
+  {
+    "code": "R82",
+    "name": "has_MoA {FMTSME}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "R82",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "R82"
+      }
+    ]
+  },
+  {
+    "code": "C28",
+    "name": "has_MoA {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C28",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C28"
+      }
+    ]
+  },
+  {
+    "code": "C30",
+    "name": "CI_MoA {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C30",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C30"
+      }
+    ]
+  },
+  {
+    "code": "C50",
+    "name": "site_of_metabolism {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C50",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C50"
+      }
+    ]
+  },
+  {
+    "code": "C32",
+    "name": "has_PK {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C32",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C32"
+      }
+    ]
+  },
+  {
+    "code": "R86",
+    "name": "may_diagnose {FMTSME}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "R86",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "R86"
+      }
+    ]
+  },
+  {
+    "code": "R85",
+    "name": "may_prevent {FMTSME}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "R85",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "R85"
+      }
+    ]
+  },
+  {
+    "code": "R84",
+    "name": "may_treat {FMTSME}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "R84",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "R84"
+      }
+    ]
+  },
+  {
+    "code": "C38",
+    "name": "may_prevent {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C38",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C38"
+      }
+    ]
+  },
+  {
+    "code": "C42",
+    "name": "may_diagnose {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C42",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C42"
+      }
+    ]
+  },
+  {
+    "code": "C34",
+    "name": "may_treat {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C34",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C34"
+      }
+    ]
+  },
+  {
+    "code": "C40",
+    "name": "induces {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C40",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C40"
+      }
+    ]
+  },
+  {
+    "code": "C36",
+    "name": "CI_with {NDFRT}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "C36",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "C36"
+      }
+    ]
+  },
+  {
+    "code": "R81",
+    "name": "has_TC {FMTSME}",
+    "terminology": "ndfrt",
+    "version": "2018.02.05",
+    "synonyms": [
+      {
+        "name": "R81",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "code",
+        "value": "R81"
+      }
+    ]
+  }
+]

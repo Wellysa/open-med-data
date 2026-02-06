@@ -1,0 +1,256 @@
+{
+  "associations": [
+    {
+      "code": "RO",
+      "name": "RO",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "RQ",
+      "name": "RQ",
+      "terminology": "mdr",
+      "version": "28_0"
+    }
+  ],
+  "synonymTypes": [
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "mdr",
+      "version": "28_0"
+    }
+  ],
+  "sources": [
+    {
+      "code": "MDR",
+      "name": "Medical Dictionary for Regulatory Activities Terminology (MedDRA), 28_0",
+      "terminology": "mdr",
+      "version": "28_0"
+    }
+  ],
+  "termTypes": [
+    {
+      "code": "AB",
+      "name": "Abbreviation in any source vocabulary",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "HG",
+      "name": "High Level Group Term",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "HT",
+      "name": "Hierarchical term",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "LLT",
+      "name": "Lower Level Term",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "MTH_HG",
+      "name": "MTH High Level Group Term",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "MTH_HT",
+      "name": "MTH Hierarchical term",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "MTH_LLT",
+      "name": "MTH Lower Level Term",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "MTH_OL",
+      "name": "MTH Non-current Lower Level Term",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "MTH_OS",
+      "name": "MTH System Organ Class",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "MTH_PT",
+      "name": "Metathesaurus preferred term",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "MTH_SMQ",
+      "name": "Metathesaurus version of Standardised MedDRA Query",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "OL",
+      "name": "Non-current Lower Level Term",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "OS",
+      "name": "System Organ Class",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "PT",
+      "name": "Designated preferred name",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ",
+      "name": "Standardised MedDRA Query",
+      "terminology": "mdr",
+      "version": "28_0"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "RELA",
+      "name": "RELA",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_TERM_LMVERSION",
+      "name": "SMQ_TERM_LMVERSION",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_TERM_CAT",
+      "name": "SMQ_TERM_CAT",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_TERM_SCOPE",
+      "name": "SMQ_TERM_SCOPE",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_TERM_WEIGHT",
+      "name": "SMQ_TERM_WEIGHT",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_TERM_STATUS",
+      "name": "SMQ_TERM_STATUS",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_TERM_ADDVERSION",
+      "name": "SMQ_TERM_ADDVERSION",
+      "terminology": "mdr",
+      "version": "28_0"
+    }
+  ],
+  "definitionTypes": [
+    {
+      "code": "MDR",
+      "name": "Medical Dictionary for Regulatory Activities Terminology (MedDRA), 28_0",
+      "terminology": "mdr",
+      "version": "28_0"
+    }
+  ],
+  "properties": [
+    {
+      "code": "SMQ_LEVEL",
+      "name": "SMQ_LEVEL",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_NOTE",
+      "name": "SMQ_NOTE",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "PRIMARY_PATH",
+      "name": "PRIMARY_PATH",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_SOURCE",
+      "name": "SMQ_SOURCE",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "Semantic_Type",
+      "name": "Semantic_Type",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_TERM_LEVEL",
+      "name": "SMQ_TERM_LEVEL",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_ALGORITHM",
+      "name": "SMQ_ALGORITHM",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "NCI_META_CUI",
+      "name": "NCI_META_CUI",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "PRIMARY_SOC",
+      "name": "PRIMARY_SOC",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "INTL_SOC_SORT_ORDER",
+      "name": "INTL_SOC_SORT_ORDER",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "PT_IN_VERSION",
+      "name": "PT_IN_VERSION",
+      "terminology": "mdr",
+      "version": "28_0"
+    },
+    {
+      "code": "SMQ_STATUS",
+      "name": "SMQ_STATUS",
+      "terminology": "mdr",
+      "version": "28_0"
+    }
+  ]
+}

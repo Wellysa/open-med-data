@@ -1,0 +1,246 @@
+[
+  {
+    "code": "Administration_Route",
+    "name": "Administration_Route",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Administration_Route",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Brand_Name",
+    "name": "Brand_Name",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Brand_Name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "CMS_Discontinuation_Date",
+    "name": "CMS_Discontinuation_Date",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "CMS_Discontinuation_Date",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "CMS_Effective_Date",
+    "name": "CMS_Effective_Date",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "CMS_Effective_Date",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Code",
+    "name": "Code",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Code",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a concept code"
+      }
+    ]
+  },
+  {
+    "code": "Discontinue_Date",
+    "name": "Discontinue_Date",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Discontinue_Date",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Effective_Date",
+    "name": "Effective_Date",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Effective_Date",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "FDA_Approval_Year",
+    "name": "FDA_Approval_Year",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "FDA_Approval_Year",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "FDA_Discontinuation_Year",
+    "name": "FDA_Discontinuation_Year",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "FDA_Discontinuation_Year",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Generic_Name",
+    "name": "Generic_Name",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Generic_Name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "HCPCS_Code",
+    "name": "HCPCS_Code",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "HCPCS_Code",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "NDC_Package_Code",
+    "name": "NDC_Package_Code",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "NDC_Package_Code",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "NDC_Product_Code",
+    "name": "NDC_Product_Code",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "NDC_Product_Code",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Oral",
+    "name": "Oral",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Oral",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Preferred_Name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a preferred name"
+      }
+    ]
+  },
+  {
+    "code": "Status",
+    "name": "Status",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Status",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Strength",
+    "name": "Strength",
+    "terminology": "canmed",
+    "version": "202601",
+    "synonyms": [
+      {
+        "name": "Strength",
+        "type": "default"
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "associations": [
+    {
+      "code": "RO",
+      "name": "RO",
+      "terminology": "icd10",
+      "version": "2016"
+    }
+  ],
+  "synonymTypes": [
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "icd10",
+      "version": "2016"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "icd10",
+      "version": "2016"
+    }
+  ],
+  "sources": [
+    {
+      "code": "ICD10",
+      "name": "ICD10, 2016",
+      "terminology": "icd10",
+      "version": "2016"
+    }
+  ],
+  "termTypes": [
+    {
+      "code": "HT",
+      "name": "Hierarchical term",
+      "terminology": "icd10",
+      "version": "2016"
+    },
+    {
+      "code": "MTH_HT",
+      "name": "MTH Hierarchical term",
+      "terminology": "icd10",
+      "version": "2016"
+    },
+    {
+      "code": "MTH_PT",
+      "name": "Metathesaurus preferred term",
+      "terminology": "icd10",
+      "version": "2016"
+    },
+    {
+      "code": "PT",
+      "name": "Designated preferred name",
+      "terminology": "icd10",
+      "version": "2016"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "RELA",
+      "name": "RELA",
+      "terminology": "icd10",
+      "version": "2016"
+    }
+  ],
+  "properties": [
+    {
+      "code": "INCLUSION_TERM",
+      "name": "INCLUSION_TERM",
+      "terminology": "icd10",
+      "version": "2016"
+    },
+    {
+      "code": "Semantic_Type",
+      "name": "Semantic_Type",
+      "terminology": "icd10",
+      "version": "2016"
+    },
+    {
+      "code": "IAN",
+      "name": "IAN",
+      "terminology": "icd10",
+      "version": "2016"
+    },
+    {
+      "code": "NCI_META_CUI",
+      "name": "NCI_META_CUI",
+      "terminology": "icd10",
+      "version": "2016"
+    }
+  ]
+}

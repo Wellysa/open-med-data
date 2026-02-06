@@ -1,0 +1,26 @@
+[
+  {
+    "code": "HT",
+    "name": "Hierarchical term",
+    "terminology": "icd10",
+    "version": "2016"
+  },
+  {
+    "code": "MTH_HT",
+    "name": "MTH Hierarchical term",
+    "terminology": "icd10",
+    "version": "2016"
+  },
+  {
+    "code": "MTH_PT",
+    "name": "Metathesaurus preferred term",
+    "terminology": "icd10",
+    "version": "2016"
+  },
+  {
+    "code": "PT",
+    "name": "Designated preferred name",
+    "terminology": "icd10",
+    "version": "2016"
+  }
+]

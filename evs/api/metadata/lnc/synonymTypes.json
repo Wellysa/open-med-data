@@ -1,0 +1,14 @@
+[
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "lnc",
+    "version": "2_80"
+  }
+]

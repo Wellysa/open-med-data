@@ -1,0 +1,8 @@
+[
+  {
+    "code": "ICD9CM",
+    "name": "International Classification of Diseases, Ninth Revision, Clinical Modification, 2014",
+    "terminology": "icd9cm",
+    "version": "2014"
+  }
+]

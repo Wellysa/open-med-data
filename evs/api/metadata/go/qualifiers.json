@@ -1,0 +1,72 @@
+[
+  {
+    "code": "oboInOwl:hasDbXref",
+    "name": "database_cross_reference",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "database_cross_reference",
+        "type": "rdfs:label"
+      }
+    ]
+  },
+  {
+    "code": "rdfs:label",
+    "name": "label",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "label",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "rdfs:comment",
+    "name": "comment",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "comment",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:status",
+    "name": "status",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "status",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasSynonymType",
+    "name": "has_synonym_type",
+    "terminology": "go",
+    "version": "2025-10-10",
+    "synonyms": [
+      {
+        "name": "has_synonym_type",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym term type"
+      }
+    ]
+  }
+]

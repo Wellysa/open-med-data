@@ -1,0 +1,32 @@
+# http://onkologia.org.pl/pl/nowotwory-u-dzieci-bialaczki-i-chloniaki-objawy
+
+(Snapshot from KRN portal, downloaded by crawl_krn_portal.py)
+
+# Nowotwory u dzieci - białaczki i chłoniakiObjawy
+![](https://onkologia.org.pl/sites/default/files/media/2021-10/AdobeStock_230609079.jpeg)
+## Objawy, wczesne wykrycie
+Wczesne objawy choroby nowotworowej układu krwiotwórczego lub chłonnego u dziecka mogą być przeoczone lub zbagatelizowane, gdyż często ich charakter i przebieg są niecharakterystyczne i przypominają objawy innych chorób wieku dziecięcego. Wstępne objawy sugerujące chorobę nowotworową układu krwiotwórczego to:
+narastająca niedokrwistość (bladość, osłabienie, brak łaknienia),
+gorączka o nieustalonej etiologii,
+objawy utrzymujących się zakażeń błon śluzowych jamy ustnej, gardła, ucha czy nosa,
+niejasne bóle kostne, utykanie,
+pojawienie się objawów skazy krwotocznej, czyli wybroczyny na skórze dziecka o niewyjaśnionym pochodzeniu, krwawienia,
+bóle brzucha,
+utrata masy ciała.
+Niekiedy stwierdza się powiększenie wątroby i śledziony oraz węzłów chłonnych obwodowych, klatki piersiowej lub jamy brzusznej. Ponieważ powyższe objawy (z wyjątkiem objawów skazy krwotocznej) występują u dzieci w przebiegu różnych chorób infekcyjnych, najczęściej pacjenci otrzymują leczenie adekwatne do przypuszczalnej etiologii. Dopiero wtedy, gdy leczenie po 5-7 dniach nie przynosi oczekiwanego efektu, należy myśleć o innych przyczynach objawów, w tym o procesie nowotworowym w układzie krwiotwórczym.
+Konieczne jest wówczas wykonanie badania  krwi z oceną rozmazu krwinek białych oraz określeniem liczby retikulocytów (młodych krwinek czerwonych) i płytek krwi. Podejrzenie procesu rozrostowego budzi zmniejszenie liczby prawidłowych krwinek produkowanych w szpiku (erytrocytów, płytek krwi, granulocytów). Jest to efekt tzw. wyparcia fizjologicznych elementów krwi w szpiku kostnym przez mnożące się intensywnie komórki nowotworowe, określane w białaczkach mianem blastów. Ogólna liczba leukocytów – białych krwinek krwi – może być przy tym prawidłowa, obniżona lub podwyższona.
+W razie jakichkolwiek wątpliwości dziecko powinno być niezwłocznie skierowane do ośrodka specjalistycznego, gdyż ostateczne rozpoznanie lub wykluczenie choroby nowotworowej w wielu przypadkach możliwe jest jedynie na podstawie dokładnego badania szpiku kostnego.
+U większości pacjentów mało charakterystyczne objawy pojawiają się na 2 do 6 tygodni przed ustaleniem właściwego rozpoznania. Powodem zgłoszenia się do lekarza jest zwykle ogólne osłabienie, brak łaknienia oraz objawy infekcyjne z gorączką i zmianami zapalnymi, czasem ropnymi, w obrębie gardła i jamy nosowej.
+Upośledzenie prawidłowego powstawania krwinek krwi prowadzi do rozwoju objawów związanych z niedokrwistością, małopłytkowością i neutropenią. Niedokrwistość jest przyczyną osłabienia, bladości powłok skórnych i braku łaknienia. W wyniku zmniejszenia liczby granulocytów obojętnochłonnych występują zwyżki temperatury ciała, pojawiają się owrzodzenia w jamie ustnej oraz inne objawy zakażeń. Infekcje te z reguły nie ustępują, mimo podejmowanego leczenia. Jeżeli wskutek wyparcia prawidłowych elementów  ze szpiku kostnego dochodzi do małopłytkowości, obserwuje się objawy skazy krwotocznej w postaci wybroczyn i podbiegnięć krwawych na skórze i błonach śluzowych. Czasami pacjent zgłasza bóle kostne i trafia do ortopedy lub chirurga, tymczasem przyczynę dolegliwości stanowią zmiany destrukcyjne kości wywołane przez nacieki blastów. Wykonanie zwykłego zdjęcia RTG kości może w tych przypadkach przyczynić się do wcześniejszego postawienia właściwego rozpoznania.
+Stosunkowo rzadko u tych dzieci stwierdza się powiększenie narządów limfatycznych, a więc węzłów chłonnych, śledziony i wątroby. Niekiedy białaczka z komórek T przebiega pod postacią guzowatą, ze znacznym powiększeniem węzłów chłonnych obwodowych i śródpiersiowych, powiększeniem wątroby i/lub śledziony i podwyższoną liczbą białych krwinek. U ok. 5% dzieci w czasie ustalania rozpoznania stwierdza się zajęcie ośrodkowego układu nerwowego, zwykle na podstawie badania płynu mózgowo-rdzeniowego, które przeprowadza się w razie podejrzanych objawów neurologicznych stwierdzanych przez lekarza.
+Pierwszym objawem złośliwego chłoniaka nieziarniczego u dziecka jest znaczne niebolesne powiększenie jednej lub kilku grup obwodowych węzłów chłonnych. W brzusznej lokalizacji szybko rosnący guz czasami widoczny jest przez powłoki,  czasami stwierdza się płyn w jamie brzusznej. Rozrost guza w świetle jelita może doprowadzić do niedrożności. W umiejscowieniu śródpiersiowym – w klatce piersiowej – występuje  długo utrzymujący się kaszel, stany podgorączkowe, objawy zapalenia oskrzeli, czasami płyn w jamie opłucnowej. Niekiedy pojawiają się objawy zespołu żyły głównej górnej (duszność, poszerzenie naczyń żylnych na klatce piersiowej, zasinienie i obrzęk górnej połowy ciała oraz„stridor” – chrakterystyczny świst w trakcie oddychania).
+Strona korzysta z ciasteczek
+Wykorzystujemy pliki cookie i inne technologie z myślą o optymalizacji witryny oraz w celach promocyjnych i marketingowych. Poza tym informacje dot. korzystania przez użytkownika z plików cookie przekazujemy naszym partnerom zajmującym się mediami społecznościowymi, reklamą i analityką. Wciśnięcie przycisku “Akceptuj wszystkie pliki cookie” oznacza wyrażenie zgody na wykorzystywanie przez nas plików cookie. Aby uzyskać więcej informacji, odwiedź politykę dotyczącą plików cookie.
+Wymagane
+Podczas odwiedzania jakiejkolwiek strony internetowej, może ona przechowywać lub pobierać informacje z przeglądarki, głównie w formie plików cookie. Informacje te mogą dotyczyć użytkownika, jego preferencji lub urządzenia i są najczęściej wykorzystywane w celu zapewnienia, że witryna będzie działać tak, jak tego oczekują użytkownicy.
+Analityka
+Informacje zazwyczaj nie identyfikują bezpośrednio użytkownika, ale mogą zapewnić mu bardziej spersonalizowane doświadczenie w sieci. Ponieważ szanujemy prawo użytkownika do prywatności, użytkownik może zrezygnować z akceptowania niektórych rodzajów plików cookie. Aby dowiedzieć się więcej i zmienić nasze ustawienia domyślne, należy kliknąć na poszczególne nagłówki kategorii. Jednakże blokowanie niektórych rodzajów plików cookie może mieć wpływ na doświadczenia użytkownika związane z witryną i usługami, które możemy zaoferować.
+Akceptuje podstawowe ustawienie
+Pokaż szczegóły
+Zapisz
+<https://www.printfriendly.com>

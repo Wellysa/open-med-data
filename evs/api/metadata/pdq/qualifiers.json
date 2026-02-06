@@ -1,0 +1,56 @@
+[
+  {
+    "code": "RELA",
+    "name": "RELA",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "RELA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Additional relationship label",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LT",
+    "name": "LT",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "LT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates if a chemicals or medical device is a tradename (present in older versions of the Metathesaurus and was discontinued, then brought back starting in 2002AD)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "NCI_THESAURUS_CODE",
+    "name": "NCI_THESAURUS_CODE",
+    "terminology": "pdq",
+    "version": "2016_07_31",
+    "synonyms": [
+      {
+        "name": "NCI_THESAURUS_CODE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "NCI Thesaurus Code",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

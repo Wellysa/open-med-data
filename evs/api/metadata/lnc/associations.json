@@ -1,0 +1,74 @@
+[
+  {
+    "code": "RB",
+    "name": "RB",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "RB",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "has a broader relationship",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "RN",
+    "name": "RN",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "RN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "has a narrower relationship",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "RO",
+    "name": "RO",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "RO",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "has relationship other than synonymous, narrower, or broader",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "RQ",
+    "name": "RQ",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "RQ",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "related and possibly synonymous.",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

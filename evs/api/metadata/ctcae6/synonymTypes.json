@@ -1,0 +1,14 @@
+[
+  {
+    "code": "P90",
+    "name": "P90",
+    "terminology": "ctcae6",
+    "version": "6.0"
+  },
+  {
+    "code": "P108",
+    "name": "P108",
+    "terminology": "ctcae6",
+    "version": "6.0"
+  }
+]

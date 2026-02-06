@@ -1,0 +1,8 @@
+{
+  "terminology": "icd10cm",
+  "total": 97903,
+  "page_size": 500,
+  "include": "full",
+  "pages": 197,
+  "probe_errors": {}
+}

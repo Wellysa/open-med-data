@@ -1,0 +1,62 @@
+[
+  {
+    "code": "BR",
+    "name": "Binding realm",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  },
+  {
+    "code": "CDO",
+    "name": "Concept domain",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  },
+  {
+    "code": "CPR",
+    "name": "Concept property",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  },
+  {
+    "code": "CR",
+    "name": "Concept relationship",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  },
+  {
+    "code": "CSY",
+    "name": "Code system",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  },
+  {
+    "code": "NPT",
+    "name": "HL7 non-preferred for language term",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  },
+  {
+    "code": "ONP",
+    "name": "Obsolete non-preferred for language term",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  },
+  {
+    "code": "OP",
+    "name": "Obsolete preferred name",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  },
+  {
+    "code": "PT",
+    "name": "Designated preferred name",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  },
+  {
+    "code": "VS",
+    "name": "Value Set",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  }
+]

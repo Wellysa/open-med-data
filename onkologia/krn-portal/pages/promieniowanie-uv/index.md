@@ -1,0 +1,22 @@
+# http://onkologia.org.pl/pl/promieniowanie-uv
+
+(Snapshot from KRN portal, downloaded by crawl_krn_portal.py)
+
+# Promieniowanie UV
+![](https://onkologia.org.pl/sites/default/files/media/2021-09/AdobeStock_308464071.jpeg)
+## Nowotwory skóry są jednymi z najczęściej spotykanych nowotworów.
+Czerniak – jego najbardziej złośliwa forma – mimo że stanowi zaledwie pięć proc. wszystkich przypadków, charakteryzuje się największą śmiertelnością. Pozostałe dwa typy raka skóry mają łagodny charakter i nie zagrażają życiu. Najczęściej na czerniaka chorują osoby starsze, które ukończyły 70 lat. Jednak nowotwór ten rozwija się także u osób przed trzydziestką. Wg danych Amerykańskiego Towarzystwa ds. Walki z Rakiem czerniak jest najczęściej występującym nowotworem złośliwym wśród młodych kobiet.
+Największe ryzyko zachorowania mają osoby, które podczas wakacji intensywnie się opalają i często mają skórę poparzoną przez słońce, czyli w krótkim czasie otrzymują wysoką, toksyczną dla skóry dawkę promieniowania UV. W drugiej połowie XX wieku, opalenizna stała się bardzo popularna. Efekty czasu spędzanego na plaży w latach 60. zaczęły ujawniać się po kilkudziesięciu latach, gdyż czerniak potrzebuje dużo czasu, by się rozwinąć. W Europie, w latach 90. XX wieku częstotliwość zachorowań na złośliwe nowotwory skóry była dwukrotnie większa niż trzy dekady wcześniej. Obecnie zapadalność na czerniaka w krajach europejskich podwaja się co dziesięć lat. W Polsce wiele zdiagnozowanych przypadków kończy się zgonem, ponieważ wiele osób zgłasza się do lekarza, gdy choroba jest w zaawansowanym stadium.
+### Wpływ opalania na raka skóry
+Ludzie łakną opalenizny, mimo programów uświadamiających zagrożenia płynące z przebywania na słońcu. Jak wynika z badania prowadzonego przez australijski Instytut Raka, aż 31 proc. Australijczyków (nowotwory skóry przytrafiają im się 50-100 razy częściej niż Europejczykom), przyznaje, że czuje się atrakcyjniej, gdy jest opalona. Nadal pokutuje mit, że słońce to zdrowie, ponieważ bez niego nie ma witaminy D. Na naszej szerokości geograficznej, przy umiarkowanie jasnej karnacji wystarczy 15-minutowy spacer w letni dzień, a w zimowy trzy razy dłuższy, by organizm wytworzył odpowiednią dawkę tej witaminy. W niewielkich ilościach promieniowanie ultrafioletowe rzeczywiście sprzyja zdrowiu. Poza tym, że uruchamia produkcję witaminy D, także leczy krzywicę, żółtaczkę, łuszczycę i zmiany alergiczne na skórze. Nadmiar promieniowania słonecznego uszkadza skórę, oczy i osłabia działanie układu odpornościowego. Najgroźniejsze skutki opalania, to rak skóry i katarakta. Ultrafiolet uszkadza komórkowe DNA. Uszkodzenie to może być wielokrotnie powielane i powstaje trwała mutacja. Jeśli ta zmiana zajdzie w genie związanym z procesem karcynogenezy, wówczas komórka zamienia się w komórkę nowotworową.
+![opalaniedzieci](https://onkologia.org.pl/sites/default/files/styles/1110_auto/public/media/2021-09/AdobeStock_280961644.jpeg?itok=NXDqpWmy)
+Strona korzysta z ciasteczek
+Wykorzystujemy pliki cookie i inne technologie z myślą o optymalizacji witryny oraz w celach promocyjnych i marketingowych. Poza tym informacje dot. korzystania przez użytkownika z plików cookie przekazujemy naszym partnerom zajmującym się mediami społecznościowymi, reklamą i analityką. Wciśnięcie przycisku “Akceptuj wszystkie pliki cookie” oznacza wyrażenie zgody na wykorzystywanie przez nas plików cookie. Aby uzyskać więcej informacji, odwiedź politykę dotyczącą plików cookie.
+Wymagane
+Podczas odwiedzania jakiejkolwiek strony internetowej, może ona przechowywać lub pobierać informacje z przeglądarki, głównie w formie plików cookie. Informacje te mogą dotyczyć użytkownika, jego preferencji lub urządzenia i są najczęściej wykorzystywane w celu zapewnienia, że witryna będzie działać tak, jak tego oczekują użytkownicy.
+Analityka
+Informacje zazwyczaj nie identyfikują bezpośrednio użytkownika, ale mogą zapewnić mu bardziej spersonalizowane doświadczenie w sieci. Ponieważ szanujemy prawo użytkownika do prywatności, użytkownik może zrezygnować z akceptowania niektórych rodzajów plików cookie. Aby dowiedzieć się więcej i zmienić nasze ustawienia domyślne, należy kliknąć na poszczególne nagłówki kategorii. Jednakże blokowanie niektórych rodzajów plików cookie może mieć wpływ na doświadczenia użytkownika związane z witryną i usługami, które możemy zaoferować.
+Akceptuje podstawowe ustawienie
+Pokaż szczegóły
+Zapisz
+<https://www.printfriendly.com>

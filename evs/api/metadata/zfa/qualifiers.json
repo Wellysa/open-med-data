@@ -1,0 +1,36 @@
+[
+  {
+    "code": "oboInOwl:hasDbXref",
+    "name": "database_cross_reference",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "database_cross_reference",
+        "type": "rdfs:label"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasSynonymType",
+    "name": "has_synonym_type",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "has_synonym_type",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym term type"
+      }
+    ]
+  }
+]

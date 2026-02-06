@@ -1,0 +1,2100 @@
+{
+  "associations": [
+    {
+      "code": "A1",
+      "name": "Role_Has_Domain",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A12",
+      "name": "Has_Data_Element",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A13",
+      "name": "Related_To_Genetic_Biomarker",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A14",
+      "name": "Neoplasm_Has_Special_Category",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A15",
+      "name": "Has_CTCAE_5_Parent",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A16",
+      "name": "Has_INC_Parent",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A17",
+      "name": "Has_Pharmaceutical_State_Of_Matter",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A18",
+      "name": "Has_Pharmaceutical_Basic_Dose_Form",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A19",
+      "name": "Has_Pharmaceutical_Administration_Method",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A2",
+      "name": "Role_Has_Range",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A20",
+      "name": "Has_Pharmaceutical_Intended_Site",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A21",
+      "name": "Has_Pharmaceutical_Release_Characteristics",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A22",
+      "name": "Has_Pharmaceutical_Transformation",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A23",
+      "name": "Has_PCDC_Data_Type",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A24",
+      "name": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A25",
+      "name": "Value_Set_Is_Paired_With",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A26",
+      "name": "Has_PCDC_AML_Authorized_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A27",
+      "name": "Has_CTDC_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A28",
+      "name": "Is_PCDC_EWS_Authorized_Value_For_Variable",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A29",
+      "name": "Has_PCDC_EWS_Authorized_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A3",
+      "name": "Role_Has_Parent",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A30",
+      "name": "Has_ICDC_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A31",
+      "name": "Has_GDC_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A32",
+      "name": "Is_Value_For_GDC_Property",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A33",
+      "name": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A34",
+      "name": "Has_PCDC_GCT_Authorized_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A35",
+      "name": "Is_PCDC_ALL_Authorized_Value_For_Variable",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A36",
+      "name": "Has_PCDC_ALL_Authorized_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A37",
+      "name": "Has_SeroNet_Authorized_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A38",
+      "name": "Has_PCDC_OS_Authorized_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A39",
+      "name": "Has_PCDC_HL_Authorized_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A4",
+      "name": "Qualifier_Applies_To",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A40",
+      "name": "Has_DIPG_DMG_Authorized_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A42",
+      "name": "Has_OORO_PC_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A48",
+      "name": "Has_ACC-AHA_SARS2_Authorized_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A49",
+      "name": "Has_PRO-CTCAE_Attribute",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A5",
+      "name": "Has_Salt_Or_Ester_Form",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A50",
+      "name": "Has_Ped-PRO-CTCAE_Attribute",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A51",
+      "name": "Has_PRO-CTCAE_Attribute_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A52",
+      "name": "Has_Ped-PRO-CTCAE_Attribute_Value",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A53",
+      "name": "Has_PRO-CTCAE_Parent",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A54",
+      "name": "Has_Ped-PRO-CTCAE_Parent",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A6",
+      "name": "Has_Free_Acid_Or_Base_Form",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A7",
+      "name": "Has_Target",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A8",
+      "name": "Concept_In_Subset",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "A9",
+      "name": "Is_Related_To_Endogenous_Product",
+      "terminology": "ncit",
+      "version": "25.12e"
+    }
+  ],
+  "synonymTypes": [
+    {
+      "code": "P107",
+      "name": "Display_Name",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P108",
+      "name": "Preferred_Name",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P90",
+      "name": "FULL_SYN",
+      "terminology": "ncit",
+      "version": "25.12e"
+    }
+  ],
+  "sources": [
+    {
+      "code": "ACC/AHA",
+      "name": "American College of Cardiology / American Heart Association",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "BIOCARTA",
+      "name": "BioCarta online maps of molecular pathways, adapted for NCI use",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "BRIDG",
+      "name": "Biomedical Research Integrated Domain Model Group",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "BRIDG 3.0.3",
+      "name": "Biomedical Research Integrated Domain Model Group, version 3.0.3",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "BRIDG 5.3",
+      "name": "Biomedical Research Integrated Domain Model Group, version 5.3",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CBDD",
+      "name": "Chemical Biology and Drug Development",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CCPS",
+      "name": "Childhood Cancer Predisposition Study",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CDC",
+      "name": "U.S. Centers for Disease Control and Prevention",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CDISC",
+      "name": "Clinical Data Interchange Standards Consortium",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CDISC-GLOSS",
+      "name": "CDISC Glossary Terminology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CPTAC",
+      "name": "Clinical Proteomic Tumor Analysis Consortium",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CRCH",
+      "name": "Cancer Research Center of Hawaii Nutrition Terminology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTCAE",
+      "name": "Common Terminology Criteria for Adverse Events",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTCAE 3.0",
+      "name": "Common Terminology Criteria for Adverse Events, version 3.0",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTCAE 5.0",
+      "name": "Common Terminology Criteria for Adverse Events, version 5.0",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTCAE 6.0",
+      "name": "Common Terminology Criteria for Adverse Events, version 6.0",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTDC",
+      "name": "Clinical Trials Data Commons",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTEP",
+      "name": "Cancer Therapy Evaluation Program",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTRP",
+      "name": "Clinical Trials Reporting Program",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CareLex",
+      "name": "CareLex electronic Trial Master File Terminology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "Cellosaurus",
+      "name": "Cellosaurus - a knowledge resource on cell lines",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "DCP",
+      "name": "NCI Division of Cancer Prevention Program",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "DICOM",
+      "name": "Digital Imaging Communications in Medicine",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "DIPG/DMG",
+      "name": "Diffuse Intrinsic Pontine Glioma/Diffuse Midline Glioma",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "DTP",
+      "name": "NCI Developmental Therapeutics Program",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "EDQM-HC",
+      "name": "European Directorate for the Quality of Medicines & Healthcare",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "FDA",
+      "name": "U.S. Food and Drug Administration",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "FDA-NIH-MoRE",
+      "name": "FDA-NIH-Modernizing Research and Evidence",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "GAIA",
+      "name": "Global Alignment of Immunization safety Assessment in pregnancy Terminology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "GDC",
+      "name": "Genomic Data Commons",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "GENC",
+      "name": "Geopolitical Entities, Names, and Codes Terminology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "HGNC",
+      "name": "HUGO Gene Nomenclature Committee",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "HL7",
+      "name": "Health Level Seven International",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "HemOnc",
+      "name": "HemOnc.org (A Free Hematology/Oncology Reference)",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "ICD-10",
+      "name": "International Classification of Diseases, Tenth Revision",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "ICDC",
+      "name": "International Cancer Genome Consortium",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "ICH",
+      "name": "International Conference on Harmonization",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "INC",
+      "name": "International Neonatal Consortium",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "JAX",
+      "name": "Jackson Laboratories Mouse Terminology, adapted for NCI use",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "KEGG",
+      "name": "KEGG Pathway Database",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "MRCT-Ctr",
+      "name": "MRCT Center Clinical Research Plain Language Glossary at Harvard and Brigham and Women's Hospital",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "NCI",
+      "name": "National Cancer Institute Thesaurus",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "NCI-GLOSS",
+      "name": "NCI Dictionary of Cancer Terms",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "NCPDP",
+      "name": "National Council for Prescription Drug Programs",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "NDC",
+      "name": "National Drug Code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "NICHD",
+      "name": "National Institute of Child Health and Human Development",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "OORO",
+      "name": "Operational Ontology for Radiation Oncology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "ORCHESTRA",
+      "name": "Multinational project funded by the European Commission to advance the knowledge of the SARS-CoV-2 infection and its long-term effects",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "PCDC",
+      "name": "Pediatric Cancer Data Commons",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "PI-RADS",
+      "name": "Prostate Imaging-Reporting and Data System",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "PID",
+      "name": "NCI Nature Pathway Interaction Database",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "PRO-CTCAE",
+      "name": "PRO-CTCAE (Patient Reported Outcomes version of Common Terminology Criteria for Adverse Events)",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "RENI",
+      "name": "Registry Nomenclature Information System",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "SEER",
+      "name": "Surveillance, Epidemiology, and End Results Program",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "SeroNet",
+      "name": "NCI Serological Sciences Network for COVID-19",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "UBERON",
+      "name": "Uber-anatomy Ontology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "UCUM",
+      "name": "Unified Code for Units of Measure",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "WHO",
+      "name": "World Health Organization",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "ZFin",
+      "name": "Zebrafish Information Network",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "caDSR",
+      "name": "Cancer Data Standards Registry and Repository",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "mCode",
+      "name": "Minimal Common Oncology Data Elements",
+      "terminology": "ncit",
+      "version": "25.12e"
+    }
+  ],
+  "termTypes": [
+    {
+      "code": "AB",
+      "name": "Abbreviation",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "AD",
+      "name": "Adjectival form (and other parts of grammar)",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "AQ",
+      "name": "*Antiquated preferred term",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "AQS",
+      "name": "Antiquated term, use when there are antiquated synonyms within a concept",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "BR",
+      "name": "US brand name, which may be trademarked",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CA2",
+      "name": "ISO 3166 alpha-2 country code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CA3",
+      "name": "ISO 3166 alpha-3 country code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CI",
+      "name": "ISO country code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CN",
+      "name": "Drug study code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CNU",
+      "name": "ISO 3166 numeric country code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CS",
+      "name": "US State Department country code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "DN",
+      "name": "Display name",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "FB",
+      "name": "Foreign brand name, which may be trademarked",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "HD",
+      "name": "*Header (groups concepts, but not used for coding data)",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "HT",
+      "name": "Hierarchical term",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "LLT",
+      "name": "Lower level term",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "PT",
+      "name": "*Preferred term",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "RT",
+      "name": "Related term",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "SN",
+      "name": "Chemical structure name",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "SY",
+      "name": "Synonym",
+      "terminology": "ncit",
+      "version": "25.12e"
+    }
+  ],
+  "roles": [
+    {
+      "code": "R100",
+      "name": "Disease_Has_Associated_Anatomic_Site",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R101",
+      "name": "Disease_Has_Primary_Anatomic_Site",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R102",
+      "name": "Disease_Has_Metastatic_Anatomic_Site",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R103",
+      "name": "Disease_Has_Normal_Tissue_Origin",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R104",
+      "name": "Disease_Has_Normal_Cell_Origin",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R105",
+      "name": "Disease_Has_Abnormal_Cell",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R106",
+      "name": "Disease_Has_Molecular_Abnormality",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R107",
+      "name": "Disease_Has_Cytogenetic_Abnormality",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R108",
+      "name": "Disease_Has_Finding",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R110",
+      "name": "Disease_Is_Grade",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R111",
+      "name": "Disease_May_Have_Normal_Tissue_Origin",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R112",
+      "name": "Disease_May_Have_Normal_Cell_Origin",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R113",
+      "name": "Disease_May_Have_Abnormal_Cell",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R114",
+      "name": "Disease_May_Have_Cytogenetic_Abnormality",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R115",
+      "name": "Disease_May_Have_Finding",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R116",
+      "name": "Disease_May_Have_Associated_Disease",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R122",
+      "name": "Chemical_Or_Drug_Is_Metabolized_By_Enzyme",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R123",
+      "name": "Chemotherapy_Regimen_Has_Component",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R124",
+      "name": "Chemical_Or_Drug_Has_Mechanism_Of_Action",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R125",
+      "name": "Chemical_Or_Drug_Has_Physiologic_Effect",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R126",
+      "name": "Disease_Has_Associated_Disease",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R130",
+      "name": "Gene_Is_Element_In_Pathway",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R131",
+      "name": "Gene_Product_Is_Element_In_Pathway",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R132",
+      "name": "Gene_Has_Abnormality",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R133",
+      "name": "Gene_Product_Has_Abnormality",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R135",
+      "name": "Disease_Excludes_Primary_Anatomic_Site",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R136",
+      "name": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R137",
+      "name": "Disease_Excludes_Normal_Tissue_Origin",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R138",
+      "name": "Disease_Excludes_Normal_Cell_Origin",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R139",
+      "name": "Disease_Excludes_Abnormal_Cell",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R140",
+      "name": "Disease_Excludes_Molecular_Abnormality",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R141",
+      "name": "Disease_Excludes_Cytogenetic_Abnormality",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R142",
+      "name": "Disease_Excludes_Finding",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R145",
+      "name": "Gene_Has_Physical_Location",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R146",
+      "name": "Chemical_Or_Drug_Affects_Gene_Product",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R150",
+      "name": "Chemical_Or_Drug_Affects_Abnormal_Cell",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R153",
+      "name": "Allele_Has_Abnormality",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R155",
+      "name": "Allele_In_Chromosomal_Location",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R40",
+      "name": "Gene_In_Chromosomal_Location",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R156",
+      "name": "Allele_Absent_From_Wild-type_Chromosomal_Location",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R158",
+      "name": "Allele_Plays_Altered_Role_In_Process",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R37",
+      "name": "Gene_Plays_Role_In_Process",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R159",
+      "name": "Allele_Has_Activity",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R160",
+      "name": "Allele_Plays_Role_In_Metabolism_Of_Chemical_Or_Drug",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R163",
+      "name": "Procedure_Has_Target_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R165",
+      "name": "Procedure_Has_Imaged_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R166",
+      "name": "Procedure_May_Have_Excised_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R167",
+      "name": "Procedure_Has_Excised_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R168",
+      "name": "Procedure_May_Have_Partially_Excised_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R169",
+      "name": "Procedure_Has_Partially_Excised_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R170",
+      "name": "Procedure_May_Have_Completely_Excised_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R171",
+      "name": "Procedure_Has_Completely_Excised_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R172",
+      "name": "Regimen_Has_Accepted_Use_For_Disease",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R173",
+      "name": "Cytogenetic_Abnormality_Involves_Chromosome",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R82",
+      "name": "Anatomic_Structure_Is_Physical_Part_Of",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R174",
+      "name": "Disease_Mapped_To_Chromosome",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R175",
+      "name": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R176",
+      "name": "Disease_Mapped_To_Gene",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R177",
+      "name": "Molecular_Abnormality_Involves_Gene",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R178",
+      "name": "Gene_Mutant_Encodes_Gene_Product_Sequence_Variation",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R179",
+      "name": "Gene_Product_Sequence_Variation_Encoded_By_Gene_Mutant",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R182",
+      "name": "Gene_Product_Variant_Of_Gene_Product",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R23",
+      "name": "EO_Disease_Has_Associated_Cell_Type",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R24",
+      "name": "EO_Disease_Maps_To_Human_Disease",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R25",
+      "name": "EO_Disease_Has_Associated_EO_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R26",
+      "name": "EO_Disease_Has_Property_Or_Attribute",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R27",
+      "name": "Conceptual_Part_Of",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R28",
+      "name": "Biological_Process_Has_Initiator_Process",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R29",
+      "name": "Biological_Process_Has_Result_Chemical_Or_Drug",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R30",
+      "name": "Biological_Process_Has_Associated_Location",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R31",
+      "name": "Biological_Process_Has_Result_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R32",
+      "name": "Biological_Process_Has_Initiator_Chemical_Or_Drug",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R34",
+      "name": "Biological_Process_Has_Result_Biological_Process",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R35",
+      "name": "Biological_Process_Is_Part_Of_Process",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R36",
+      "name": "Gene_Is_Biomarker_Type",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R38",
+      "name": "Gene_Associated_With_Disease",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R39",
+      "name": "Gene_Is_Biomarker_Of",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R41",
+      "name": "Gene_Found_In_Organism",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R42",
+      "name": "Gene_Product_Is_Biomarker_Type",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R44",
+      "name": "Gene_Product_Has_Chemical_Classification",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R45",
+      "name": "Gene_Product_Has_Organism_Source",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R46",
+      "name": "Gene_Product_Has_Associated_Anatomy",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R47",
+      "name": "Gene_Product_Is_Biomarker_Of",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R48",
+      "name": "Gene_Product_Malfunction_Associated_With_Disease",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R49",
+      "name": "Gene_Product_Expressed_In_Tissue",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R50",
+      "name": "Gene_Product_Has_Structural_Domain_Or_Motif",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R51",
+      "name": "Gene_Product_Is_Physical_Part_Of",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R52",
+      "name": "Gene_Product_Has_Biochemical_Function",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R53",
+      "name": "Gene_Product_Plays_Role_In_Biological_Process",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R54",
+      "name": "Gene_Product_Encoded_By_Gene",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R66",
+      "name": "Chemical_Or_Drug_Plays_Role_In_Biological_Process",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R72",
+      "name": "Chemical_Or_Drug_Affects_Cell_Type_Or_Tissue",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R81",
+      "name": "Anatomic_Structure_Has_Location",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R88",
+      "name": "Disease_Is_Stage",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "R89",
+      "name": "Disease_May_Have_Molecular_Abnormality",
+      "terminology": "ncit",
+      "version": "25.12e"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "P378",
+      "name": "Definition Source",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P381",
+      "name": "attribution",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P383",
+      "name": "term-group",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P384",
+      "name": "term-source",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P385",
+      "name": "Source Code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P386",
+      "name": "Subsource Name",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P387",
+      "name": "go-id",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P389",
+      "name": "go-evi",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P390",
+      "name": "go-source",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P391",
+      "name": "source-date",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P393",
+      "name": "Relationship_to_Target",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P394",
+      "name": "Target_Term_Type",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P395",
+      "name": "Target_Code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P396",
+      "name": "Target_Terminology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P397",
+      "name": "Target_Terminology_Version",
+      "terminology": "ncit",
+      "version": "25.12e"
+    }
+  ],
+  "definitionTypes": [
+    {
+      "code": "ACC/AHA",
+      "name": "American College of Cardiology / American Heart Association",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "BIOCARTA",
+      "name": "BioCarta online maps of molecular pathways, adapted for NCI use",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "BRIDG",
+      "name": "Biomedical Research Integrated Domain Model Group",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "BRIDG 3.0.3",
+      "name": "Biomedical Research Integrated Domain Model Group, version 3.0.3",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "BRIDG 5.3",
+      "name": "Biomedical Research Integrated Domain Model Group, version 5.3",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CCPS",
+      "name": "Childhood Cancer Predisposition Study",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CDISC",
+      "name": "Clinical Data Interchange Standards Consortium",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CDISC-GLOSS",
+      "name": "CDISC Glossary Terminology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CRCH",
+      "name": "Cancer Research Center of Hawaii Nutrition Terminology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTCAE",
+      "name": "Common Terminology Criteria for Adverse Events",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTCAE 3.0",
+      "name": "Common Terminology Criteria for Adverse Events, version 3.0",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTCAE 5.0",
+      "name": "Common Terminology Criteria for Adverse Events, version 5.0",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTCAE 6.0",
+      "name": "Common Terminology Criteria for Adverse Events, version 6.0",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CTEP",
+      "name": "Cancer Therapy Evaluation Program",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "CareLex",
+      "name": "CareLex electronic Trial Master File Terminology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "DICOM",
+      "name": "Digital Imaging Communications in Medicine",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "DIPG/DMG",
+      "name": "Diffuse Intrinsic Pontine Glioma/Diffuse Midline Glioma",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "EDQM-HC",
+      "name": "European Directorate for the Quality of Medicines & Healthcare",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "FDA",
+      "name": "U.S. Food and Drug Administration",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "FDA-NIH-MoRE",
+      "name": "FDA-NIH-Modernizing Research and Evidence",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "GAIA",
+      "name": "Global Alignment of Immunization safety Assessment in pregnancy Terminology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "ICDO3",
+      "name": "International Classification of Diseases for Oncology, 3rd edition",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "ICH",
+      "name": "International Conference on Harmonization",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "INC",
+      "name": "International Neonatal Consortium",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "KEGG",
+      "name": "KEGG Pathway Database",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "MMHCC",
+      "name": "Mouse Models of Human Cancer Consortium",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "MRCT-Ctr",
+      "name": "MRCT Center Clinical Research Plain Language Glossary at Harvard and Brigham and Women's Hospital",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "NCI",
+      "name": "National Cancer Institute Thesaurus",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "NCI-GLOSS",
+      "name": "NCI Dictionary of Cancer Terms",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "NICHD",
+      "name": "National Institute of Child Health and Human Development",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "OORO",
+      "name": "Operational Ontology for Radiation Oncology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "PCDC",
+      "name": "Pediatric Cancer Data Commons",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "PQCMC",
+      "name": "Pharmaceutical Quality/Chemistry, Manufacturing, and Controls",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "UBERON",
+      "name": "Uber-anatomy Ontology",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "UMD2001",
+      "name": "Universal Medical Device Nomenclature System, Version 2001",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "UWDA142",
+      "name": "University of Washington Digital Anatomist, Version 1.4.2",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "WHO",
+      "name": "World Health Organization",
+      "terminology": "ncit",
+      "version": "25.12e"
+    }
+  ],
+  "properties": [
+    {
+      "code": "oboInOwl:hasDbXref",
+      "name": "xRef",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "NHC0",
+      "name": "code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P100",
+      "name": "OMIM_Number",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P101",
+      "name": "Homologous_Gene",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P102",
+      "name": "GenBank_Accession_Number",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P106",
+      "name": "Semantic_Type",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P107",
+      "name": "Display_Name",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P108",
+      "name": "Preferred_Name",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P167",
+      "name": "Image_Link",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P171",
+      "name": "PubMedID_Primary_Reference",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P175",
+      "name": "NSC Number",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P200",
+      "name": "OLD_PARENT",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P201",
+      "name": "OLD_CHILD",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P203",
+      "name": "OLD_KIND",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P204",
+      "name": "OLD_ROLE",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P207",
+      "name": "UMLS_CUI",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P208",
+      "name": "NCI_META_CUI",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P210",
+      "name": "CAS_Registry",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P211",
+      "name": "GO_Annotation",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P215",
+      "name": "KEGG_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P216",
+      "name": "BioCarta_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P302",
+      "name": "Accepted_Therapeutic_Use_For",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P310",
+      "name": "Concept_Status",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P315",
+      "name": "SNP_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P316",
+      "name": "Relative_Enzyme_Activity",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P317",
+      "name": "FDA_Table",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P319",
+      "name": "FDA_UNII_Code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P320",
+      "name": "OID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P321",
+      "name": "EntrezGene_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P322",
+      "name": "Contributing_Source",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P325",
+      "name": "ALT_DEFINITION",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P329",
+      "name": "PDQ_Open_Trial_Search_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P330",
+      "name": "PDQ_Closed_Trial_Search_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P331",
+      "name": "NCBI_Taxon_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P332",
+      "name": "MGI_Accession_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P333",
+      "name": "Use_For",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P334",
+      "name": "ICD-O-3_Code",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P350",
+      "name": "Chemical_Formula",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P351",
+      "name": "US_Recommended_Intake",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P352",
+      "name": "Tolerable_Level",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P353",
+      "name": "INFOODS",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P354",
+      "name": "USDA_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P355",
+      "name": "Unit",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P356",
+      "name": "Essential_Amino_Acid",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P357",
+      "name": "Essential_Fatty_Acid",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P358",
+      "name": "Nutrient",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P359",
+      "name": "Micronutrient",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P360",
+      "name": "Macronutrient",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P361",
+      "name": "Extensible_List",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P362",
+      "name": "miRBase_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P363",
+      "name": "Neoplastic_Status",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P364",
+      "name": "OLD_ASSOCIATION",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P366",
+      "name": "Legacy Concept Name",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P367",
+      "name": "PID_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P368",
+      "name": "CHEBI_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P369",
+      "name": "HGNC_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P371",
+      "name": "NICHD_Hierarchy_Term",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P372",
+      "name": "Publish_Value_Set",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P374",
+      "name": "Value_Set_Location",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P375",
+      "name": "Maps_To",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P376",
+      "name": "Term_Browser_Value_Set_Description",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P398",
+      "name": "Value_Set_Pair",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P399",
+      "name": "NCI_Drug_Dictionary_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P400",
+      "name": "ClinVar_Variation_ID",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P90",
+      "name": "FULL_SYN",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P92",
+      "name": "Subsource",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P93",
+      "name": "Swiss_Prot",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P96",
+      "name": "Gene_Encodes_Product",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P97",
+      "name": "DEFINITION",
+      "terminology": "ncit",
+      "version": "25.12e"
+    },
+    {
+      "code": "P98",
+      "name": "DesignNote",
+      "terminology": "ncit",
+      "version": "25.12e"
+    }
+  ]
+}

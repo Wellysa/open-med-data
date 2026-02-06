@@ -1,0 +1,38 @@
+[
+  {
+    "code": "RO",
+    "name": "RO",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "RO",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "has relationship other than synonymous, narrower, or broader",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "RQ",
+    "name": "RQ",
+    "terminology": "mdr",
+    "version": "28_0",
+    "synonyms": [
+      {
+        "name": "RQ",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "related and possibly synonymous.",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

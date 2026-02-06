@@ -1,0 +1,20 @@
+[
+  {
+    "code": "rdfs:label",
+    "name": "label",
+    "terminology": "duo",
+    "version": "2021-02-23"
+  },
+  {
+    "code": "oboInOwl:hasExactSynonym",
+    "name": "hasExactSynonym",
+    "terminology": "duo",
+    "version": "2021-02-23"
+  },
+  {
+    "code": "DUO_0000041",
+    "name": "DUO_preferred_label",
+    "terminology": "duo",
+    "version": "2021-02-23"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "code": "RQ",
+    "name": "RQ",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "RQ",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "related and possibly synonymous.",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

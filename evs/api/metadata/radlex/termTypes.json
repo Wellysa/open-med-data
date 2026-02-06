@@ -1,0 +1,32 @@
+[
+  {
+    "code": "ACR",
+    "name": "Acronym",
+    "terminology": "radlex",
+    "version": "4_1"
+  },
+  {
+    "code": "IS",
+    "name": "Obsolete Synonym",
+    "terminology": "radlex",
+    "version": "4_1"
+  },
+  {
+    "code": "OP",
+    "name": "Obsolete preferred name",
+    "terminology": "radlex",
+    "version": "4_1"
+  },
+  {
+    "code": "PT",
+    "name": "Designated preferred name",
+    "terminology": "radlex",
+    "version": "4_1"
+  },
+  {
+    "code": "SY",
+    "name": "Designated synonym",
+    "terminology": "radlex",
+    "version": "4_1"
+  }
+]

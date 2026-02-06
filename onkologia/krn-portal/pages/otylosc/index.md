@@ -1,0 +1,22 @@
+# http://onkologia.org.pl/pl/otylosc
+
+(Snapshot from KRN portal, downloaded by crawl_krn_portal.py)
+
+# Otyłość
+![](https://onkologia.org.pl/sites/default/files/media/2021-09/AdobeStock_241138841.jpeg)
+## Nadmierna masa ciała jest w Polsce drugim po paleniu tytoniu czynnikiem ryzyka rozwoju nowotworów.
+Otyłość kojarzy się najczęściej z chorobami kardiologicznymi i cukrzycą typu II, tymczasem nadmierna masa ciała jest drugim po paleniu tytoniu czynnikiem ryzyka rozwoju nowotworów. W Polsce blisko 20 proc. ludzi jest otyłych. W 2002 r. Międzynarodowa Agencja ds. Badań nad Rakiem (IARC) uznała za naukowy fakt, że nadwaga (wskaźnik masy ciała - BMI 25-29 kg/m2) i otyłość (BMI > 30 kg/m2) wiążą się z podwyższonym ryzykiem zachorowania na raka okrężnicy, gruczolakoraka przełyku, raka piersi po menopauzie, trzonu macicy i nerki. W 2007 r. dodano do tej listy raka trzustki oraz stwierdzono, że otyłość najprawdopodobniej zwiększa ryzyko rozwoju raka pęcherza moczowego.
+Z badań epidemiologicznych wynika, że szczupła sylwetka (BMI na poziomie 21-23 kg/m2) pozwala uniknąć do 20 proc. nowotworów związanych z nadmiarem tkanki tłuszczowej. Natomiast przyrost masy ciała (BMI powyżej 25 kg/m2 podwyższa  ryzyko rozwoju chorób nowotworowych około półtora razy w porównaniu z ryzykiem zachorowania na raka przy prawidłowym BMI. W krajach europejskich nadwaga i otyłość są przyczyną 11 proc.  zachorowań na raka okrężnicy, 9 proc. przypadków raka piersi, 39 proc. raka trzonu macicy, 37 proc. gruczolakoraka przełyku, 25 proc. nowotworów nerki i 24 proc. nowotworów pęcherzyka żółciowego. Przybywa dowodów, że wysokie BMI może także zwiększać prawdopodobieństwo nawrotów raka, osłabia skuteczność chemoterapii i zwiększa umieralność spowodowaną przez nowotwory.
+### Sposób, w jaki otyłość stymuluje rozwój guzów jest przedmiotem badań od lat 30. XX wieku.
+Mechanizmy tego procesu są bardzo złożone. Tkanka tłuszczowa nie tylko magazynuje nadwyżki energii, ale także produkuje różnego typu substancje. Jedną z nich jest estrogen. Wysoki poziom tego hormonu zwiększa ryzyko raka piersi, trzonu macicy i kilku innych nowotworów. Po drugie otyłe osoby mają we krwi większe ilości insuliny i podobnego do insuliny czynnika wzrostu (IGF) niż osoby szczupłe. Taki stan sprzyja rozwojowi niektórych guzów, na przykład raka wątroby i chłoniaków nieziarniczych u mężczyzn oraz raka okrężnicy i pęcherza moczowego u kobiet. Co więcej, komórki tłuszczowe, poza estrogenem, produkują także adipokiny, czyli hormony  regulujące procesy zapalne i metaboliczne oraz wzrost komórek. Adipokiny powodują, że otyłość jest w gruncie rzeczy przewlekłym, łagodnym stanem zapalnym. Procesy zapalne zwiększają ryzyko rozwoju raka, szczególnie raka wątroby (nawet 4,5-krotnie). Inne możliwe mechanizmy wpływające na zagrożenie chorobami nowotworowymi, to zmieniona odpowiedź immunologiczna i stres oksydacyjny.
+![liver](https://onkologia.org.pl/sites/default/files/styles/1110_auto/public/media/2021-09/AdobeStock_185823320.jpeg?itok=62jB4kM1)
+Strona korzysta z ciasteczek
+Wykorzystujemy pliki cookie i inne technologie z myślą o optymalizacji witryny oraz w celach promocyjnych i marketingowych. Poza tym informacje dot. korzystania przez użytkownika z plików cookie przekazujemy naszym partnerom zajmującym się mediami społecznościowymi, reklamą i analityką. Wciśnięcie przycisku “Akceptuj wszystkie pliki cookie” oznacza wyrażenie zgody na wykorzystywanie przez nas plików cookie. Aby uzyskać więcej informacji, odwiedź politykę dotyczącą plików cookie.
+Wymagane
+Podczas odwiedzania jakiejkolwiek strony internetowej, może ona przechowywać lub pobierać informacje z przeglądarki, głównie w formie plików cookie. Informacje te mogą dotyczyć użytkownika, jego preferencji lub urządzenia i są najczęściej wykorzystywane w celu zapewnienia, że witryna będzie działać tak, jak tego oczekują użytkownicy.
+Analityka
+Informacje zazwyczaj nie identyfikują bezpośrednio użytkownika, ale mogą zapewnić mu bardziej spersonalizowane doświadczenie w sieci. Ponieważ szanujemy prawo użytkownika do prywatności, użytkownik może zrezygnować z akceptowania niektórych rodzajów plików cookie. Aby dowiedzieć się więcej i zmienić nasze ustawienia domyślne, należy kliknąć na poszczególne nagłówki kategorii. Jednakże blokowanie niektórych rodzajów plików cookie może mieć wpływ na doświadczenia użytkownika związane z witryną i usługami, które możemy zaoferować.
+Akceptuje podstawowe ustawienie
+Pokaż szczegóły
+Zapisz
+<https://www.printfriendly.com>

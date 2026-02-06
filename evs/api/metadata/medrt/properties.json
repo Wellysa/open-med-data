@@ -1,0 +1,126 @@
+[
+  {
+    "code": "CTY",
+    "name": "CTY",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "CTY",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Code",
+    "name": "Code",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "Code",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a concept code"
+      }
+    ]
+  },
+  {
+    "code": "Concept_Name",
+    "name": "Concept_Name",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "Concept_Name",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "NUI",
+    "name": "NUI",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "NUI",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Preferred_Term",
+    "name": "Preferred_Term",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "Preferred_Term",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a preferred name"
+      }
+    ]
+  },
+  {
+    "code": "Status",
+    "name": "Status",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "Status",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "medrt",
+    "version": "2025.11.03",
+    "synonyms": [
+      {
+        "name": "Synonym",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  }
+]

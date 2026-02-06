@@ -1,0 +1,14 @@
+[
+  {
+    "code": "P325",
+    "name": "ALT_DEFINITION",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "P97",
+    "name": "DEFINITION",
+    "terminology": "ncit",
+    "version": "25.12e"
+  }
+]

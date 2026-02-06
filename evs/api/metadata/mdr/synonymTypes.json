@@ -1,0 +1,14 @@
+[
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "mdr",
+    "version": "28_0"
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "mdr",
+    "version": "28_0"
+  }
+]

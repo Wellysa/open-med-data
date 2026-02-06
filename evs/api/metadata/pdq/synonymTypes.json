@@ -1,0 +1,14 @@
+[
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  }
+]

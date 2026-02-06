@@ -1,0 +1,956 @@
+[
+  {
+    "code": "RELA",
+    "name": "RELA",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "RELA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Additional relationship label",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LOINC_METHOD_TYP",
+    "name": "LOINC_METHOD_TYP",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LOINC_METHOD_TYP",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC method type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "VERSION_LAST_CHANGED",
+    "name": "VERSION_LAST_CHANGED",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "VERSION_LAST_CHANGED",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Version last changed",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "VERSION_FIRST_RELEASED",
+    "name": "VERSION_FIRST_RELEASED",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "VERSION_FIRST_RELEASED",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Version first released",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LOINC_TIME_ASPECT",
+    "name": "LOINC_TIME_ASPECT",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LOINC_TIME_ASPECT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC time aspect",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LRN2",
+    "name": "LRN2",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LRN2",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Related names 2",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7_ATTACHMENT_REQUEST",
+    "name": "HL7_ATTACHMENT_REQUEST",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "HL7_ATTACHMENT_REQUEST",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 attachment request",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "STATUS",
+    "name": "STATUS",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "STATUS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Indicates status of \"active\" (current) or \"inactive\" (obsolete/deprecated)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LFO",
+    "name": "LFO",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LFO",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC Formula - regression equation details for many OB.US calculated terms.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ANSWER_CODE_SYSTEM",
+    "name": "ANSWER_CODE_SYSTEM",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "ANSWER_CODE_SYSTEM",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Answer code system",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LOINC_PROPERTY",
+    "name": "LOINC_PROPERTY",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LOINC_PROPERTY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC property",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LOINC_SCALE_TYP",
+    "name": "LOINC_SCALE_TYP",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LOINC_SCALE_TYP",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC scale type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "COMMON_TEST_RANK",
+    "name": "COMMON_TEST_RANK",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "COMMON_TEST_RANK",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Numeric ranking of approximately 2,000 common tests performed by hospitals",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ANSWER_LIST_ID",
+    "name": "ANSWER_LIST_ID",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "ANSWER_LIST_ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Answer list ID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ASSOC_OBSERVATIONS",
+    "name": "ASSOC_OBSERVATIONS",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "ASSOC_OBSERVATIONS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Associated observations",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LOINC_COMPONENT",
+    "name": "LOINC_COMPONENT",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LOINC_COMPONENT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC component",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "COMMON_ORDER_RANK",
+    "name": "COMMON_ORDER_RANK",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "COMMON_ORDER_RANK",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Ranking of approximately 300 common orders performed by laboratories in USA",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "STATUS_TEXT",
+    "name": "STATUS_TEXT",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "STATUS_TEXT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Explanation of concept status in narrative text in LOINC",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LOR",
+    "name": "LOR",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LOR",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC ORDER_OBS field. Defines term as order only, observation only, or both. Values are: BOTH OBSERVATION ORDER. A fourth category, Subset, is used for terms that are subsets of a panel but do not represent a package that is known to be orderable.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LOINC_SCORE",
+    "name": "LOINC_SCORE",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LOINC_SCORE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A numeric score associated with a LOINC answer ('LA') concept.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LCL",
+    "name": "LCL",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LCL",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC Class - arbitrary classification of terms in LOINC designed to assist LOINC development and to group related observations together (e.g. ABXBACT = Antibiotic susceptibility)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LCN",
+    "name": "LCN",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LCN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC Classtype - 1 = Laboratory Class; 2 = Clinical Class; 3 = Claims Attachment; 4 = Surveys",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LOINC_SYSTEM",
+    "name": "LOINC_SYSTEM",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LOINC_SYSTEM",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC system",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "PANEL_TYPE",
+    "name": "PANEL_TYPE",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "PANEL_TYPE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Panel type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "IMAGING_DOCUMENT_VALUE_SET",
+    "name": "IMAGING_DOCUMENT_VALUE_SET",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "IMAGING_DOCUMENT_VALUE_SET",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A value of \"TRUE\" indicates that the LOINC NUM is a member of the Imaging Documents Value Set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LCT",
+    "name": "LCT",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LCT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC Change Type Code - type of change made to a LOINC term.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LCS",
+    "name": "LCS",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LCS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC status - valid values are \"ACTIVE,\" \"TRIAL,\" \"DISCOURAGED,\" \"DEPRECATED.\" For \"DEPRECATED\" or \"DISCOURAGED\" concepts, the term that should now be used may appear in the LMP element.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "STATUS_REASON",
+    "name": "STATUS_REASON",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "STATUS_REASON",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Classification of the reason for concept status in LOINC",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ANSWER_LIST_OID",
+    "name": "ANSWER_LIST_OID",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "ANSWER_LIST_OID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Answer list OID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7_FIELD_SUBFIELD_ID",
+    "name": "HL7_FIELD_SUBFIELD_ID",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "HL7_FIELD_SUBFIELD_ID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A value which indicates the content should be delivered in the named field/subfield of the HL7 message. When NULL, the data should be sent in an OBX segment with this LOINC code stored in OBX-3 and with the value in the OBX-5",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "UNIVERSAL_LAB_ORDERS_VALUE_SET",
+    "name": "UNIVERSAL_LAB_ORDERS_VALUE_SET",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "UNIVERSAL_LAB_ORDERS_VALUE_SET",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "A value of \"TRUE\" indicates that the LOINC NUM is a member of the LOINC Universal Lab Orders Value Set",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "USAGE_NOTES",
+    "name": "USAGE_NOTES",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "USAGE_NOTES",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Usage notes",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ANSWER_LIST_NAME",
+    "name": "ANSWER_LIST_NAME",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "ANSWER_LIST_NAME",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Answer list name",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "DESCRIPTION",
+    "name": "DESCRIPTION",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "DESCRIPTION",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Description",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "CHANGE_REASON_PUBLIC",
+    "name": "CHANGE_REASON_PUBLIC",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "CHANGE_REASON_PUBLIC",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Detailed explanation about special changes to the term over time.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "EXAMPLE_UNITS",
+    "name": "EXAMPLE_UNITS",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "EXAMPLE_UNITS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Example units",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "CONSUMER_NAME",
+    "name": "CONSUMER_NAME",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "CONSUMER_NAME",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "An experimental (beta) consumer friendly name",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "ASK_AT_ORDER_ENTRY",
+    "name": "ASK_AT_ORDER_ENTRY",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "ASK_AT_ORDER_ENTRY",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Ask at Order Entry (AOE) observations for a clinical observation or laboratory test",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "MOLECULAR_WEIGHT_OF_ANALYTE",
+    "name": "MOLECULAR_WEIGHT_OF_ANALYTE",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "MOLECULAR_WEIGHT_OF_ANALYTE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Molecular weight of analyte",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LUR",
+    "name": "LUR",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LUR",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Units required when used as OBX segment - a Y/N field that indicates that units are required when this LOINC is included as an OBX segment in a HIPAA attachment",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LEA",
+    "name": "LEA",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LEA",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC Example Answers - for some tests and measurements, LOINC has supplied examples of valid answers. These values differ from those in the ANSWERLIST field because that details possible values for nominal scale terms.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "IEEE_REFID",
+    "name": "IEEE_REFID",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "IEEE_REFID",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "IEEE REF ID",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "IEEE_CF_CODE10",
+    "name": "IEEE_CF_CODE10",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "IEEE_CF_CODE10",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "IEEE CF Code10",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LMP",
+    "name": "LMP",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LMP",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "LOINC Map to Code of the term that has superseded a term with a LCS value of DEPRECATED.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "EQUIVALENCE",
+    "name": "EQUIVALENCE",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "EQUIVALENCE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Equivalence",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LQT",
+    "name": "LQT",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LQT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Survey Question Text",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "LQS",
+    "name": "LQS",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "LQS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Survey Question Source",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "HL7_ATTACHMENT_STRUCTURE",
+    "name": "HL7_ATTACHMENT_STRUCTURE",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "HL7_ATTACHMENT_STRUCTURE",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "HL7 attachment structure",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SUBSEQUENT_TEXT_PROMPT",
+    "name": "SUBSEQUENT_TEXT_PROMPT",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "SUBSEQUENT_TEXT_PROMPT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Subsequent text prompt",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "SOS",
+    "name": "SOS",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "SOS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Scope Statement",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "EXAMPLE_UCUM_UNITS",
+    "name": "EXAMPLE_UCUM_UNITS",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "EXAMPLE_UCUM_UNITS",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "The Unified Code for Units of Measure (UCUM)",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "COPYRIGHT",
+    "name": "COPYRIGHT",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "COPYRIGHT",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Copyright",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "EXTERNAL_COPYRIGHT_LINK",
+    "name": "EXTERNAL_COPYRIGHT_LINK",
+    "terminology": "lnc",
+    "version": "2_80",
+    "synonyms": [
+      {
+        "name": "EXTERNAL_COPYRIGHT_LINK",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "External copyright link",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

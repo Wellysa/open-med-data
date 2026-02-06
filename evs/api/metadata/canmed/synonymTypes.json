@@ -1,0 +1,20 @@
+[
+  {
+    "code": "Brand_Name",
+    "name": "Brand_Name",
+    "terminology": "canmed",
+    "version": "202601"
+  },
+  {
+    "code": "Generic_Name",
+    "name": "Generic_Name",
+    "terminology": "canmed",
+    "version": "202601"
+  },
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "canmed",
+    "version": "202601"
+  }
+]

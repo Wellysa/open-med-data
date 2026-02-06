@@ -1,0 +1,20 @@
+[
+  {
+    "code": "RO",
+    "name": "RO",
+    "terminology": "hl7v30",
+    "version": "2024_11",
+    "synonyms": [
+      {
+        "name": "RO",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "has relationship other than synonymous, narrower, or broader",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "code": "rdfs:comment",
+    "name": "comment",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "comment",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "rdfs:label",
+    "name": "label",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "label",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a preferred name"
+      }
+    ]
+  },
+  {
+    "code": "owl:deprecated",
+    "name": "deprecated",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "deprecated",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0000231",
+    "name": "IAO_0000231",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "IAO_0000231",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:consider",
+    "name": "consider",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "consider",
+        "type": "rdfs:label"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:created_by",
+    "name": "created by",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "created by",
+        "type": "rdfs:label"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:creation_date",
+    "name": "creation date",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "creation date",
+        "type": "rdfs:label"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasDbXref",
+    "name": "database_cross_reference",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "database_cross_reference",
+        "type": "rdfs:label"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0000115",
+    "name": "definition",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "definition",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a definition"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasAlternativeId",
+    "name": "has_alternative_id",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "has_alternative_id",
+        "type": "rdfs:label"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasBroadSynonym",
+    "name": "has_broad_synonym",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "has_broad_synonym",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasExactSynonym",
+    "name": "has_exact_synonym",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "has_exact_synonym",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasNarrowSynonym",
+    "name": "has_narrow_synonym",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "has_narrow_synonym",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasOBONamespace",
+    "name": "has_obo_namespace",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "has_obo_namespace",
+        "type": "rdfs:label"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:hasRelatedSynonym",
+    "name": "has_related_synonym",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "has_related_synonym",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:id",
+    "name": "id",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "id",
+        "type": "rdfs:label"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a concept code"
+      }
+    ]
+  },
+  {
+    "code": "oboInOwl:inSubset",
+    "name": "in_subset",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "in_subset",
+        "type": "rdfs:label"
+      }
+    ]
+  },
+  {
+    "code": "IAO_0100001",
+    "name": "term replaced by",
+    "terminology": "zfa",
+    "version": "2019-08-02",
+    "synonyms": [
+      {
+        "name": "term replaced by",
+        "type": "rdfs:label"
+      }
+    ]
+  }
+]

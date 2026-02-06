@@ -1,0 +1,14 @@
+[
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "icd10cm",
+    "version": "2025"
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "icd10cm",
+    "version": "2025"
+  }
+]

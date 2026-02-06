@@ -1,0 +1,8 @@
+{
+  "terminology": "hl7v30",
+  "total": 9898,
+  "page_size": 500,
+  "include": "full",
+  "pages": 21,
+  "probe_errors": {}
+}

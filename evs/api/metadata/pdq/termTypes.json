@@ -1,0 +1,110 @@
+[
+  {
+    "code": "AB",
+    "name": "Abbreviation in any source vocabulary",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "ACR",
+    "name": "Acronym",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "BN",
+    "name": "Fully-specified drug brand name that can not be prescribed",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "CAS",
+    "name": "CAS Registry name",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "CHN",
+    "name": "Chemical structure name",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "CON",
+    "name": "Code name",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "CU",
+    "name": "Common usage",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "DN",
+    "name": "Display Name",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "FBD",
+    "name": "Foreign brand name",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "HT",
+    "name": "Hierarchical term",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "IND",
+    "name": "IND code",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "IS",
+    "name": "Obsolete Synonym",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "LV",
+    "name": "Lexical variant",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "NSC",
+    "name": "NSC code",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "PSC",
+    "name": "Protocol selection criteria",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "PT",
+    "name": "Designated preferred name",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "SY",
+    "name": "Designated synonym",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  },
+  {
+    "code": "XM",
+    "name": "Cross mapping set",
+    "terminology": "pdq",
+    "version": "2016_07_31"
+  }
+]

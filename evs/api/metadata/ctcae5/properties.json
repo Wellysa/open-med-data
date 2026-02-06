@@ -1,0 +1,114 @@
+[
+  {
+    "code": "ALT_DEFINITION",
+    "name": "ALT_DEFINITION",
+    "terminology": "ctcae5",
+    "version": "202311",
+    "synonyms": [
+      {
+        "name": "ALT_DEFINITION",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a definition"
+      }
+    ]
+  },
+  {
+    "code": "DEFINITION",
+    "name": "DEFINITION",
+    "terminology": "ctcae5",
+    "version": "202311",
+    "synonyms": [
+      {
+        "name": "DEFINITION",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a definition"
+      }
+    ]
+  },
+  {
+    "code": "FULL_SYN",
+    "name": "FULL_SYN",
+    "terminology": "ctcae5",
+    "version": "202311",
+    "synonyms": [
+      {
+        "name": "FULL_SYN",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a synonym"
+      }
+    ]
+  },
+  {
+    "code": "MedDRA_Code",
+    "name": "MedDRA_Code",
+    "terminology": "ctcae5",
+    "version": "202311",
+    "synonyms": [
+      {
+        "name": "MedDRA_Code",
+        "type": "default"
+      }
+    ]
+  },
+  {
+    "code": "NCIt_Code",
+    "name": "NCIt_Code",
+    "terminology": "ctcae5",
+    "version": "202311",
+    "synonyms": [
+      {
+        "name": "NCIt_Code",
+        "type": "default"
+      }
+    ],
+    "properties": [
+      {
+        "type": "remodeled",
+        "value": "true"
+      },
+      {
+        "type": "remodeledDescription",
+        "value": "Remodeled as a concept code"
+      }
+    ]
+  },
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "ctcae5",
+    "version": "202311",
+    "synonyms": [
+      {
+        "name": "Preferred_Name",
+        "type": "default"
+      }
+    ]
+  }
+]

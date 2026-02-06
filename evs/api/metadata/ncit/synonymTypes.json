@@ -1,0 +1,20 @@
+[
+  {
+    "code": "P107",
+    "name": "Display_Name",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "P108",
+    "name": "Preferred_Name",
+    "terminology": "ncit",
+    "version": "25.12e"
+  },
+  {
+    "code": "P90",
+    "name": "FULL_SYN",
+    "terminology": "ncit",
+    "version": "25.12e"
+  }
+]

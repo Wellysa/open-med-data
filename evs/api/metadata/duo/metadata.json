@@ -1,0 +1,328 @@
+{
+  "synonymTypes": [
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "oboInOwl:hasExactSynonym",
+      "name": "hasExactSynonym",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "DUO_0000041",
+      "name": "DUO_preferred_label",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    }
+  ],
+  "roles": [
+    {
+      "code": "BFO_0000050",
+      "name": "part of",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "BFO_0000051",
+      "name": "has part",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "RO_0000053",
+      "name": "bearer of",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "RO_0000057",
+      "name": "has participant",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "DUO_0000010",
+      "name": "is restricted to",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000039",
+      "name": "has measurement unit label",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000136",
+      "name": "is about",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000219",
+      "name": "denotes",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000221",
+      "name": "is quality measurement of",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000407",
+      "name": "has coordinate unit label",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000413",
+      "name": "is duration of",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000581",
+      "name": "has time stamp",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000583",
+      "name": "has measurement datum",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "OBI_0000293",
+      "name": "has_specified_input",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "OBI_0000299",
+      "name": "has_specified_output",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "OBI_0000312",
+      "name": "is_specified_output_of",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "RO_0000059",
+      "name": "concretizes",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "rdfs:comment",
+      "name": "comment",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "rdfs:seeAlso",
+      "name": "seeAlso",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0010000",
+      "name": "has axiom label",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    }
+  ],
+  "properties": [
+    {
+      "code": "rdfs:comment",
+      "name": "comment",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "rdfs:label",
+      "name": "label",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "name": "hasDbXref",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "oboInOwl:id",
+      "name": "id",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "oboInOwl:shorthand",
+      "name": "shorthand",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "oboInOwl:hasExactSynonym",
+      "name": "hasExactSynonym",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "core:exactMatch",
+      "name": "exactMatch",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "rdfs:seeAlso",
+      "name": "seeAlso",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "rdfs:isDefinedBy",
+      "name": "isDefinedBy",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "page",
+      "name": "page",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "BFO_0000180",
+      "name": "BFO CLIF specification label",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "BFO_0000179",
+      "name": "BFO OWL specification label",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "DUO_0000041",
+      "name": "DUO_preferred_label",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000118",
+      "name": "alternative term",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000232",
+      "name": "curator note",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000115",
+      "name": "definition",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000119",
+      "name": "definition source",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000116",
+      "name": "editor note",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000111",
+      "name": "editor preferred term",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000600",
+      "name": "elucidation",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000112",
+      "name": "example of usage",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000602",
+      "name": "has associated axiom(fol)",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000601",
+      "name": "has associated axiom(nl)",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000114",
+      "name": "has curation status",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000231",
+      "name": "has obsolescence reason",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000412",
+      "name": "imported from",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000234",
+      "name": "ontology term requester",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000117",
+      "name": "term editor",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0100001",
+      "name": "term replaced by",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    },
+    {
+      "code": "IAO_0000233",
+      "name": "term tracker item",
+      "terminology": "duo",
+      "version": "2021-02-23"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "synonymTypes": [
+    {
+      "code": "oboInOwl:hasExactSynonym",
+      "name": "hasExactSynonym",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "oboInOwl:hasRelatedSynonym",
+      "name": "hasRelatedSynonym",
+      "terminology": "chebi",
+      "version": "248.0"
+    }
+  ],
+  "roles": [
+    {
+      "code": "has_part",
+      "name": "has_part",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "has_role",
+      "name": "has_role",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "is_conjugate_base_of",
+      "name": "is_conjugate_base_of",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "is_conjugate_acid_of",
+      "name": "is_conjugate_acid_of",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "is_tautomer_of",
+      "name": "is_tautomer_of",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "is_substituent_group_from",
+      "name": "is_substituent_group_from",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "has_functional_parent",
+      "name": "has_functional_parent",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "is_enantiomer_of",
+      "name": "is_enantiomer_of",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "has_parent_hydride",
+      "name": "has_parent_hydride",
+      "terminology": "chebi",
+      "version": "248.0"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "oboInOwl:source",
+      "name": "source",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "name": "hasDbXref",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "oboInOwl:hasSynonymType",
+      "name": "hasSynonymType",
+      "terminology": "chebi",
+      "version": "248.0"
+    }
+  ],
+  "properties": [
+    {
+      "code": "IAO_0000231",
+      "name": "IAO_0000231",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "IAO_0100001",
+      "name": "IAO_0100001",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "oboInOwl:id",
+      "name": "id",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "charge",
+      "name": "charge",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "generalized_empirical_formula",
+      "name": "generalized_empirical_formula",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "inchi_key_string",
+      "name": "inchi_key_string",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "inchi_string",
+      "name": "inchi_string",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "mass",
+      "name": "mass",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "monoisotopic_mass",
+      "name": "monoisotopic_mass",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "smiles_string",
+      "name": "smiles_string",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "wurcs_representation",
+      "name": "wurcs_representation",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "name": "hasDbXref",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "IAO_0000115",
+      "name": "IAO_0000115",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "oboInOwl:hasAlternativeId",
+      "name": "hasAlternativeId",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "oboInOwl:hasExactSynonym",
+      "name": "hasExactSynonym",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "oboInOwl:hasOBONamespace",
+      "name": "hasOBONamespace",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "oboInOwl:hasRelatedSynonym",
+      "name": "hasRelatedSynonym",
+      "terminology": "chebi",
+      "version": "248.0"
+    },
+    {
+      "code": "oboInOwl:inSubset",
+      "name": "inSubset",
+      "terminology": "chebi",
+      "version": "248.0"
+    }
+  ]
+}

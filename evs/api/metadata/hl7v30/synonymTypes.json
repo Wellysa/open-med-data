@@ -1,0 +1,14 @@
+[
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "hl7v30",
+    "version": "2024_11"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "code": "rdfs:label",
+    "name": "label",
+    "terminology": "go",
+    "version": "2025-10-10"
+  },
+  {
+    "code": "oboInOwl:hasBroadSynonym",
+    "name": "has_broad_synonym",
+    "terminology": "go",
+    "version": "2025-10-10"
+  },
+  {
+    "code": "oboInOwl:hasExactSynonym",
+    "name": "has_exact_synonym",
+    "terminology": "go",
+    "version": "2025-10-10"
+  },
+  {
+    "code": "oboInOwl:hasNarrowSynonym",
+    "name": "has_narrow_synonym",
+    "terminology": "go",
+    "version": "2025-10-10"
+  },
+  {
+    "code": "oboInOwl:hasRelatedSynonym",
+    "name": "has_related_synonym",
+    "terminology": "go",
+    "version": "2025-10-10"
+  }
+]

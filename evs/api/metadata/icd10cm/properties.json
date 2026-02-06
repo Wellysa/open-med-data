@@ -1,0 +1,38 @@
+[
+  {
+    "code": "Semantic_Type",
+    "name": "Semantic_Type",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "Semantic_Type",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Semantic Type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "NCI_META_CUI",
+    "name": "NCI_META_CUI",
+    "terminology": "icd10cm",
+    "version": "2025",
+    "synonyms": [
+      {
+        "name": "NCI_META_CUI",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "CUI assignment in the NCI Metatehsaurus",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

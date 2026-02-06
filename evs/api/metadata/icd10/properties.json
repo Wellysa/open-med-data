@@ -1,0 +1,74 @@
+[
+  {
+    "code": "INCLUSION_TERM",
+    "name": "INCLUSION_TERM",
+    "terminology": "icd10",
+    "version": "2016",
+    "synonyms": [
+      {
+        "name": "INCLUSION_TERM",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Inclusion or entry term",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "Semantic_Type",
+    "name": "Semantic_Type",
+    "terminology": "icd10",
+    "version": "2016",
+    "synonyms": [
+      {
+        "name": "Semantic_Type",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Semantic Type",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "IAN",
+    "name": "IAN",
+    "terminology": "icd10",
+    "version": "2016",
+    "synonyms": [
+      {
+        "name": "IAN",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "Annotation or Usage Note - a value of \"+\" or \"DAGGER,\" denotes a code describing the etiology or underlying cause of the disease; an \"*\" or \"ASTERISK,\" denotes a code describing the manifestation of a disease. A value of \"DEFAULT\" indicates that dual coding is not indicated.",
+        "type": "DEFINITION"
+      }
+    ]
+  },
+  {
+    "code": "NCI_META_CUI",
+    "name": "NCI_META_CUI",
+    "terminology": "icd10",
+    "version": "2016",
+    "synonyms": [
+      {
+        "name": "NCI_META_CUI",
+        "type": "Preferred_Name"
+      }
+    ],
+    "definitions": [
+      {
+        "definition": "CUI assignment in the NCI Metatehsaurus",
+        "type": "DEFINITION"
+      }
+    ]
+  }
+]

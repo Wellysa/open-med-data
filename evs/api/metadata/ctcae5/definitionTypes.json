@@ -1,0 +1,14 @@
+[
+  {
+    "code": "ALT_DEFINITION",
+    "name": "ALT_DEFINITION",
+    "terminology": "ctcae5",
+    "version": "202311"
+  },
+  {
+    "code": "DEFINITION",
+    "name": "DEFINITION",
+    "terminology": "ctcae5",
+    "version": "202311"
+  }
+]

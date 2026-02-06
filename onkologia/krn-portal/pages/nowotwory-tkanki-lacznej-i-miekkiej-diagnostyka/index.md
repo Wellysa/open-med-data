@@ -1,0 +1,34 @@
+# http://onkologia.org.pl/pl/nowotwory-tkanki-lacznej-i-miekkiej-diagnostyka
+
+(Snapshot from KRN portal, downloaded by crawl_krn_portal.py)
+
+# Nowotwory tkanki łącznej i miękkiejDiagnostyka
+![](https://onkologia.org.pl/sites/default/files/media/2021-10/AdobeStock_254287301.jpeg)
+## Diagnostyka
+Rozpoznanie mięsaka ustala się na podstawie badania fizykalnego pacjenta, obrazu radiologicznego oraz rozpoznania histopatologicznego. Określa się je na podstawie oceny materiału tkankowego pobranego w czasie biopsji. Na każdym etapie niezbędne jest doświadczenie zespołu lekarskiego w leczeniu mięsaków oraz zaplecze diagnostyczno-lecznicze umożliwiające  zastosowanie optymalnego postępowania.
+Badanie fizykalne powinno obejmować ocenę wielkości zmiany,  jej ruchomości w stosunku do tkanek otaczających i przede wszystkim położenia w stosunku do powięzi (nad- lub podpowięziowe). Lekarz badaniem obejmuje także regionalne węzły chłonne. W ogólnej grupie chorych na mięsaki zajęcie regionalnych węzłów chłonnych w chwili rozpoznania stwierdza się jedynie w 5% przypadków.
+### Diagnostyka radiologiczna
+Celem wykonania badań obrazowych jest ocena miejscowego zaawansowania nowotworu, obecności przerzutów (regionalnych i odległych) oraz zaplanowanie biopsji i leczenia chirurgicznego. Diagnostykę należy rozpocząć od wykonania RTG kości okolicy zmienionej chorobowo, aby zróżnicować głęboko położonego mięsaka tkanek miękkich od pierwotnego mięsaka kości z nacieczeniem tkanek otaczających. W kolejnym etapie należy wykonać tomografię komputerową ogniska pierwotnego lub rezonans magnetyczny (jeżeli konieczna jest ocena struktur naczyniowo-nerwowych). Chorzy na mięsaki przestrzeni zaotrzewnowej i śródotrzewnowej wymagają wykonania tak zwanej spiralnej tomografii komputerowej.
+Do oceny stadium zaawansowania choroby należy wykonać badania obrazowe klatki piersiowej. W mięsakach o niskim ryzyku obecności przerzutów odległych wystarczającym badaniem jest zdjęcie rentgenowskie klatki piersiowej w dwóch projekcjach. U pozostałych pacjentów zaleca się wykonanie tomografii komputerowej klatki piersiowej. Dodatkowo w niektórych typach wykonuje się tomografię jamy brzusznej, a w większości badaniem wystarczającym jest USG brzucha.
+Znaczenie pozytonowej tomografii emisyjnej (PET) w mięsakach dotyczy wybranych przypadków klinicznych, zwłaszcza gdy istnieje duże ryzyko rozsiewu choroby, lub u chorych uczulonych na kontrast dożylny. Obecnie prowadzone są badania kliniczne oceniające przydatność PET do monitorowania leczenia; wstępne wyniki są obiecujące.
+### Biopsja
+Wskazaniem do wykonania biopsji przedoperacyjnej jest obecność guza o największej średnicy, powyżej 5 cm, o znacznej dynamice wzrostu oraz w każdym przypadku zmian położonych podpowięziowo. Właściwie przeprowadzona biopsja jest decydującym etapem postępowania klinicznego, pozwala uzyskać rozpoznanie histopatologiczne i ocenę stopnia złośliwości. Jednak konieczne jest zaplanowanie (i wykonanie) jej tak, aby nie wpłynęła negatywnie na dalszy przebieg leczenia. Należy pamiętać o możliwości rozsiewu miejscowego za pośrednictwem otwarcia torebki guza lub uszkodzenia struktur sąsiadujących i ułatwienia rozplemu.
+Biopsja cienkoigłowa (BAC) jest zabiegiem mało traumatycznym, jednak w mięsakach nie jest zalecana z uwagi na znaczny odsetek zafałszowanych wyników i brak możliwości przeprowadzenia dalszej diagnostyki na tak pobranym materiale. BAC jest dobrym badaniem przesiewowym, weryfikującym, czy jest to zmiana łagodna, czy złośliwa oraz czy jest to zmiana pierwotna, czy ognisko przerzutowe.
+Biopsja gruboigłowa jest preferowana w mięsakach, ponieważ pozwala określić rozpoznanie i stopień złośliwości w 96% przypadków. Ważne jest, aby miejsca wkłuć po biopsji usunąć w czasie zabiegu operacyjnego razem z ogniskiem pierwotnym.
+Biopsje otwarte umożliwiają pobranie większej próbki zmiany nowotworowej do oceny oraz dokładniejszą kontrolę krwawienia po operacji.
+Biopsja wycinająca (całkowite usunięcie ogniska mięsaka) jest możliwa jedynie w przypadku zmian zlokalizowanych nadpowięziowo o wymiarze poniżej 5 cm średnicy. Jednak pacjenci bardzo rzadko zgłaszają się w tak wczesnym stadium choroby. Każde usunięcie mięsaka powyżej 5 cm lub położonego podpowięziowo jest błędem w sztuce lekarskiej i uniemożliwia optymalne postępowanie lecznicze.
+Według zaleceń Europejskiego Towarzystwa Onkologicznego zajmującego się nowotworami układu kostno-mięśniowego (ang.
+European Musculo-Skeletal Oncology Society, EMSOS)
+u chorych na mięsaki tkanek miękkich zaleca się wykonywanie biopsji przez doświadczony w leczeniu mięsaków zespół chirurgiczny, który następnie będzie wykonywał operację ostateczną. Ośrodek, w którym leczeni są chorzy na mięsaki, musi dysponować możliwością leczenia skojarzonego. Jeśli takiej możliwości nie ma, należy przesłać chorego do ośrodka referencyjnego.
+### Diagnostyka patomorfologiczna i badania molekularne
+Materiał tkankowy pobrany w czasie biopsji należy ocenić pod mikroskopem świetlnym, zastosować typowe barwienia, a następnie przeprowadzić szereg badań. Coraz większe znaczenie w diagnostyce mięsaków mają badania molekularne umożliwiające postawienie dokładniejszego rozpoznania podtypu mięsaka. Określenie podtypu mięsaka oraz jego stopnia złośliwości pozwala na indywidualizację postępowania, a przez to uzyskanie najlepszych wyników leczenia.
+Strona korzysta z ciasteczek
+Wykorzystujemy pliki cookie i inne technologie z myślą o optymalizacji witryny oraz w celach promocyjnych i marketingowych. Poza tym informacje dot. korzystania przez użytkownika z plików cookie przekazujemy naszym partnerom zajmującym się mediami społecznościowymi, reklamą i analityką. Wciśnięcie przycisku “Akceptuj wszystkie pliki cookie” oznacza wyrażenie zgody na wykorzystywanie przez nas plików cookie. Aby uzyskać więcej informacji, odwiedź politykę dotyczącą plików cookie.
+Wymagane
+Podczas odwiedzania jakiejkolwiek strony internetowej, może ona przechowywać lub pobierać informacje z przeglądarki, głównie w formie plików cookie. Informacje te mogą dotyczyć użytkownika, jego preferencji lub urządzenia i są najczęściej wykorzystywane w celu zapewnienia, że witryna będzie działać tak, jak tego oczekują użytkownicy.
+Analityka
+Informacje zazwyczaj nie identyfikują bezpośrednio użytkownika, ale mogą zapewnić mu bardziej spersonalizowane doświadczenie w sieci. Ponieważ szanujemy prawo użytkownika do prywatności, użytkownik może zrezygnować z akceptowania niektórych rodzajów plików cookie. Aby dowiedzieć się więcej i zmienić nasze ustawienia domyślne, należy kliknąć na poszczególne nagłówki kategorii. Jednakże blokowanie niektórych rodzajów plików cookie może mieć wpływ na doświadczenia użytkownika związane z witryną i usługami, które możemy zaoferować.
+Akceptuje podstawowe ustawienie
+Pokaż szczegóły
+Zapisz
+<https://www.printfriendly.com>

@@ -1,0 +1,38 @@
+[
+  {
+    "code": "alias_name",
+    "name": "alias_name",
+    "terminology": "hgnc",
+    "version": "202601"
+  },
+  {
+    "code": "alias_symbol",
+    "name": "alias_symbol",
+    "terminology": "hgnc",
+    "version": "202601"
+  },
+  {
+    "code": "name",
+    "name": "name",
+    "terminology": "hgnc",
+    "version": "202601"
+  },
+  {
+    "code": "prev_name",
+    "name": "prev_name",
+    "terminology": "hgnc",
+    "version": "202601"
+  },
+  {
+    "code": "prev_symbol",
+    "name": "prev_symbol",
+    "terminology": "hgnc",
+    "version": "202601"
+  },
+  {
+    "code": "symbol",
+    "name": "symbol",
+    "terminology": "hgnc",
+    "version": "202601"
+  }
+]

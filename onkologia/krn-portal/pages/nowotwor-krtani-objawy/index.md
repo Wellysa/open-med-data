@@ -1,0 +1,19 @@
+# http://onkologia.org.pl/pl/nowotwor-krtani-objawy
+
+(Snapshot from KRN portal, downloaded by crawl_krn_portal.py)
+
+# Nowotwór krtaniObjawy
+![](https://onkologia.org.pl/sites/default/files/media/2021-10/AdobeStock_181431161.jpeg)
+## Objawy
+Rak krtani najczęściej umiejscawia się w obrębie górnej i środkowej części (zbliżona częstość występowania w obu lokalizacjach). Początkowe umiejscowienie nowotworu w podgłośni jest rzadkie (poniżej 10% wszystkich przypadków). Naturalny przebieg raka krtani jest zależny od umiejscowienia. I tak: raki górnej części krtani, nagłośni, charakteryzuje dość dynamiczny wzrost miejscowy i wczesne pojawianie się przerzutów w okolicznych węzłach chłonnych. Przerzuty odległe nie są częste, aczkolwiek ich ryzyko wzrasta w przypadkach raków niskozróżnicowanych i olbrzymich zmian w węzłach chłonnych. Z kolei raki środkowej części, głośni, cechuje zwykle powolny wzrost miejscowy, a przerzuty do węzłów chłonnych występują rzadko, co jest spowodowane niewielkim unaczynieniem chłonnym tej okolicy. Raki dolnej części krtani, podgłośni, charakteryzuje umiarkowanie dynamiczny wzrost miejscowy i częstsze niż w raku głośni przerzuty do węzłów chłonnych, nie tylko szyi, ale również w klatce piersiowej.
+Podobnie od umiejscowienia zależą objawy raka krtani. W przypadku raka nagłośni wczesne dolegliwości są często niecharakterystyczne i obejmują uczucie ciała obcego w gardle oraz bóle i drażliwość przy przełykaniu pokarmów lub śliny. Często pierwszym objawem zgłaszanym przez chorego jest pojawienie się powiększonego węzła chłonnego w obrębie szyi. Występowanie chrypki, bólu gardła bez innych wyraźnych przyczyn, świstu krtaniowego, duszności lub niemożność przełykania pokarmów stałych świadczy o znacznym miejscowym zaawansowaniu nowotworu z zajęciem sąsiadujących struktur anatomicznych. W przypadku raka głośni klasyczny wczesny objaw stanowi chrypka. Zasadą powinno być specjalistyczne oglądanie krtani u osób z chrypką utrzymującą się dłużej niż 2 tygodnie, nieustępującą po leczeniu przeciwzapalnym. Świst krtaniowy związany ze zwężeniem dróg oddechowych na poziomie głośni zwykle świadczy o znacznym miejscowym zaawansowaniu, a rzadko może być objawem względnie wczesnym. Objawy raka podgłośni początkowo trudno zauważyć, a wyraźnie pojawiają się w chwili zwężenia dróg oddechowych (świst, duszność) i zajęcia głośni lub porażenia nerwu krtaniowego wstecznego (chrypka).
+Strona korzysta z ciasteczek
+Wykorzystujemy pliki cookie i inne technologie z myślą o optymalizacji witryny oraz w celach promocyjnych i marketingowych. Poza tym informacje dot. korzystania przez użytkownika z plików cookie przekazujemy naszym partnerom zajmującym się mediami społecznościowymi, reklamą i analityką. Wciśnięcie przycisku “Akceptuj wszystkie pliki cookie” oznacza wyrażenie zgody na wykorzystywanie przez nas plików cookie. Aby uzyskać więcej informacji, odwiedź politykę dotyczącą plików cookie.
+Wymagane
+Podczas odwiedzania jakiejkolwiek strony internetowej, może ona przechowywać lub pobierać informacje z przeglądarki, głównie w formie plików cookie. Informacje te mogą dotyczyć użytkownika, jego preferencji lub urządzenia i są najczęściej wykorzystywane w celu zapewnienia, że witryna będzie działać tak, jak tego oczekują użytkownicy.
+Analityka
+Informacje zazwyczaj nie identyfikują bezpośrednio użytkownika, ale mogą zapewnić mu bardziej spersonalizowane doświadczenie w sieci. Ponieważ szanujemy prawo użytkownika do prywatności, użytkownik może zrezygnować z akceptowania niektórych rodzajów plików cookie. Aby dowiedzieć się więcej i zmienić nasze ustawienia domyślne, należy kliknąć na poszczególne nagłówki kategorii. Jednakże blokowanie niektórych rodzajów plików cookie może mieć wpływ na doświadczenia użytkownika związane z witryną i usługami, które możemy zaoferować.
+Akceptuje podstawowe ustawienie
+Pokaż szczegóły
+Zapisz
+<https://www.printfriendly.com>

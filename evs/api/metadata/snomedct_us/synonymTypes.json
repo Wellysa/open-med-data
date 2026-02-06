@@ -1,0 +1,14 @@
+[
+  {
+    "code": "Preferred_Name",
+    "name": "Preferred_Name",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01"
+  },
+  {
+    "code": "Synonym",
+    "name": "Synonym",
+    "terminology": "snomedct_us",
+    "version": "2025_03_01"
+  }
+]

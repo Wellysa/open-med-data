@@ -1,0 +1,110 @@
+[
+  {
+    "code": "CN",
+    "name": "LOINC official component name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "DN",
+    "name": "Display Name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "HC",
+    "name": "Hierarchical class",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "HS",
+    "name": "Short or alternate version of hierarchical term",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "LA",
+    "name": "LOINC answer",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "LC",
+    "name": "Long common name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "LG",
+    "name": "LOINC group",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "LN",
+    "name": "LOINC official fully specified name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "LO",
+    "name": "Obsolete official fully specified name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "LS",
+    "name": "Expanded system/sample type (The expanded version was created for the Metathesaurus and includes the full name of some abbreviations.)",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "MTH_CN",
+    "name": "MTH Component, with abbreviations expanded.",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "MTH_LN",
+    "name": "MTH Official fully specified name with expanded abbreviations",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "MTH_LO",
+    "name": "MTH Expanded LOINC obsolete fully specified name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "ODN",
+    "name": "Obsolete Display Name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "OLC",
+    "name": "Obsolete Long common name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "OLG",
+    "name": "Obsolete LOINC group name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "OOSN",
+    "name": "Obsolete official short name",
+    "terminology": "lnc",
+    "version": "2_80"
+  },
+  {
+    "code": "OSN",
+    "name": "Official short name",
+    "terminology": "lnc",
+    "version": "2_80"
+  }
+]

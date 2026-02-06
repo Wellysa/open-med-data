@@ -1,0 +1,92 @@
+{
+  "synonymTypes": [
+    {
+      "code": "Concept_Name",
+      "name": "Concept_Name",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "Preferred_Term",
+      "name": "Preferred_Term",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    }
+  ],
+  "roles": [
+    {
+      "code": "has_TC",
+      "name": "has_TC",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "has_PE",
+      "name": "has_PE",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "has_MoA",
+      "name": "has_MoA",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "has_SC",
+      "name": "has_SC",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    }
+  ],
+  "properties": [
+    {
+      "code": "CTY",
+      "name": "CTY",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "Code",
+      "name": "Code",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "Concept_Name",
+      "name": "Concept_Name",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "NUI",
+      "name": "NUI",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "Preferred_Term",
+      "name": "Preferred_Term",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "Status",
+      "name": "Status",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "medrt",
+      "version": "2025.11.03"
+    }
+  ]
+}

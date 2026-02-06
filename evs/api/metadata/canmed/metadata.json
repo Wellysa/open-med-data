@@ -1,0 +1,126 @@
+{
+  "synonymTypes": [
+    {
+      "code": "Brand_Name",
+      "name": "Brand_Name",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Generic_Name",
+      "name": "Generic_Name",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "canmed",
+      "version": "202601"
+    }
+  ],
+  "properties": [
+    {
+      "code": "Administration_Route",
+      "name": "Administration_Route",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Brand_Name",
+      "name": "Brand_Name",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "CMS_Discontinuation_Date",
+      "name": "CMS_Discontinuation_Date",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "CMS_Effective_Date",
+      "name": "CMS_Effective_Date",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Code",
+      "name": "Code",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Discontinue_Date",
+      "name": "Discontinue_Date",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Effective_Date",
+      "name": "Effective_Date",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "FDA_Approval_Year",
+      "name": "FDA_Approval_Year",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "FDA_Discontinuation_Year",
+      "name": "FDA_Discontinuation_Year",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Generic_Name",
+      "name": "Generic_Name",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "HCPCS_Code",
+      "name": "HCPCS_Code",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "NDC_Package_Code",
+      "name": "NDC_Package_Code",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "NDC_Product_Code",
+      "name": "NDC_Product_Code",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Oral",
+      "name": "Oral",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Status",
+      "name": "Status",
+      "terminology": "canmed",
+      "version": "202601"
+    },
+    {
+      "code": "Strength",
+      "name": "Strength",
+      "terminology": "canmed",
+      "version": "202601"
+    }
+  ]
+}

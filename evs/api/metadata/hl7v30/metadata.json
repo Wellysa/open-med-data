@@ -1,0 +1,322 @@
+{
+  "associations": [
+    {
+      "code": "RO",
+      "name": "RO",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    }
+  ],
+  "synonymTypes": [
+    {
+      "code": "Preferred_Name",
+      "name": "Preferred_Name",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "Synonym",
+      "name": "Synonym",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    }
+  ],
+  "sources": [
+    {
+      "code": "HL7V3.0",
+      "name": "HL7 Vocabulary Version 3.0, 2024_11",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    }
+  ],
+  "termTypes": [
+    {
+      "code": "BR",
+      "name": "Binding realm",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "CDO",
+      "name": "Concept domain",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "CPR",
+      "name": "Concept property",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "CR",
+      "name": "Concept relationship",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "CSY",
+      "name": "Code system",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "NPT",
+      "name": "HL7 non-preferred for language term",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "ONP",
+      "name": "Obsolete non-preferred for language term",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "OP",
+      "name": "Obsolete preferred name",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "PT",
+      "name": "Designated preferred name",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "VS",
+      "name": "Value Set",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    }
+  ],
+  "qualifiers": [
+    {
+      "code": "RELA",
+      "name": "RELA",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7AI",
+      "name": "HL7AI",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7IN",
+      "name": "HL7IN",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7SY",
+      "name": "HL7SY",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7IR",
+      "name": "HL7IR",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7IS",
+      "name": "HL7IS",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7II",
+      "name": "HL7II",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7CC",
+      "name": "HL7CC",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7CD",
+      "name": "HL7CD",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7IM",
+      "name": "HL7IM",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7OD",
+      "name": "HL7OD",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7ID",
+      "name": "HL7ID",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7MI",
+      "name": "HL7MI",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7SCS",
+      "name": "HL7SCS",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7SL",
+      "name": "HL7SL",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7UN",
+      "name": "HL7UN",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7OA",
+      "name": "HL7OA",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7DI",
+      "name": "HL7DI",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7TY",
+      "name": "HL7TY",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7CSC",
+      "name": "HL7CSC",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7DC",
+      "name": "HL7DC",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7TR",
+      "name": "HL7TR",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7HI",
+      "name": "HL7HI",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7PL",
+      "name": "HL7PL",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7HA",
+      "name": "HL7HA",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7RK",
+      "name": "HL7RK",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7CS",
+      "name": "HL7CS",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7VC",
+      "name": "HL7VC",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7VD",
+      "name": "HL7VD",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7AP",
+      "name": "HL7AP",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7NA",
+      "name": "HL7NA",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7RF",
+      "name": "HL7RF",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7RD",
+      "name": "HL7RD",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "HL7AT",
+      "name": "HL7AT",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    }
+  ],
+  "definitionTypes": [
+    {
+      "code": "HL7V3.0",
+      "name": "HL7 Vocabulary Version 3.0, 2024_11",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    }
+  ],
+  "properties": [
+    {
+      "code": "Semantic_Type",
+      "name": "Semantic_Type",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    },
+    {
+      "code": "NCI_META_CUI",
+      "name": "NCI_META_CUI",
+      "terminology": "hl7v30",
+      "version": "2024_11"
+    }
+  ]
+}
