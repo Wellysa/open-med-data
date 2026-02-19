@@ -1,0 +1,43 @@
+# https://nio.gov.pl/nowy-ogolnopolski-program-wczesnego-wykrywania-raka-pluca-na-nfz-od-2026-roku-realna-szansa-na-ratowanie-zdrowia-i-zycia
+
+(Snapshot z portalu NIO, crawl_nio_portal.py)
+
+[Strona główna](https://nio.gov.pl/)
+[Aktualności](https://nio.gov.pl/aktualnosci)
+Nowy ogólnopolski program wczesnego wykrywania raka płuca na NFZ od 2026 roku? Realna szansa na ratowanie zdrowia i życia.
+# Nowy ogólnopolski program wczesnego wykrywania raka płuca na NFZ od 2026 roku? Realna szansa na ratowanie zdrowia i życia.
+![Nowy ogólnopolski program wczesnego wykrywania raka płuca na NFZ od 2026 roku? Realna szansa na ratowanie zdrowia i życia.](https://nio.gov.pl/uploads/pictures/14887116f6c010aa8acd9896039baece75832/thumbs/1050x.webp)
+Po 5 latach zakończył się pilotaż programu wczesnego wykrywania raka płuca z wykorzystaniem niskodawkowej tomografii komputerowej (NDTK). Wnioski z pilotażu sprawiły, że dostrzeżono wartość jaką dla polskiego społeczeństwa i systemu ochrony zdrowia wniesie wdrożenie na stałe programu do koszyka świadczeń gwarantowanych. Dzięki temu Polska ma szansę dołączyć do wciąż niewielkiego grona krajów w Europie i na świecie, które oferują ten program swoim obywatelom.
+Projekt rozporządzenia trafił obecnie do konsultacji społecznych. Czy oznacza to, że rok 2026 przyniesie nam nowy program badań przesiewowych ? Na to pytanie odpowiadają eksperci NIO – prof. Maciej Krzakowski i prof. Dariusz M. Kowalski.
+Rak płuca – wróg Polek i Polaków
+Rak płuca od lat jest jednym z najpoważniejszych wyzwań onkologicznych w Polsce. Specjaliści dostrzegają szczególnie niepokojące zmiany wśród kobiet – nie tylko coraz więcej z nich pali papierosy, co jest główną przyczyną  zachorowania na raka płuca, ale to właśnie ten nowotwór, a nie jak mogłoby się wydawać rak piersi, jest najczęstszą przyczyną śmierci Polek z powodu nowotworów złośliwych.
+Jednym z kluczowych problemów, bez względu na płeć, jest późne wykrywanie choroby najczęściej w zaawansowanym stadium, co znacznie zmniejsza skuteczność terapii. Aby przeciwdziałać tej statystyce, Ministerstwo Zdrowia planuje od 1 lipca 2026 r. wprowadzenie do koszyka świadczeń gwarantowanych NFZ ogólnopolskiego programu wczesnego wykrywania raka płuca z wykorzystaniem niskodawkowej tomografii komputerowej (NDTK) – metody, która zgodnie z wynikami międzynarodowych badań prospektywnych daje największe szanse na wczesne rozpoznanie choroby. Cytowane badania – przeprowadzone w USA i Europie –  wykazały możliwość znamiennego zmniejszenia umieralności z powodu raka płuca, a korzyści były szczególnie istotne u kobiet.
+Od pilotażu do programu dostępnego powszechnie
+Dotychczas badania NDTK były wykonywane w ramach Ogólnopolskiego Programu Wczesnego Wykrywania Raka Płuca (WWRP), realizowanego w latach 2021–2023 i przedłużonego jako pilotaż na lata 2024–2025. Program ten, współfinansowany przez Ministerstwo Zdrowia i jednostki medyczne w 26 ośrodkach w całej Polsce, umożliwił zgromadzenie pierwszych danych klinicznych i organizacyjnych, które jednoznacznie potwierdziły zasadność prowadzenia tego badania przesiewowego w skali kraju. W wielu województwach, w których realizowany był program znacznie zwiększyła się częstość wykonywania doszczętnych resekcji.
+-
+Wyniki pilotażu jasno pokazują, że systematyczne badania NDTK pozwalają wykrywać zmiany w bardzo wczesnym stadium, gdy leczenie chirurgiczne pozwala uzyskać wyleczenie – zanim pojawią się objawy kliniczne, co zdecydowanie zwiększa szanse pacjentów na skuteczne leczenie. To postęp w polskiej onkologii i realna odpowiedź na rosnące potrzeby zdrowotne społeczeństwa
+– podkreśla
+prof. Maciej Krzakowski
+, kierownik Kliniki Nowotworów Płuca i Klatki Piersiowej w Narodowym Instytucie Onkologii.
+Dla kogo program NDTK
+Program będzie adresowany do ściśle określonych grup ryzyka – nie jak w przypadku raka piersi czy szyjki macicy do całej populacji w określonym przedziale wiekowym, co jest zgodne z aktualną wiedzą medyczną i międzynarodowymi wytycznymi dotyczącymi profilaktyki raka płuca. Kluczowym kryterium kwalifikacji pozostaje historia palenia tytoniu, wyrażona w tzw. paczkolatach, czyli liczby wypalanych paczek papierosów dziennie pomnożonej przez lata palenia. Do programu kwalifikować się będą przede wszystkim osoby w wieku 55–74 lat, które mają za sobą co najmniej 20 paczkolat, czyli paliły 1 paczkę dziennie przez 20 lat lub 2 paczki przez 10 lat, i są obecnymi palaczami lub rzuciły palenie nie dawniej niż 15 lat temu.
+-
+Palenie tytoniu jest chorobą, ale także najważniejszym czynnikiem ryzyka raka płuca. Wprowadzenie programu przesiewowego to nie tylko badania diagnostyczne, ale także okazja do edukacji i wsparcia dla osób, które chcą rzucić palenie. Wsparcie psychologiczne, programy rzucania palenia i systemowe działania profilaktyczne są integralną częścią kompleksowej opieki nad pacjentem
+– zaznacza
+prof. Dariusz M. Kowalski
+z Kliniki Nowotworów Płuca i Klatki Piersiowej.
+Rozszerzone kryteria obejmą również osoby w wieku 50–74 lat z podobną historią palenia, u których występują dodatkowe czynniki zwiększające ryzyko zachorowania na raka płuca: m.in. przewlekłe choroby układu oddechowego, takie jak przewlekła obturacyjna choroba płuc (POChP) czy samoistne włóknienie płuc, które istotnie zwiększają ryzyko rozwoju nowotworu. Do programu kwalifikowane będą także osoby narażone zawodowo na działanie substancji rakotwórczych, takich jak azbest, krzemionka, nikiel, chrom, kadm, beryl, związki arsenu czy spaliny silników diesla, a także osoby eksponowane na radon.
+Istotnym kryterium włączenia do programu będzie również obciążony wywiad onkologiczny – zarówno osobisty, jak i rodzinny. Badaniem NDTK będą mogły zostać objęte osoby, które w przeszłości chorowały na nowotwory związane z paleniem tytoniu (np. raki narządów głowy i szyi, rak pęcherza moczowego, rak nerki, rak przełyku) oraz osoby, których krewni pierwszego stopnia chorowali na raka płuca.
+-
+Tak precyzyjne ukierunkowanie programu pozwala na skoncentrowanie działań przesiewowych na populacji, w której korzyści zdrowotne są największe, a ryzyko tzw. nadmiernej rozpoznawalności i niepotrzebnych badań – najmniejsze
+– wyjaśnia prof. Krzakowski.
+Jednocześnie umożliwia to racjonalne wykorzystanie zasobów systemu ochrony zdrowia i zwiększa szansę na wykrycie raka płuca na etapie bezobjawowym, kiedy możliwe jest leczenie radykalne i znacząca poprawa rokowania osób badanych.
+Jakość zgodna ze światowym standardem
+Niskodawkowa tomografia komputerowa jest obecnie uznawana na świecie za jedyną skuteczną metodę wczesnego wykrywania raka płuca u osób z grup wysokiego ryzyka.  Programy przesiewowe z wykorzystaniem NDTK funkcjonują m.in. w Stanach Zjednoczonych, Kanadzie, Korei Południowej, Chinach oraz na Tajwanie. W Europie programy ogólnokrajowe wdrożyły już Chorwacja i Czechy, a Polski pilotaż, który już za kilka miesięcy ma zostać  przekształcony w program gwarantowany, to jeden z największych pilotaży populacyjnych. W wielu innych krajach europejskich, w tym w Wielkiej Brytanii, Niemczech, Francji, Włoszech i Hiszpanii, prowadzone są pilotażowe lub regionalne programy skriningowe, zgodne z rekomendacjami Europejskiego Towarzystwa Chorób Układu Oddechowego i Europejskiego Towarzystwa Radiologicznego. Skuteczność NDTK jako narzędzia przesiewowego została potwierdzona w dużych badaniach klinicznych, takich jak amerykański NLST oraz europejski NELSON, które wykazały istotne zmniejszenie śmiertelności z powodu raka płuca w populacjach objętych badaniami w grupach badanych za pomocą NDTK. Istotne jest, że badania z wykorzystaniem NDTK wykrywają również inne – nienowotworowe – choroby (np. zmiany w naczyniach wieńcowych lub inne niż nowotwór choroby płuc).
+Włączenie programu do świadczeń gwarantowanych NFZ oznacza stworzenie warunków, w których badanie NDTK będzie dostępne ogólnodostępnie i bezpłatnie dla osób kwalifikujących się do programu – podobnie jak mammografia czy kolonoskopia w innych programach przesiewowych. To znaczący krok w kierunku poprawy wyników leczenia onkologicznego w Polsce i realna szansa na ratowanie życia tysięcy Polaków.
+______
+W Narodowym Instytucie Onkologii pacjenci z rozpoznaniem nowotworu płuca leczeni są w Klinice Nowotworów Płuca i Klatki Piersiowej, która powstała w 1995 roku.
+Rocznie liczba hospitalizacji w Klinice wynosi około 6500, a około 6000 chorych pozostaje pod opieką specjalistów z poradni. Narodowy Instytut Onkologii zapewnia wielospecjalistyczne postępowanie diagnostyczno-terapeutyczne z wykorzystaniem nowoczesnej aparatury i pod nadzorem wysokokwalifikowanej kadry lekarzy oraz pielęgniarek.
+<https://nio.gov.pl>
+Szukaj artykułów, wpisów, stron…
+Brak wyników wyszukiwania
