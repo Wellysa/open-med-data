@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Ustaw poniżej adres backendu (bez końcowego /), np. https://api.twojadomena.pl — wtedy ankieta i PDF trafią do API -->
+  <meta name="wellysa-admin-api" content="" />
+  <!-- Panel pacjenta: przycisk po wysłaniu PDF (priorytet ma panelCheckoutUrl z odpowiedzi API). -->
+  <meta name="wellysa-panel-url" content="" />
+  <meta name="wellysa-panel-order-path-template" content="/zamowienie/{orderId}" />
+  <!-- Turnstile: domyślnie klucz testowy CF (podgląd lokalny). Na produkcji podmień na własny Site Key. Wyłączenie: content="off" -->
+  <meta name="wellysa-turnstile-site-key" content="1x00000000000000000000AA" />
+  <title>Wellysa — medyczny asystent i panel usług</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            wellysa: { green: '#009472' },
+            charcoal: '#1E293B',
+            section: '#F6F6F6',
+          },
+          borderRadius: { card: '20px' },
+        },
+      },
+    }
+  </script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js" crossorigin></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Sora', system-ui, sans-serif; color: #1E293B; }
+    #mobile-popup { animation: slideUp 0.3s ease-out; }
+    @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    .modal-open { overflow: hidden; }
+    .sv-step[hidden], [hidden] { display: none !important; }
+  </style>
+</head>
+<body class="min-h-screen bg-white">
+  <script>
+    window.WELLYSA_ADMIN_API = (function () {
+      var m = document.querySelector('meta[name="wellysa-admin-api"]');
+      var c = (m && m.getAttribute('content')) || '';
+      return String(c).replace(/\/$/, '');
+    })();
+  </script>
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 border-b border-slate-200/50 bg-white/85 backdrop-blur-xl">
+    <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between gap-4">
+      <a href="https://wellysa.com/" target="_blank" rel="noopener noreferrer" class="inline-flex shrink-0 py-0.5 hover:opacity-85" aria-label="Wellysa — strona główna">
+        <img src="images/wellysa-logo.png" width="240" height="70" alt="" class="h-8 w-auto md:h-9" decoding="async" />
+      </a>
+      <ul class="hidden lg:flex items-center gap-8 text-sm">
+        <li><a href="#panel-uslug" class="text-charcoal hover:text-wellysa-green font-medium transition whitespace-nowrap">Panel usług</a></li>
+        <li><a href="#system-vs-rzeczywistosc" class="text-charcoal hover:text-wellysa-green font-medium transition whitespace-nowrap">Dlaczego Wellysa</a></li>
+        <li><a href="#jak-dziala" class="text-charcoal hover:text-wellysa-green font-medium transition whitespace-nowrap">Jak to działa</a></li>
+        <li><a href="#pobierz" class="text-charcoal hover:text-wellysa-green font-medium transition whitespace-nowrap">Pobierz</a></li>
+      </ul>
+      <a href="#pobierz" class="hidden md:inline-flex px-6 py-2.5 rounded-[20px] text-white text-sm font-semibold hover:opacity-90 transition shrink-0" style="background:#009472">Pobierz aplikację</a>
+      <button type="button" id="nav-toggle" class="lg:hidden p-2" aria-label="Menu" aria-expanded="false">
+        <i data-lucide="menu" class="w-6 h-6 nav-icon-open"></i>
+        <i data-lucide="x" class="w-6 h-6 nav-icon-close hidden"></i>
+      </button>
+    </nav>
+    <div id="nav-mobile" class="lg:hidden hidden border-t border-slate-100 bg-white/98 px-6 py-4">
+      <ul class="flex flex-col gap-3">
+        <li><a href="#panel-uslug" class="block text-charcoal font-medium py-1 nav-m-link">Panel usług</a></li>
+        <li><a href="#system-vs-rzeczywistosc" class="block text-charcoal font-medium py-1 nav-m-link">Dlaczego Wellysa</a></li>
+        <li><a href="#jak-dziala" class="block text-charcoal font-medium py-1 nav-m-link">Jak to działa</a></li>
+        <li><a href="#pobierz" class="block text-charcoal font-medium py-1 nav-m-link">Pobierz</a></li>
+        <li><a href="#pobierz" class="block px-6 py-3 rounded-[20px] text-white font-semibold text-center mt-2 nav-m-link" style="background:#009472">Pobierz aplikację</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="border-b border-slate-100 bg-white pt-28 md:pt-36 pb-16 md:pb-24 px-6 md:px-12">
+      <div class="mx-auto max-w-3xl text-center">
+        <h1 class="text-4xl font-bold leading-tight tracking-tight text-charcoal md:text-5xl lg:text-[3.25rem] lg:leading-[1.08] text-balance">
+          Znudziło Ci się czekanie na NFZ? My też nie mamy na to czasu.
+        </h1>
+        <p class="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-slate-600 md:text-xl text-pretty">
+          Program „Moje Zdrowie” w IKP to dobry kierunek — ale bywa wolny i frustrujący. Zamiast walczyć z formularzami i szukać „placówek widmo”, zrób bilans z Wellysa: szybciej, zrozumiale i z interpretacją, która mówi,
+          <strong class="font-semibold text-charcoal">co dalej</strong>.
+        </p>
+        <div class="mt-10 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-center">
+          <a href="#panel-uslug" class="inline-flex items-center justify-center px-8 py-4 rounded-[20px] text-white text-base font-bold shadow-sm hover:opacity-90 transition" style="background:#009472" aria-label="Przejdź do panelu usług Wellysa">Otwórz panel usług</a>
+          <a href="#system-vs-rzeczywistosc" class="inline-flex items-center justify-center px-8 py-4 rounded-[20px] border-2 border-charcoal bg-white text-charcoal text-base font-semibold hover:bg-charcoal hover:text-white transition-colors">Sprawdź różnicę</a>
+          <a href="#pobierz" class="inline-flex items-center justify-center px-8 py-4 rounded-[20px] border border-slate-200 text-charcoal text-base font-semibold hover:border-slate-300 bg-[#F6F6F6] transition-colors">Pobierz aplikację</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Panel — wąski blok jak hero; pełna siatka usług w modalu -->
+    <section id="panel-uslug" class="scroll-mt-24 border-t border-slate-100 bg-gradient-to-b from-[#F6F6F6]/90 to-white py-16 md:py-24" aria-labelledby="panel-uslug-title">
+      <div class="mx-auto max-w-4xl px-6 md:px-8">
+        <div class="rounded-card border border-slate-200/90 bg-white px-6 py-8 shadow-[0_4px_40px_rgba(0,0,0,0.06)] md:px-10 md:py-10">
+          <p class="flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wider md:justify-start" style="color:#009472">
+            <i data-lucide="sparkles" class="h-3.5 w-3.5"></i> Panel usług Wellysa
+          </p>
+          <h2 id="panel-uslug-title" class="mt-3 text-center text-2xl font-semibold tracking-tight text-charcoal md:text-left md:text-3xl">Zacznij w domu — dokończysz z nami lub w gabinecie</h2>
+          <p class="mx-auto mt-3 max-w-2xl text-center text-sm leading-relaxed text-slate-600 md:mx-0 md:text-left md:text-base">
+            Dane wprowadzasz Ty (wygodnie), decyzje i interpretacja — po naszej stronie. Otwórz panel, żeby przejść do ankiety, mapy punktów partnerskich lub wysyłki wyników.
+          </p>
+          <div class="mt-8 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:flex-wrap md:justify-start">
+            <button type="button" data-open-modal="hub" class="inline-flex min-h-[44px] items-center justify-center rounded-full px-8 py-3 text-sm font-bold text-white shadow-sm transition hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2" style="background:#009472">
+              Otwórz panel usług
+            </button>
+            <a href="#pobierz" class="inline-flex min-h-[44px] items-center justify-center rounded-full border border-slate-200 bg-white px-8 py-3 text-sm font-semibold text-charcoal transition hover:border-wellysa-green hover:text-wellysa-green">Pobierz aplikację</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="border-t border-slate-100">
+    <section id="system-vs-rzeczywistosc" class="scroll-mt-24 bg-[#F6F6F6] py-14 md:py-20">
+      <div class="mx-auto max-w-6xl px-6 md:px-8">
+        <h2 class="text-center text-3xl font-bold tracking-tight text-charcoal md:text-4xl">System vs. rzeczywistość</h2>
+        <p class="mx-auto mt-4 max-w-2xl text-center text-slate-600 md:text-lg">Darmowe ścieżki z NFZ i IKP masz z urzędu — spokój i przejrzystość w obsłudze to Twój wybór.</p>
+        <div class="mt-12 grid gap-6 md:grid-cols-3 md:gap-8">
+          <article class="rounded-[20px] border border-slate-200/80 bg-white p-8 shadow-sm">
+            <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-100 text-charcoal"><i data-lucide="list-ordered" class="h-6 w-6"></i></div>
+            <h3 class="text-lg font-bold text-charcoal">Kolejka do kolejki</h3>
+            <p class="mt-3 text-slate-600 leading-relaxed">NFZ obiecuje badania — my pomagamy z terminem i kolejnymi krokami. Zamiast miesięcy „w kolejce do kolejki”, idziesz przejrzyście dalej.</p>
+          </article>
+          <article class="rounded-[20px] border border-slate-200/80 bg-white p-8 shadow-sm">
+            <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-100 text-charcoal"><i data-lucide="clipboard-list" class="h-6 w-6"></i></div>
+            <h3 class="text-lg font-bold text-charcoal">Ankieta‑gigant</h3>
+            <p class="mt-3 text-slate-600 leading-relaxed">W IKP poziom szczegółu bywa przytłaczający. Skracamy formalności do minimum — bez gubienia tego, co ważne dla bilansu i profilaktyki.</p>
+          </article>
+          <article class="rounded-[20px] border border-slate-200/80 bg-white p-8 shadow-sm">
+            <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-100 text-charcoal"><i data-lucide="line-chart" class="h-6 w-6"></i></div>
+            <h3 class="text-lg font-bold text-charcoal">Wyniki bez odpowiedzi</h3>
+            <p class="mt-3 text-slate-600 leading-relaxed">W systemie często widzisz tylko liczby. W Wellysa dostajesz kontekst: co to znaczy i co warto zrobić dalej — wspólnie z lekarzem.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="jak-dziala" class="scroll-mt-24 border-t border-slate-100 bg-white py-14 md:py-20 px-6 md:px-8">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-center text-3xl font-bold text-charcoal md:text-4xl">Wellysa vs. stary system</h2>
+        <p class="mx-auto mt-4 max-w-2xl text-center text-slate-600">Krótkie porównanie — w praktyce różnica to czas, kontekst i wygoda.</p>
+        <div class="mt-10 overflow-hidden rounded-[20px] border border-slate-200 shadow-sm">
+          <table class="w-full text-left text-sm md:text-base">
+            <thead>
+              <tr class="bg-[#F6F6F6]/80 border-b border-slate-200">
+                <th class="px-4 md:px-6 py-4 font-bold text-charcoal">Funkcja</th>
+                <th class="px-4 md:px-6 py-4 font-semibold text-slate-500">NFZ / IKP</th>
+                <th class="px-4 md:px-6 py-4 font-bold" style="color:#009472">Wellysa</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-100 bg-white"><td class="px-4 md:px-6 py-4 font-semibold">Rezerwacja terminu</td><td class="px-4 md:px-6 py-4 text-slate-500">Może się uda</td><td class="px-4 md:px-6 py-4 font-semibold" style="color:#009472">Wspieramy realne terminy i kolejne kroki</td></tr>
+              <tr class="border-b border-slate-100 bg-[#F6F6F6]/40"><td class="px-4 md:px-6 py-4 font-semibold">Interpretacja</td><td class="px-4 md:px-6 py-4 text-slate-500">Suche cyfry</td><td class="px-4 md:px-6 py-4 font-semibold" style="color:#009472">Wyjaśnienie i osobisty plan działania</td></tr>
+              <tr class="bg-white"><td class="px-4 md:px-6 py-4 font-semibold">Doświadczenie</td><td class="px-4 md:px-6 py-4 text-slate-500">Urząd</td><td class="px-4 md:px-6 py-4 font-semibold" style="color:#009472">Aplikacja i wsparcie w jednym miejscu</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <!-- CTA -->
+    <section id="pobierz" class="py-20 md:py-28 px-6 md:px-12 bg-gradient-to-b from-[#F6F6F6]/90 to-white border-t border-slate-100">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl lg:text-[2.75rem] font-bold tracking-tight text-charcoal leading-tight">Nie bądź zakładnikiem systemu. Przejmij kontrolę.</h2>
+        <p class="text-lg text-slate-600 mt-6 max-w-2xl mx-auto leading-relaxed">Badania z programów publicznych to Twoje prawo — spokój ducha i przejrzysta obsługa to kwestia narzędzia. Pobierz Wellysa i zrób profilaktykę na własnych zasadach, z aplikacją i panelem w przeglądarce.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mt-12">
+          <a href="https://apps.apple.com/pl/app/wellysa-asystent/id6751268147" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-[20px] text-white font-bold hover:opacity-90" style="background:#009472" aria-label="Pobierz z App Store">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" /></svg>
+            Pobierz z App Store
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.wellysa.onkoradar_dev&hl=pl" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-[20px] border-2 border-charcoal text-charcoal font-bold hover:bg-charcoal hover:text-white transition-colors" aria-label="Pobierz z Google Play">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 0 1 0 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.802 8.99l-2.302 2.302-8.636-8.634z" /></svg>
+            Pobierz z Google Play
+          </a>
+        </div>
+        <p class="mt-12 text-sm text-slate-500">
+          <a href="https://wellysa.com/" target="_blank" rel="noopener noreferrer" class="font-semibold hover:underline" style="color:#009472">Wellysa.com</a>
+          <span class="text-slate-400"> · </span>
+          <span class="text-slate-600">System prewencji nowej generacji</span>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Mobile app popup -->
+  <div id="mobile-popup" class="fixed inset-0 z-[100] hidden items-end sm:items-center justify-center p-4 sm:p-6 bg-black/40 backdrop-blur-sm">
+    <div class="w-full max-w-sm bg-white rounded-[24px] shadow-2xl p-6 pb-8">
+      <div class="flex justify-between items-start mb-4">
+        <div><h3 class="text-xl font-bold text-charcoal">Pobierz Wellysa</h3><p class="text-slate-600 text-sm mt-1">Profilaktyka na własnych zasadach</p></div>
+        <button type="button" id="popup-close" class="p-2 -m-2 rounded-full hover:bg-slate-100 text-slate-500" aria-label="Zamknij"><i data-lucide="x" class="w-5 h-5"></i></button>
+      </div>
+      <div class="flex flex-col gap-3 mt-6">
+        <a href="https://apps.apple.com/pl/app/wellysa-asystent/id6751268147" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 px-4 py-3 rounded-[16px] text-white font-semibold" style="background:#009472"><svg class="w-7 h-7 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" /></svg> App Store</a>
+        <a href="https://play.google.com/store/apps/details?id=com.wellysa.onkoradar_dev&hl=pl" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 px-4 py-3 rounded-[16px] border-2 border-charcoal font-semibold text-charcoal"><svg class="w-7 h-7 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 0 1 0 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.802 8.99l-2.302 2.302-8.636-8.634z" /></svg> Google Play</a>
+      </div>
+      <button type="button" id="popup-later" class="w-full mt-4 text-sm text-slate-500 hover:text-slate-700">Może później</button>
+    </div>
+  </div>
+
+  <!-- MODAL: Hub panelu usług -->
+  <div id="modal-hub" class="fixed inset-0 z-[200] hidden items-end justify-center bg-black/45 backdrop-blur-[2px] sm:items-center sm:p-6" role="dialog" aria-modal="true" aria-labelledby="modal-hub-title">
+    <div class="flex max-h-[min(92vh,880px)] w-full max-w-4xl flex-col rounded-t-[24px] border border-slate-200/80 bg-white shadow-2xl sm:rounded-[24px]">
+      <header class="flex shrink-0 items-start justify-between gap-4 border-b border-slate-100 px-5 py-4 sm:px-6 sm:py-5">
+        <div class="min-w-0">
+          <h2 id="modal-hub-title" class="text-lg font-semibold text-charcoal sm:text-xl">Panel usług Wellysa</h2>
+          <p class="mt-1 text-sm text-slate-500">Wybierz usługę — każda opcja otwiera narzędzie w osobnym oknie.</p>
+        </div>
+        <button type="button" class="modal-close rounded-xl p-2 text-slate-400 hover:bg-slate-100" data-modal="hub" aria-label="Zamknij"><i data-lucide="x" class="h-5 w-5"></i></button>
+      </header>
+      <div class="min-h-0 flex-1 overflow-y-auto px-4 py-4 sm:px-6 sm:py-5">
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <button type="button" data-hub-open="survey" class="flex flex-col rounded-2xl border border-slate-100 bg-white p-6 text-left shadow-sm transition-all hover:border-wellysa-green/40 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-wellysa-green">
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-wellysa-green/10" style="color:#009472"><i data-lucide="clipboard-list" class="h-6 w-6"></i></div>
+            <h3 class="text-lg font-semibold text-charcoal">Ankieta profilaktyczna</h3>
+            <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Jak „Moje Zdrowie” w IKP — czytelniej, z imieniem, nazwiskiem, PESEL i e‑mailem do zespołu.</p>
+            <span class="mt-5 inline-flex w-fit rounded-full px-4 py-2 text-sm font-bold text-white" style="background:#009472">Otwórz ankietę</span>
+          </button>
+          <button type="button" data-hub-open="map" class="flex flex-col rounded-2xl border border-slate-100 bg-white p-6 text-left shadow-sm transition-all hover:border-wellysa-green/40 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-wellysa-green">
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-wellysa-green/10" style="color:#009472"><i data-lucide="map-pin" class="h-6 w-6"></i></div>
+            <h3 class="text-lg font-semibold text-charcoal">Punkty partnerskie</h3>
+            <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Dostępne lokalizacje punktów, z którymi współpracujemy — wybierz miejsce na mapie.</p>
+            <span class="mt-5 inline-flex w-fit rounded-full px-4 py-2 text-sm font-bold text-white" style="background:#009472">Otwórz mapę</span>
+          </button>
+          <button type="button" data-hub-open="upload" class="flex flex-col rounded-2xl border border-slate-100 bg-white p-6 text-left shadow-sm transition-all hover:border-wellysa-green/40 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-wellysa-green sm:col-span-2 lg:col-span-1">
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-wellysa-green/10" style="color:#009472"><i data-lucide="microscope" class="h-6 w-6"></i></div>
+            <h3 class="text-lg font-semibold text-charcoal">Wyślij wyniki PDF</h3>
+            <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Wgraj wyniki — API zakłada zlecenie. Płatność i interpretacja w panelu Wellysa (auto lub po konsultacji).</p>
+            <span class="mt-5 inline-flex w-fit rounded-full px-4 py-2 text-sm font-bold text-white" style="background:#009472">Wgraj plik</span>
+          </button>
+        </div>
+        <p class="mt-4 border-t border-slate-100 pt-4 text-center text-xs text-slate-500">
+          Backend: ustaw URL w <code class="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[11px]">&lt;meta name="wellysa-admin-api" content="https://…"&gt;</code> — endpointy
+          <code class="rounded bg-slate-100 px-1 font-mono text-[11px]">/api/landing/survey</code> oraz
+          <code class="rounded bg-slate-100 px-1 font-mono text-[11px]">/api/landing/results-upload</code>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Ankieta -->
+  <div id="modal-survey" class="fixed inset-0 z-[200] hidden items-end justify-center bg-black/45 backdrop-blur-[2px] sm:items-center sm:p-6" role="dialog" aria-modal="true">
+    <div class="flex max-h-[min(92vh,880px)] w-full max-w-4xl flex-col rounded-t-[24px] border border-slate-200/80 bg-white shadow-2xl sm:rounded-[24px]" data-modal-box>
+      <header class="flex shrink-0 items-start justify-between gap-4 border-b border-slate-100 px-5 py-4 sm:px-6 sm:py-5">
+        <div>
+          <h2 class="text-lg font-semibold text-charcoal sm:text-xl">Ankieta profilaktyczna — wersja Wellysa</h2>
+          <p class="mt-1 text-sm text-slate-500">Jak Profilaktyka 40+ / IKP — uproszczone pod Wellysa. Nie zastępuje oficjalnego NFZ.</p>
+        </div>
+        <button type="button" class="modal-close rounded-xl p-2 text-slate-400 hover:bg-slate-100" data-modal="survey" aria-label="Zamknij"><i data-lucide="x" class="h-5 w-5"></i></button>
+      </header>
+      <div class="min-h-0 flex-1 overflow-y-auto px-5 py-4 sm:px-6 sm:py-5">
+        <p class="rounded-xl bg-[#F6F6F6] px-4 py-3 text-xs text-slate-600 mb-4">Wzór pytań zbliżony do <strong>Moje Zdrowie</strong> (pomiary, styl życia, serce, nowotwory w rodzinie).</p>
+        <div id="sv-pills" class="mb-4 flex flex-wrap gap-2 text-[11px] font-medium"></div>
+        <div id="sv-steps"></div>
+        <div class="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-4">
+          <button type="button" id="sv-back" class="inline-flex items-center gap-1 rounded-full border border-slate-200 px-4 py-2.5 text-sm font-medium text-charcoal disabled:opacity-40"><i data-lucide="chevron-left" class="h-4 w-4"></i> Wstecz</button>
+          <div id="sv-actions" class="flex gap-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Mapa -->
+  <div id="modal-map" class="fixed inset-0 z-[200] hidden items-end justify-center bg-black/45 backdrop-blur-[2px] sm:items-center sm:p-6" role="dialog" aria-modal="true">
+    <div class="flex max-h-[92vh] w-full max-w-4xl flex-col rounded-t-[24px] border border-slate-200/80 bg-white shadow-2xl sm:rounded-[24px]">
+      <header class="flex items-start justify-between gap-4 border-b border-slate-100 px-5 py-4 sm:px-6">
+        <div>
+          <h2 class="text-lg font-semibold text-charcoal sm:text-xl">Punkty partnerskie</h2>
+          <p class="mt-1 text-sm text-slate-500">Lokalizacje w zmiennej SYNEVO_POINTS w skrypcie — zastąp własną listą punktów współpracy.</p>
+        </div>
+        <button type="button" class="modal-close rounded-xl p-2 text-slate-400 hover:bg-slate-100" data-modal="map" aria-label="Zamknij"><i data-lucide="x" class="h-5 w-5"></i></button>
+      </header>
+      <div class="p-4 sm:p-5">
+        <p class="text-xs text-slate-500 mb-2">Punkty na mapie: <strong id="map-count">0</strong></p>
+        <div id="leaflet-map" class="h-[min(60vh,420px)] w-full rounded-2xl border border-slate-200 bg-slate-100 z-0"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Upload -->
+  <div id="modal-upload" class="fixed inset-0 z-[200] hidden items-end justify-center bg-black/45 backdrop-blur-[2px] sm:items-center sm:p-6" role="dialog" aria-modal="true">
+    <div class="flex max-h-[92vh] w-full max-w-4xl flex-col rounded-t-[24px] border border-slate-200/80 bg-white shadow-2xl sm:rounded-[24px]">
+      <header class="flex items-start justify-between gap-4 border-b border-slate-100 px-5 py-4 sm:px-6">
+        <div>
+          <h2 class="text-lg font-semibold text-charcoal sm:text-xl">Wyniki z IKP lub laboratorium</h2>
+          <p class="mt-1 text-sm text-slate-500">PDF / JPG — API zakłada zlecenie; płatność i interpretacja w panelu Wellysa.</p>
+        </div>
+        <button type="button" class="modal-close rounded-xl p-2 text-slate-400 hover:bg-slate-100" data-modal="upload" aria-label="Zamknij"><i data-lucide="x" class="h-5 w-5"></i></button>
+      </header>
+      <div class="overflow-y-auto px-5 py-4 sm:px-6 sm:py-5 space-y-4">
+        <div class="grid gap-3 sm:grid-cols-2">
+          <label class="text-sm"><span class="mb-1 block text-slate-600">Imię</span><input id="up-fn" class="w-full rounded-xl border border-slate-200 px-3 py-2.5 outline-none focus:ring-2" style="--tw-ring-color:rgba(11,176,127,0.35)" /></label>
+          <label class="text-sm"><span class="mb-1 block text-slate-600">Nazwisko</span><input id="up-ln" class="w-full rounded-xl border border-slate-200 px-3 py-2.5 outline-none focus:ring-2 ring-wellysa-green/35" /></label>
+        </div>
+        <label class="block text-sm"><span class="mb-1 block text-slate-600">PESEL</span><input id="up-pesel" inputmode="numeric" maxlength="11" class="w-full rounded-xl border border-slate-200 px-3 py-2.5" /></label>
+        <label class="block text-sm"><span class="mb-1 block text-slate-600">E-mail</span><input id="up-email" type="email" class="w-full rounded-xl border border-slate-200 px-3 py-2.5" /></label>
+        <label class="block text-sm"><span class="mb-1 block text-slate-600">Uwagi (opcjonalnie)</span><textarea id="up-notes" rows="2" class="w-full rounded-xl border border-slate-200 px-3 py-2.5"></textarea></label>
+        <label id="up-dropzone" class="flex min-h-[130px] cursor-pointer flex-col items-center justify-center rounded-2xl border-2 border-dashed border-slate-200 bg-slate-50/80 px-4 py-8 hover:border-slate-300 transition-colors">
+          <input id="up-file" type="file" accept=".pdf,image/*,application/pdf" class="hidden" />
+          <i data-lucide="file-up" class="mb-2 h-9 w-9 text-slate-400"></i>
+          <span id="up-file-label" class="text-center text-sm font-medium text-charcoal">Kliknij lub upuść plik</span>
+        </label>
+        <div id="up-turnstile-mount" class="flex min-h-[65px] justify-center py-1"></div>
+        <p id="up-file-protocol-hint" hidden class="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs text-amber-950">
+          Otwarto jako <strong>file://</strong> — Turnstile może nie działać. Użyj <code class="rounded bg-white/80 px-1">npx serve .</code> i wejdź na
+          <code class="rounded bg-white/80 px-1">http://localhost</code>.
+        </p>
+        <p id="up-msg" class="hidden rounded-xl px-4 py-3 text-sm"></p>
+        <div id="up-success-panel" class="hidden space-y-3 rounded-2xl border border-amber-200/90 bg-amber-50/90 px-4 py-4 text-sm text-charcoal">
+          <p class="font-semibold text-charcoal">Plik przyjęty — dziękujemy</p>
+          <p id="up-demo-note" class="hidden rounded-lg bg-white/80 px-3 py-2 text-xs text-amber-900/90"></p>
+          <p id="up-order-ref" class="hidden text-xs text-slate-600">
+            Numer zgłoszenia:
+            <code id="up-order-id" class="rounded bg-white/90 px-1.5 py-0.5 font-mono text-[13px] text-charcoal"></code>
+          </p>
+          <ol class="list-decimal space-y-2 pl-5 text-slate-800">
+            <li><strong>API</strong> zapisuje dokument i uruchamia zlecenie analizy / interpretacji.</li>
+            <li><strong>Płatność</strong> wyłącznie w <strong class="text-charcoal">panelu pacjenta Wellysa</strong>.</li>
+            <li>
+              Po płatności <strong>interpretacja</strong> pojawi się w panelu: <strong>automatycznie</strong> (gdy API zakończy opracowanie) lub
+              <strong>po uzgodnieniu z lekarzem</strong> — zależnie od trybu zlecenia.
+            </li>
+          </ol>
+          <div id="up-panel-cta" class="hidden pt-1">
+            <a id="up-panel-link" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-full bg-charcoal px-5 py-2.5 text-sm font-bold text-white hover:opacity-90">Otwórz panel — płatność i interpretacja</a>
+            <p class="mt-2 text-xs text-slate-600">Zaloguj się tym samym kontem. Po opłaceniu sprawdź szczegóły zgłoszenia — tam będzie interpretacja, gdy gotowa.</p>
+          </div>
+          <p id="up-panel-fallback" class="hidden text-slate-700">
+            Otwórz <strong>aplikację lub panel Wellysa</strong> (ten sam e-mail) — tam dokończysz płatność i zobaczysz wynik. Skonfiguruj meta
+            <code class="rounded bg-white/80 px-1 font-mono text-[11px]">wellysa-panel-url</code>, aby pokazać bezpośredni link.
+          </p>
+        </div>
+        <div class="flex flex-wrap justify-end gap-3">
+          <button type="button" class="modal-close rounded-full border border-slate-200 px-5 py-2.5 text-sm font-medium" data-modal="upload">Zamknij</button>
+          <button type="button" id="up-submit" class="rounded-full px-6 py-2.5 text-sm font-bold text-white hover:opacity-90 disabled:opacity-40" style="background:#009472">Wyślij do panelu</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script>
+    var SYNEVO_POINTS = [
+      { id: 'waw1', name: 'Synevo — Śródmieście', city: 'Warszawa', address: 'ul. Marszałkowska (rejon)', lat: 52.2302, lng: 21.0104 },
+      { id: 'waw2', name: 'Synevo — Mokotów', city: 'Warszawa', address: 'Mokotów', lat: 52.1824, lng: 21.0201 },
+      { id: 'waw3', name: 'Synevo — Bemowo', city: 'Warszawa', address: 'Bemowo', lat: 52.245, lng: 20.92 },
+      { id: 'krk', name: 'Synevo — Kraków', city: 'Kraków', address: 'Centrum', lat: 50.0647, lng: 19.945 },
+      { id: 'wro', name: 'Synevo — Wrocław', city: 'Wrocław', address: 'Centrum', lat: 51.1079, lng: 17.0385 },
+      { id: 'poz', name: 'Synevo — Poznań', city: 'Poznań', address: 'Centrum', lat: 52.4064, lng: 16.9252 },
+      { id: 'gdn', name: 'Synevo — Gdańsk', city: 'Gdańsk', address: 'Wrzeszcz', lat: 54.382, lng: 18.6 },
+      { id: 'szz', name: 'Synevo — Szczecin', city: 'Szczecin', address: 'Centrum', lat: 53.4285, lng: 14.5528 },
+      { id: 'lod', name: 'Synevo — Łódź', city: 'Łódź', address: 'Śródmieście', lat: 51.7592, lng: 19.456 },
+      { id: 'kat', name: 'Synevo — Katowice', city: 'Katowice', address: 'Centrum', lat: 50.2649, lng: 19.0238 },
+      { id: 'lub', name: 'Synevo — Lublin', city: 'Lublin', address: 'Centrum', lat: 51.2465, lng: 22.5684 },
+      { id: 'bia', name: 'Synevo — Białystok', city: 'Białystok', address: 'Centrum', lat: 53.1325, lng: 23.1688 },
+      { id: 'rze', name: 'Synevo — Rzeszów', city: 'Rzeszów', address: 'Centrum', lat: 50.0413, lng: 21.999 },
+      { id: 'ols', name: 'Synevo — Olsztyn', city: 'Olsztyn', address: 'Centrum', lat: 53.7784, lng: 20.4801 },
+      { id: 'tor', name: 'Synevo — Toruń', city: 'Toruń', address: 'Centrum', lat: 53.0138, lng: 18.5981 },
+      { id: 'zak', name: 'Synevo — Zielona Góra', city: 'Zielona Góra', address: 'Centrum', lat: 51.9355, lng: 15.5064 },
+      { id: 'opi', name: 'Synevo — Opole', city: 'Opole', address: 'Centrum', lat: 50.6751, lng: 17.9213 },
+      { id: 'glc', name: 'Synevo — Gliwice', city: 'Gliwice', address: 'Centrum', lat: 50.2945, lng: 18.6714 },
+      { id: 'byd', name: 'Synevo — Bydgoszcz', city: 'Bydgoszcz', address: 'Centrum', lat: 53.1235, lng: 18.0076 },
+      { id: 'zgr', name: 'Synevo — Gorzów Wielkopolski', city: 'Gorzów Wlkp.', address: 'Centrum', lat: 52.7325, lng: 15.2389 }
+    ];
+
+    var STEP_LABELS = ['Dane i kontakt', 'Pomiary', 'Ruch i jedzenie', 'Alkohol i tytoń', 'Serce i metabolizm', 'Nowotwory', 'Objawy alarmowe', 'Podsumowanie'];
+
+    /* Listy jak w src/data/familyOncologyOptions.js — zsynchronizuj przy zmianie */
+    var SV_FAM_OPTS = [
+      { v: '', l: '— wybierz z listy —' }, { v: 'matka', l: 'Matka' }, { v: 'ojciec', l: 'Ojciec' }, { v: 'siostra', l: 'Siostra' }, { v: 'brat', l: 'Brat' },
+      { v: 'babcia_matki', l: 'Babcia (linia matki)' }, { v: 'dziadek_matki', l: 'Dziadek (linia matki)' }, { v: 'babcia_ojca', l: 'Babcia (linia ojca)' }, { v: 'dziadek_ojca', l: 'Dziadek (linia ojca)' },
+      { v: 'ciotka', l: 'Ciotka' }, { v: 'wujek', l: 'Wujek' }, { v: 'corka', l: 'Córka' }, { v: 'syn', l: 'Syn' }, { v: 'inne', l: 'Inne pokrewieństwo — doprecyzuj poniżej' }
+    ];
+    var SV_CANCER_OPTS = [
+      { v: '', l: '— wybierz z listy —' }, { v: 'piers', l: 'Piersi' }, { v: 'jajnik', l: 'Jajniki' }, { v: 'macica', l: 'Macica / endometrium' }, { v: 'jelito_grube', l: 'Jelito grube / odbytnica' },
+      { v: 'zoladek', l: 'Żołądek' }, { v: 'prostata', l: 'Gruczoł krokowy (prostata)' }, { v: 'pluca', l: 'Płuca' }, { v: 'wtroba', l: 'Wątroba' }, { v: 'trzustka', l: 'Trzustka' },
+      { v: 'nerka', l: 'Nerka' }, { v: 'pecherz', l: 'Pęcherz moczowy' }, { v: 'tarczyca', l: 'Tarczyca' }, { v: 'skora_czerniak', l: 'Skóra (czerniak)' }, { v: 'mozg', l: 'Ośrodkowy układ nerwowy (mózg)' },
+      { v: 'bialczak_chloniak', l: 'Białaczka / chłoniak' }, { v: 'inny_niepewny', l: 'Inny typ / nie znam szczegółów' }, { v: 'inne', l: 'Inny narząd / opis — wpisz poniżej' }
+    ];
+    function svLabelFam(v) {
+      for (var i = 0; i < SV_FAM_OPTS.length; i++) if (SV_FAM_OPTS[i].v === v) return SV_FAM_OPTS[i].l.replace(' — doprecyzuj poniżej', '');
+      return v || '—';
+    }
+    function svLabelSite(v) {
+      for (var i = 0; i < SV_CANCER_OPTS.length; i++) if (SV_CANCER_OPTS[i].v === v) return SV_CANCER_OPTS[i].l.replace(' — wpisz poniżej', '');
+      return v || '—';
+    }
+    function svEsc(s) {
+      return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+    function svResolveKinshipApi(k, custom) {
+      if (!k) return undefined;
+      if (k === 'inne') return (custom && String(custom).trim()) || undefined;
+      return svLabelFam(k);
+    }
+    function svResolveSiteApi(s, custom) {
+      if (!s) return undefined;
+      if (s === 'inne') return (custom && String(custom).trim()) || undefined;
+      return svLabelSite(s);
+    }
+    function svKinshipSummaryRel(r) {
+      var k = r.kinship;
+      if (!k) return 'Nie wybrano';
+      if (k === 'inne') return r.kinshipCustom ? 'Inne: ' + r.kinshipCustom : 'Inne (uzupełnij dopisek)';
+      return svLabelFam(k);
+    }
+    function svSiteLineSummary(siteRow) {
+      var s = siteRow.site;
+      if (!s) return null;
+      var base;
+      if (s === 'inne') base = siteRow.siteCustom ? 'Inne: ' + siteRow.siteCustom : 'Inne (uzupełnij)';
+      else base = svLabelSite(s);
+      return siteRow.ageAtDiagnosis ? base + ' (wiek ' + siteRow.ageAtDiagnosis + ')' : base;
+    }
+    var svFamilyRelatives = [];
+    function svEmptySiteRow() {
+      return { id: 's-' + Date.now() + '-' + Math.random().toString(36).slice(2, 9), site: '', siteCustom: '', ageAtDiagnosis: '' };
+    }
+    function svEmptyRelative() {
+      return { id: 'r-' + Date.now() + '-' + Math.random().toString(36).slice(2, 9), kinship: '', kinshipCustom: '', sites: [svEmptySiteRow()], notes: '' };
+    }
+    function svFamSelectOptionsHtml(opts, selected) {
+      var h = '';
+      for (var i = 0; i < opts.length; i++) {
+        var sel = opts[i].v === selected ? ' selected' : '';
+        h += '<option value="' + opts[i].v + '"' + sel + '>' + opts[i].l + '</option>';
+      }
+      return h;
+    }
+    function svSyncFamilyFromDom() {
+      var root = document.getElementById('sv-fam-dynamic-root');
+      if (!root) return;
+      var blocks = root.querySelectorAll('.sv-fr-rel');
+      var out = [];
+      for (var b = 0; b < blocks.length; b++) {
+        var blk = blocks[b];
+        var rid = blk.getAttribute('data-rel-id') || '';
+        var kin = blk.querySelector('.sv-fr-kin');
+        var kinC = blk.querySelector('.sv-fr-kin-custom');
+        var notesEl = blk.querySelector('.sv-fr-notes');
+        var siteWrap = blk.querySelectorAll('.sv-fr-site');
+        var sites = [];
+        for (var si = 0; si < siteWrap.length; si++) {
+          var sw = siteWrap[si];
+          var sid = sw.getAttribute('data-site-id') || '';
+          var ss = sw.querySelector('.sv-fr-site-select');
+          var sc = sw.querySelector('.sv-fr-site-custom');
+          var sa = sw.querySelector('.sv-fr-site-age');
+          sites.push({
+            id: sid || 's-tmp-' + si,
+            site: ss ? ss.value : '',
+            siteCustom: sc ? sc.value.trim() : '',
+            ageAtDiagnosis: sa ? sa.value.replace(/\D/g, '').slice(0, 3) : '',
+          });
+        }
+        out.push({
+          id: rid,
+          kinship: kin ? kin.value : '',
+          kinshipCustom: kinC ? kinC.value.trim() : '',
+          sites: sites,
+          notes: notesEl ? notesEl.value.trim() : '',
+        });
+      }
+      svFamilyRelatives = out.length ? out : [svEmptyRelative()];
+    }
+    function svPaintFamilyUI() {
+      var root = document.getElementById('sv-fam-dynamic-root');
+      if (!root) return;
+      if (!svFamilyRelatives.length) svFamilyRelatives = [svEmptyRelative()];
+      var relCount = svFamilyRelatives.length;
+      var html = '';
+      for (var r = 0; r < relCount; r++) {
+        var rel = svFamilyRelatives[r];
+        html += '<div class="sv-fr-rel mb-4 space-y-3 rounded-xl border border-slate-200 bg-white/90 p-4 shadow-sm last:mb-0" data-rel-id="' + svEsc(rel.id) + '">';
+        html += '<div class="flex flex-wrap items-start justify-between gap-2 border-b border-slate-100 pb-2">';
+        html += '<p class="text-sm font-semibold text-charcoal">Osoba ' + (r + 1) + (relCount > 1 ? ' z ' + relCount : '') + '</p>';
+        if (relCount > 1) {
+          html += '<button type="button" class="sv-fr-remove-rel rounded-full border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 hover:border-rose-200 hover:text-rose-700">Usuń osobę</button>';
+        }
+        html += '</div>';
+        html += '<label class="block text-sm"><span class="mb-1 block text-slate-600">Pokrewieństwo</span>';
+        html += '<select class="sv-fr-kin w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5">' + svFamSelectOptionsHtml(SV_FAM_OPTS, rel.kinship) + '</select></label>';
+        var kinCustomHidden = rel.kinship !== 'inne' ? ' hidden' : '';
+        html += '<div class="sv-fr-kin-custom-wrap' + kinCustomHidden + '"><label class="block text-sm"><span class="mb-1 block text-slate-600">Jakie pokrewieństwo?</span>';
+        html += '<input class="sv-fr-kin-custom w-full rounded-xl border border-slate-200 px-3 py-2.5" placeholder="np. kuzynka" value="' + svEsc(rel.kinshipCustom) + '"/></label></div>';
+        html += '<p class="text-xs font-medium uppercase tracking-wide text-slate-500">Nowotwory u tej osoby</p>';
+        for (var si = 0; si < rel.sites.length; si++) {
+          var sr = rel.sites[si];
+          var siteCustomH = sr.site !== 'inne' ? ' hidden' : '';
+          html += '<div class="sv-fr-site space-y-2 rounded-lg border border-slate-100 bg-slate-50/80 p-3" data-site-id="' + svEsc(sr.id) + '">';
+          html += '<div class="flex flex-wrap items-center justify-between gap-2">';
+          html += '<span class="text-xs text-slate-500">' + (rel.sites.length > 1 ? 'Przypadek ' + (si + 1) : 'Przypadek') + '</span>';
+          if (rel.sites.length > 1) {
+            html += '<button type="button" class="sv-fr-remove-site text-xs font-medium text-slate-500 hover:text-rose-600">Usuń</button>';
+          }
+          html += '</div>';
+          html += '<label class="block text-sm"><span class="mb-1 block text-slate-600">Narząd / typ</span>';
+          html += '<select class="sv-fr-site-select w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5">' + svFamSelectOptionsHtml(SV_CANCER_OPTS, sr.site) + '</select></label>';
+          html += '<div class="sv-fr-site-custom-wrap' + siteCustomH + '"><label class="block text-sm"><span class="mb-1 block text-slate-600">Opisz</span>';
+          html += '<input class="sv-fr-site-custom w-full rounded-xl border border-slate-200 px-3 py-2.5" placeholder="np. przełyk" value="' + svEsc(sr.siteCustom) + '"/></label></div>';
+          html += '<label class="block text-sm max-w-[11rem]"><span class="mb-1 block text-slate-600">Wiek w rozpoznaniu</span>';
+          html += '<input class="sv-fr-site-age w-full rounded-xl border border-slate-200 px-3 py-2.5" inputmode="numeric" placeholder="np. 48" value="' + svEsc(sr.ageAtDiagnosis) + '"/></label>';
+          html += '</div>';
+        }
+        html += '<button type="button" class="sv-fr-add-site w-full rounded-xl border border-dashed border-wellysa-green/40 py-2.5 text-sm font-medium sm:w-auto sm:px-4" style="color:#009472">+ Kolejny nowotwór u tej osoby</button>';
+        html += '<label class="block text-sm"><span class="mb-1 block text-slate-600">Uwagi do tej osoby</span>';
+        html += '<textarea class="sv-fr-notes w-full rounded-xl border border-slate-200 px-3 py-2.5" rows="2" placeholder="opcjonalnie">' + svEsc(rel.notes) + '</textarea></label>';
+        html += '</div>';
+      }
+      html += '<button type="button" id="sv-fr-add-relative" class="mt-2 w-full rounded-xl border-2 py-3 text-sm font-semibold border-wellysa-green/25" style="color:#1E293B">+ Dodaj kolejną osobę z nowotworem</button>';
+      root.innerHTML = html;
+      root.onclick = function (e) {
+        var t = e.target;
+        if (t.classList.contains('sv-fr-remove-rel')) {
+          svSyncFamilyFromDom();
+          if (svFamilyRelatives.length > 1) svFamilyRelatives.splice(Array.prototype.indexOf.call(root.querySelectorAll('.sv-fr-rel'), t.closest('.sv-fr-rel')), 1);
+          svPaintFamilyUI();
+          svUpdateView();
+          return;
+        }
+        if (t.classList.contains('sv-fr-remove-site')) {
+          var relEl = t.closest('.sv-fr-rel');
+          var siteEl = t.closest('.sv-fr-site');
+          svSyncFamilyFromDom();
+          var ridx = Array.prototype.indexOf.call(root.querySelectorAll('.sv-fr-rel'), relEl);
+          if (ridx < 0) return;
+          var sidx = Array.prototype.indexOf.call(relEl.querySelectorAll('.sv-fr-site'), siteEl);
+          if (svFamilyRelatives[ridx] && svFamilyRelatives[ridx].sites.length > 1 && sidx >= 0) {
+            svFamilyRelatives[ridx].sites.splice(sidx, 1);
+          }
+          svPaintFamilyUI();
+          svUpdateView();
+          return;
+        }
+        if (t.classList.contains('sv-fr-add-site')) {
+          var relAS = t.closest('.sv-fr-rel');
+          svSyncFamilyFromDom();
+          var addIdx = Array.prototype.indexOf.call(root.querySelectorAll('.sv-fr-rel'), relAS);
+          if (addIdx >= 0) svFamilyRelatives[addIdx].sites.push(svEmptySiteRow());
+          svPaintFamilyUI();
+          svUpdateView();
+          return;
+        }
+        if (t.id === 'sv-fr-add-relative') {
+          svSyncFamilyFromDom();
+          svFamilyRelatives.push(svEmptyRelative());
+          svPaintFamilyUI();
+          svUpdateView();
+        }
+      };
+      root.querySelectorAll('.sv-fr-site-age').forEach(function (inp) {
+        inp.addEventListener('input', function (e) {
+          e.target.value = e.target.value.replace(/\D/g, '').slice(0, 3);
+        });
+      });
+    }
+    function svFrToggleCustomVisibility(root) {
+      if (!root) return;
+      root.querySelectorAll('.sv-fr-rel').forEach(function (blk) {
+        var kin = blk.querySelector('.sv-fr-kin');
+        var kcw = blk.querySelector('.sv-fr-kin-custom-wrap');
+        if (kin && kcw) kcw.classList.toggle('hidden', kin.value !== 'inne');
+        blk.querySelectorAll('.sv-fr-site').forEach(function (se) {
+          var sel = se.querySelector('.sv-fr-site-select');
+          var cw = se.querySelector('.sv-fr-site-custom-wrap');
+          if (sel && cw) cw.classList.toggle('hidden', sel.value !== 'inne');
+        });
+      });
+    }
+    function svGetSummaryRows(f) {
+      var tri = { '0-1': '0–1 dni', '2-3': '2–3 dni', '4-7': '4–7 dni' };
+      var veg = { rare: 'Rzadko', sometimes: 'Czasami', daily: 'Prawie codziennie' };
+      var fast = { rare: 'Rzadko', weekly: 'Kilka razy w tygodniu', often: 'Często' };
+      var alc = { none: 'Nie piję', occasional: 'Okazjonalnie', weekly: 'Regularnie' };
+      var tob = { never: 'Nie palę / nie używam', past: 'Palenie w przeszłości', current: 'Obecnie palę / e-papieros' };
+      var hyp = { no: 'Nie', yes_controlled: 'Tak — leczę, pod kontrolą', yes_uncontrolled: 'Tak — bez stałego leczenia lub niepewna kontrola' };
+      var chol = { no: 'Nie / nie badano', yes: 'Tak', unknown: 'Nie wiem' };
+      var yn = { no: 'Nie', yes: 'Tak' };
+      var rows = [];
+      rows.push({ label: 'Imię i nazwisko', value: (f.firstName + ' ' + f.lastName).trim() || '—' });
+      rows.push({ label: 'PESEL', value: f.pesel && f.pesel.length === 11 ? f.pesel : (document.getElementById('sv-pesel') && document.getElementById('sv-pesel').value) || '—' });
+      rows.push({ label: 'E-mail', value: f.email || '—' });
+      if (f.phone) rows.push({ label: 'Telefon', value: f.phone });
+      var pomiary = [f.heightCm && f.heightCm + ' cm', f.weightKg && f.weightKg + ' kg', f.waistCm && 'talia ' + f.waistCm + ' cm'].filter(Boolean).join(', ');
+      rows.push({ label: 'Pomiary', value: pomiary || '—' });
+      rows.push({ label: 'Aktywność (×/tydz.)', value: tri[f.activityDays] || '—' });
+      rows.push({ label: 'Warzywa i owoce', value: veg[f.vegetablesFreq] || '—' });
+      rows.push({ label: 'Fast food', value: fast[f.fastFoodFreq] || '—' });
+      rows.push({ label: 'Alkohol', value: alc[f.alcohol] || '—' });
+      rows.push({ label: 'Tytoń', value: tob[f.tobacco] || '—' });
+      rows.push({ label: 'Nadciśnienie', value: hyp[f.hypertension] || '—' });
+      if (f.hypertension === 'yes_controlled') {
+        var bp = [f.hypertensionBpSystolic, f.hypertensionBpDiastolic].filter(Boolean).join('/');
+        rows.push({ label: 'Ciśnienie (ostatni pomiar)', value: bp ? bp + ' mmHg' : '—' });
+        if (f.hypertensionTherapyNote) rows.push({ label: 'Leki na nadciśnienie', value: f.hypertensionTherapyNote });
+      }
+      rows.push({ label: 'Cholesterol / lipidy', value: chol[f.cholesterolHistory] || '—' });
+      if (f.cholesterolHistory === 'yes' && f.cholesterolDetails) rows.push({ label: 'Wyniki lipidów (wpis)', value: f.cholesterolDetails });
+      rows.push({ label: 'Nowotwór w bliskiej rodzinie', value: f.familyOncology === 'yes' ? 'Tak' : f.familyOncology === 'no' ? 'Nie / nie wiem' : '—' });
+      if (f.familyOncology === 'yes' && f.familyOncologyRelatives && f.familyOncologyRelatives.length) {
+        var nrel = f.familyOncologyRelatives.length;
+        for (var ri = 0; ri < nrel; ri++) {
+          var rel = f.familyOncologyRelatives[ri];
+          var suf = nrel > 1 ? ' (osoba ' + (ri + 1) + ')' : '';
+          rows.push({ label: 'Pokrewieństwo' + suf, value: svKinshipSummaryRel(rel) });
+          var parts = [];
+          for (var sj = 0; sj < (rel.sites || []).length; sj++) {
+            var line = svSiteLineSummary(rel.sites[sj]);
+            if (line) parts.push(line);
+          }
+          rows.push({ label: 'Nowotwory / narządy' + suf, value: parts.length ? parts.join(' · ') : '—' });
+          if (rel.notes) rows.push({ label: 'Uwagi do osoby' + suf, value: rel.notes });
+        }
+        if (f.familyOncologyDetails) rows.push({ label: 'Uwagi ogólne (historia rodzinna)', value: f.familyOncologyDetails });
+      }
+      rows.push({ label: 'Ból klatki / duszność', value: yn[f.chestPainRecent] || '—' });
+      rows.push({ label: 'Nieplanowana utrata masy', value: yn[f.weightLossUnplanned] || '—' });
+      return rows;
+    }
+    function svFillSummary() {
+      var box = document.getElementById('sv-summary-dl');
+      if (!box) return;
+      var rows = svGetSummaryRows(svGetForm());
+      box.innerHTML = rows.map(function (r) {
+        return '<div class="grid gap-0.5 border-b border-slate-100 pb-2 last:border-0 sm:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] sm:gap-3"><dt class="text-slate-500">' + svEsc(r.label) + '</dt><dd class="break-words font-medium text-charcoal">' + svEsc(r.value) + '</dd></div>';
+      }).join('');
+    }
+
+    function refreshLucide() {
+      try {
+        if (typeof lucide !== 'undefined' && lucide.createIcons) lucide.createIcons();
+      } catch (e) {}
+    }
+
+    function getWellysaPanelUrl() {
+      var m = document.querySelector('meta[name="wellysa-panel-url"]');
+      var c = m && m.getAttribute('content');
+      return c && String(c).trim() ? String(c).trim().replace(/\/$/, '') : '';
+    }
+    function getPanelOrderPathTemplate() {
+      var m = document.querySelector('meta[name="wellysa-panel-order-path-template"]');
+      var c = m && m.getAttribute('content');
+      return c && String(c).trim() ? String(c).trim() : '/zamowienie/{orderId}';
+    }
+    function buildPanelUrl(orderId, apiPanelUrl) {
+      var u = apiPanelUrl && String(apiPanelUrl).trim();
+      if (u && /^https?:\/\//i.test(u)) return u;
+      var base = getWellysaPanelUrl();
+      if (!base) return '';
+      if (!orderId || !String(orderId).trim()) return base;
+      var tpl = getPanelOrderPathTemplate();
+      var path = tpl.replace(/\{orderId\}/g, encodeURIComponent(String(orderId)));
+      if (/^https?:\/\//i.test(path)) return path;
+      if (path.charAt(0) !== '/') path = '/' + path;
+      return base + path;
+    }
+
+    var TURNSTILE_STATIC_DEFAULT_SITE_KEY = '1x00000000000000000000AA';
+    function getTurnstileSiteKeyStatic() {
+      var m = document.querySelector('meta[name="wellysa-turnstile-site-key"]');
+      var c = m && m.getAttribute('content') != null ? String(m.getAttribute('content')).trim() : '';
+      if (c === 'off' || c === 'disabled' || c === '-') return '';
+      if (c) return c;
+      return TURNSTILE_STATIC_DEFAULT_SITE_KEY;
+    }
+
+    var svTurnstileWidgetId = null;
+    var svTurnstileToken = '';
+    function svRemoveTurnstile() {
+      if (svTurnstileWidgetId != null && window.turnstile) {
+        try {
+          window.turnstile.remove(svTurnstileWidgetId);
+        } catch (e) {}
+      }
+      svTurnstileWidgetId = null;
+      svTurnstileToken = '';
+    }
+    function svEnsureTurnstile() {
+      var key = getTurnstileSiteKeyStatic();
+      var el = document.getElementById('sv-turnstile-mount');
+      if (!key || !el) return;
+      function tryRender() {
+        if (!window.turnstile) {
+          setTimeout(tryRender, 80);
+          return;
+        }
+        svRemoveTurnstile();
+        el.innerHTML = '';
+        var wid = window.turnstile.render(el, {
+          sitekey: key,
+          callback: function (t) {
+            svTurnstileToken = t;
+            svUpdateView();
+          },
+          'error-callback': function () {
+            svTurnstileToken = '';
+            svUpdateView();
+          },
+          'expired-callback': function () {
+            svTurnstileToken = '';
+            svUpdateView();
+          },
+        });
+        svTurnstileWidgetId = wid;
+      }
+      tryRender();
+    }
+
+    var upTurnstileWidgetId = null;
+    var upTurnstileToken = '';
+    function upRemoveTurnstile() {
+      if (upTurnstileWidgetId != null && window.turnstile) {
+        try {
+          window.turnstile.remove(upTurnstileWidgetId);
+        } catch (e) {}
+      }
+      upTurnstileWidgetId = null;
+      upTurnstileToken = '';
+    }
+    function upEnsureTurnstile() {
+      var key = getTurnstileSiteKeyStatic();
+      var el = document.getElementById('up-turnstile-mount');
+      if (!key || !el || el.classList.contains('hidden')) return;
+      function tryRender() {
+        if (!window.turnstile) {
+          setTimeout(tryRender, 80);
+          return;
+        }
+        upRemoveTurnstile();
+        el.innerHTML = '';
+        var wid = window.turnstile.render(el, {
+          sitekey: key,
+          callback: function (t) {
+            upTurnstileToken = t;
+          },
+          'error-callback': function () {
+            upTurnstileToken = '';
+          },
+          'expired-callback': function () {
+            upTurnstileToken = '';
+          },
+        });
+        upTurnstileWidgetId = wid;
+      }
+      tryRender();
+    }
+
+    function resetUploadModal() {
+      var panel = document.getElementById('up-success-panel');
+      var msg = document.getElementById('up-msg');
+      var btn = document.getElementById('up-submit');
+      var ts = document.getElementById('up-turnstile-mount');
+      if (ts) {
+        ts.classList.remove('hidden');
+        upRemoveTurnstile();
+      }
+      var uph1 = document.getElementById('up-file-protocol-hint');
+      if (uph1) uph1.hidden = window.location.protocol !== 'file:';
+      if (panel) panel.classList.add('hidden');
+      if (msg) {
+        msg.classList.add('hidden');
+        msg.textContent = '';
+        msg.className = 'hidden rounded-xl px-4 py-3 text-sm';
+      }
+      if (btn) btn.disabled = false;
+    }
+    function showUploadInterpretationStep(isDemoMode, orderId, apiPanelUrl) {
+      var panel = document.getElementById('up-success-panel');
+      var demoNote = document.getElementById('up-demo-note');
+      var orderRef = document.getElementById('up-order-ref');
+      var orderIdEl = document.getElementById('up-order-id');
+      var cta = document.getElementById('up-panel-cta');
+      var link = document.getElementById('up-panel-link');
+      var fallback = document.getElementById('up-panel-fallback');
+      if (!panel || !demoNote) return;
+      var ts = document.getElementById('up-turnstile-mount');
+      if (ts) {
+        ts.classList.add('hidden');
+        upRemoveTurnstile();
+      }
+      var uph0 = document.getElementById('up-file-protocol-hint');
+      if (uph0) uph0.hidden = true;
+      panel.classList.remove('hidden');
+      if (isDemoMode) {
+        demoNote.textContent =
+          'Tryb demo — plik nie został wysłany. Ustaw meta wellysa-admin-api; API może zwrócić JSON z orderId i panelCheckoutUrl.';
+        demoNote.classList.remove('hidden');
+      } else {
+        demoNote.classList.add('hidden');
+      }
+      if (orderId && orderRef && orderIdEl) {
+        orderIdEl.textContent = String(orderId);
+        orderRef.classList.remove('hidden');
+      } else if (orderRef) {
+        orderRef.classList.add('hidden');
+      }
+      var href = buildPanelUrl(orderId, apiPanelUrl);
+      if (href && link && cta && fallback) {
+        link.href = href;
+        cta.classList.remove('hidden');
+        fallback.classList.add('hidden');
+      } else if (cta && fallback) {
+        cta.classList.add('hidden');
+        fallback.classList.remove('hidden');
+      }
+      var sub = document.getElementById('up-submit');
+      if (sub) sub.disabled = true;
+    }
+
+    function openModal(id) {
+      document.getElementById('modal-' + id).classList.remove('hidden');
+      document.getElementById('modal-' + id).classList.add('flex');
+      document.body.classList.add('modal-open');
+      if (id === 'map') initMapOnce();
+      if (id === 'upload') resetUploadModal();
+      refreshLucide();
+    }
+    function anyModalOpen() {
+      return ['hub', 'survey', 'map', 'upload'].some(function (k) {
+        var el = document.getElementById('modal-' + k);
+        return el && !el.classList.contains('hidden');
+      });
+    }
+    function closeModal(id) {
+      var el = document.getElementById('modal-' + id);
+      el.classList.add('hidden');
+      el.classList.remove('flex');
+      if (!anyModalOpen()) document.body.classList.remove('modal-open');
+      if (id === 'map' && window.__wellysaMap) {
+        try { window.__wellysaMap.remove(); } catch (e) {}
+        window.__wellysaMap = null;
+      }
+    }
+
+    document.querySelectorAll('[data-open-modal]').forEach(function (btn) {
+      btn.addEventListener('click', function () { openModal(btn.getAttribute('data-open-modal')); });
+    });
+    document.querySelectorAll('.modal-close').forEach(function (btn) {
+      btn.addEventListener('click', function () { closeModal(btn.getAttribute('data-modal')); });
+    });
+    (function bindHubPicks() {
+      var hub = document.getElementById('modal-hub');
+      if (!hub) return;
+      hub.addEventListener('click', function (e) {
+        var pick = e.target.closest('[data-hub-open]');
+        if (!pick) return;
+        var next = pick.getAttribute('data-hub-open');
+        closeModal('hub');
+        openModal(next);
+      });
+    })();
+    document.querySelectorAll('[id^=modal-]').forEach(function (overlay) {
+      overlay.addEventListener('mousedown', function (e) {
+        if (e.target === overlay) closeModal(overlay.id.replace('modal-', ''));
+      });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      ['hub', 'survey', 'map', 'upload'].forEach(function (k) {
+        var el = document.getElementById('modal-' + k);
+        if (el && !el.classList.contains('hidden')) closeModal(k);
+      });
+    });
+
+    /* Map */
+    function initMapOnce() {
+      if (window.__wellysaMap) return;
+      var el = document.getElementById('leaflet-map');
+      if (!el || typeof L === 'undefined') return;
+      delete L.Icon.Default.prototype._getIconUrl;
+      L.Icon.Default.mergeOptions({
+        iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png',
+        iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png'
+      });
+      var map = L.map('leaflet-map').setView([52.1, 19.4], 6);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap', maxZoom: 19 }).addTo(map);
+      SYNEVO_POINTS.forEach(function (p) {
+        L.marker([p.lat, p.lng]).addTo(map).bindPopup('<strong>' + p.name + '</strong><br/>' + p.address + ', ' + p.city);
+      });
+      window.__wellysaMap = map;
+      document.getElementById('map-count').textContent = SYNEVO_POINTS.length;
+      setTimeout(function () { map.invalidateSize(); }, 300);
+    }
+
+    /* Survey */
+    var svStep = 0;
+    var svMsg = null;
+    /** Zapobiega ponownemu renderowi Turnstile przy każdym svUpdateView na kroku 7. */
+    var svTurnstileBoundStep = -1;
+
+    function svGetForm() {
+      function gv(id) {
+        var e = document.getElementById(id);
+        return e ? String(e.value).trim() : '';
+      }
+      if ((document.querySelector('input[name="sv-fam"]:checked') || {}).value === 'yes') svSyncFamilyFromDom();
+      return {
+        firstName: document.getElementById('sv-firstName').value.trim(),
+        lastName: document.getElementById('sv-lastName').value.trim(),
+        pesel: document.getElementById('sv-pesel').value.replace(/\D/g, ''),
+        email: document.getElementById('sv-email').value.trim(),
+        phone: document.getElementById('sv-phone').value.trim(),
+        heightCm: document.getElementById('sv-heightCm').value,
+        weightKg: document.getElementById('sv-weightKg').value,
+        waistCm: document.getElementById('sv-waistCm').value,
+        activityDays: (document.querySelector('input[name="sv-activity"]:checked') || {}).value || '',
+        vegetablesFreq: (document.querySelector('input[name="sv-veg"]:checked') || {}).value || '',
+        fastFoodFreq: (document.querySelector('input[name="sv-fast"]:checked') || {}).value || '',
+        alcohol: (document.querySelector('input[name="sv-alc"]:checked') || {}).value || '',
+        tobacco: (document.querySelector('input[name="sv-tob"]:checked') || {}).value || '',
+        hypertension: (document.querySelector('input[name="sv-bp"]:checked') || {}).value || '',
+        hypertensionBpSystolic: gv('sv-bp-sys'),
+        hypertensionBpDiastolic: gv('sv-bp-dia'),
+        hypertensionTherapyNote: gv('sv-bp-meds'),
+        cholesterolHistory: (document.querySelector('input[name="sv-chol"]:checked') || {}).value || '',
+        cholesterolDetails: gv('sv-chol-details'),
+        familyOncology: (document.querySelector('input[name="sv-fam"]:checked') || {}).value || '',
+        familyOncologyRelatives: svFamilyRelatives.map(function (r) {
+          return {
+            kinship: r.kinship,
+            kinshipCustom: r.kinshipCustom,
+            sites: r.sites.map(function (s) {
+              return { site: s.site, siteCustom: s.siteCustom, ageAtDiagnosis: s.ageAtDiagnosis };
+            }),
+            notes: r.notes,
+          };
+        }),
+        familyOncologyDetails: gv('sv-fam-details'),
+        chestPainRecent: (document.querySelector('input[name="sv-chest"]:checked') || {}).value || '',
+        weightLossUnplanned: (document.querySelector('input[name="sv-wl"]:checked') || {}).value || '',
+        consentRodo: document.getElementById('sv-rodo').checked,
+        consentMarketing: document.getElementById('sv-mkt').checked
+      };
+    }
+
+    function validEmail(s) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s); }
+
+    /** Tylko przy „Wyślij” — zakładki i „Dalej” bez blokady. */
+    function svCanSubmit() {
+      var f = svGetForm();
+      if (!f.consentRodo) return false;
+      if (getTurnstileSiteKeyStatic() && !svTurnstileToken) return false;
+      return !!(f.firstName && f.lastName && f.pesel.length === 11 && validEmail(f.email));
+    }
+
+    function svBindStepEvents() {
+      var wrap = document.getElementById('sv-steps');
+      if (!wrap || wrap.dataset.bound) return;
+      wrap.dataset.bound = '1';
+      wrap.addEventListener('input', function () { svUpdateView(); });
+      wrap.addEventListener('change', function () { svUpdateView(); });
+    }
+
+    function surveyHtml() {
+      return (
+        '<div data-sv-step="0" class="sv-step space-y-4">' +
+        '<div class="grid gap-3 sm:grid-cols-2"><label class="text-sm"><span class="mb-1 block text-slate-600">Imię</span><input id="sv-firstName" class="w-full rounded-xl border border-slate-200 px-3 py-2.5"/></label>' +
+        '<label class="text-sm"><span class="mb-1 block text-slate-600">Nazwisko</span><input id="sv-lastName" class="w-full rounded-xl border border-slate-200 px-3 py-2.5"/></label></div>' +
+        '<label class="block text-sm"><span class="mb-1 block text-slate-600">PESEL</span><input id="sv-pesel" inputmode="numeric" maxlength="11" class="w-full rounded-xl border border-slate-200 px-3 py-2.5"/></label>' +
+        '<label class="block text-sm"><span class="mb-1 block text-slate-600">E-mail</span><input id="sv-email" type="email" class="w-full rounded-xl border border-slate-200 px-3 py-2.5"/></label>' +
+        '<label class="block text-sm"><span class="mb-1 block text-slate-600">Telefon (opcjonalnie)</span><input id="sv-phone" type="tel" class="w-full rounded-xl border border-slate-200 px-3 py-2.5"/></label></div>' +
+
+        '<div data-sv-step="1" hidden class="sv-step space-y-4"><p class="text-sm text-slate-600">Pomiary jak w IKP.</p>' +
+        '<div class="grid gap-3 sm:grid-cols-3"><label class="text-sm"><span class="mb-1 block text-slate-600">Wzrost (cm)</span><input id="sv-heightCm" type="number" min="120" max="230" class="w-full rounded-xl border border-slate-200 px-3 py-2.5"/></label>' +
+        '<label class="text-sm"><span class="mb-1 block text-slate-600">Masa (kg)</span><input id="sv-weightKg" type="number" min="30" max="250" class="w-full rounded-xl border border-slate-200 px-3 py-2.5"/></label>' +
+        '<label class="text-sm"><span class="mb-1 block text-slate-600">Talia (cm)</span><input id="sv-waistCm" type="number" min="50" max="200" class="w-full rounded-xl border border-slate-200 px-3 py-2.5"/></label></div></div>' +
+
+        '<div data-sv-step="2" hidden class="sv-step space-y-4">' + svRadioBlock('sv-activity', 'Ile dni x 30 min ruchu?', [{ v: '0-1', l: '0–1 dni' }, { v: '2-3', l: '2–3 dni' }, { v: '4-7', l: '4–7 dni' }]) +
+        svRadioBlock('sv-veg', 'Warzywa i owoce', [{ v: 'rare', l: 'Rzadko' }, { v: 'sometimes', l: 'Czasami' }, { v: 'daily', l: 'Prawie codziennie' }]) +
+        svRadioBlock('sv-fast', 'Fast food', [{ v: 'rare', l: 'Rzadko' }, { v: 'weekly', l: 'Kilka razy w tyg.' }, { v: 'often', l: 'Często' }]) + '</div>' +
+
+        '<div data-sv-step="3" hidden class="sv-step space-y-4">' +
+        svRadioBlock('sv-alc', 'Alkohol', [{ v: 'none', l: 'Nie piję' }, { v: 'occasional', l: 'Okazjonalnie' }, { v: 'weekly', l: 'Regularnie' }]) +
+        svRadioBlock('sv-tob', 'Tytoń', [{ v: 'never', l: 'Nie' }, { v: 'past', l: 'W przeszłości' }, { v: 'current', l: 'Obecnie' }]) + '</div>' +
+
+        '<div data-sv-step="4" hidden class="sv-step space-y-4">' +
+        '<p class="text-sm leading-relaxed text-slate-600">Nadciśnienie i cholesterol wpływają na ryzyko sercowo‑naczyniowe — doprecyzuj, co znasz z rozmowy z lekarzem lub z badań.</p>' +
+        svRadioBlock('sv-bp', 'Czy kiedykolwiek zdiagnozowano u Ciebie nadciśnienie tętnicze?', [{ v: 'no', l: 'Nie' }, { v: 'yes_controlled', l: 'Tak — leczę i jest pod kontrolą (leki, pomiary domowe)' }, { v: 'yes_uncontrolled', l: 'Tak — bez stałego leczenia lub niepewna kontrola' }]) +
+        '<div id="sv-bp-controlled-wrap" hidden class="space-y-3 rounded-xl border border-wellysa-green/20 bg-wellysa-green/10 p-4">' +
+        '<p class="text-sm font-medium text-charcoal">Ostatni pomiar ciśnienia (mmHg)</p>' +
+        '<p class="text-xs text-slate-500">Wpisz liczby tak, jak na ciśnieniomierzu — pola są opcjonalne.</p>' +
+        '<div class="grid grid-cols-2 gap-3 sm:max-w-md">' +
+        '<label class="text-sm"><span class="mb-1 block text-slate-600">Skurczowe („większa”)</span><input id="sv-bp-sys" inputmode="numeric" autocomplete="off" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5" placeholder="np. 128"/></label>' +
+        '<label class="text-sm"><span class="mb-1 block text-slate-600">Rozkurczowe („mniejsza”)</span><input id="sv-bp-dia" inputmode="numeric" autocomplete="off" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5" placeholder="np. 82"/></label></div>' +
+        '<label class="block text-sm"><span class="mb-1 block text-slate-600">Leki / schemat dawkowania (opcjonalnie)</span><input id="sv-bp-meds" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5" placeholder="np. Enarenal 5 mg rano"/></label></div>' +
+        svRadioBlock('sv-chol', 'Czy powiedziano Ci kiedyś o zbyt wysokim cholesterolu lub innych nieprawidłowych lipidach (np. LDL, trójglicerydy)?', [{ v: 'no', l: 'Nie / nie badano' }, { v: 'yes', l: 'Tak' }, { v: 'unknown', l: 'Nie wiem' }]) +
+        '<div id="sv-chol-yes-wrap" hidden class="space-y-2 rounded-xl border border-wellysa-green/20 bg-wellysa-green/10 p-4">' +
+        '<p class="text-sm font-medium text-charcoal">Znasz ostatnie wyniki? (opcjonalnie)</p>' +
+        '<label class="block text-sm"><span class="mb-1 block text-xs text-slate-500">Możesz wpisać liczby z laboratorium albo skrót od lekarza — jednym polem.</span>' +
+        '<input id="sv-chol-details" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5" placeholder="np. cholesterol całkowity 240 mg/dl, LDL 3,8 mmol/l"/></label></div></div>' +
+
+        '<div data-sv-step="5" hidden class="sv-step space-y-4">' +
+        svRadioBlock('sv-fam', 'Czy w Twojej bliskiej rodzinie (rodzice, rodzeństwo, dziadkowie) zdiagnozowano nowotwór złośliwy?', [{ v: 'no', l: 'Nie / nie wiem' }, { v: 'yes', l: 'Tak' }]) +
+        '<div id="sv-fam-wrap" hidden class="space-y-4">' +
+        '<p class="text-sm leading-relaxed text-slate-600 rounded-xl border border-slate-200/80 bg-white px-4 py-3">Dla każdej chorej osoby możesz dodać <strong class="font-medium text-charcoal">wiele nowotworów</strong>. <strong class="font-medium text-charcoal">Historia rodzinna</strong> pomaga dopasować profilaktykę — bez oceny „dobrze/źle”. Pola są opcjonalne.</p>' +
+        '<div id="sv-fam-dynamic-root"></div>' +
+        '<label class="block text-sm"><span class="mb-1 block text-slate-600">Uwagi ogólne do całej historii rodzinnej (opcjonalnie)</span><textarea id="sv-fam-details" rows="2" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5" placeholder="np. wiele pokoleń"></textarea></label>' +
+        '</div></div>' +
+
+        '<div data-sv-step="6" hidden class="sv-step space-y-4">' +
+        svRadioBlock('sv-chest', 'Ból klatce / duszność w wysiłku (ostatnie tygodnie)?', [{ v: 'no', l: 'Nie' }, { v: 'yes', l: 'Tak' }]) +
+        svRadioBlock('sv-wl', 'Nieplanowana utrata masy?', [{ v: 'no', l: 'Nie' }, { v: 'yes', l: 'Tak' }]) + '</div>' +
+
+        '<div data-sv-step="7" hidden class="sv-step space-y-4">' +
+        '<div class="rounded-xl border border-slate-200 bg-slate-50 p-4 sm:p-5">' +
+        '<p class="text-sm font-semibold text-charcoal">Podsumowanie odpowiedzi</p>' +
+        '<p class="mt-1 text-xs text-slate-500">Sprawdź dane przed wysłaniem.</p>' +
+        '<dl id="sv-summary-dl" class="mt-4 max-h-[min(42vh,320px)] space-y-2 overflow-y-auto text-sm"></dl></div>' +
+        '<label class="flex cursor-pointer items-start gap-3 rounded-xl border border-slate-200 p-4"><input type="checkbox" id="sv-rodo" class="mt-1 h-4 w-4 rounded"/><span class="text-sm text-slate-700">Zgoda RODO — kontakt i przekazanie do panelu Wellysa.</span></label>' +
+        '<label class="flex cursor-pointer items-start gap-3 rounded-xl border border-slate-200 p-4"><input type="checkbox" id="sv-mkt" class="mt-1 h-4 w-4 rounded"/><span class="text-sm text-slate-700">Marketing (opcjonalnie).</span></label>' +
+        '<div id="sv-turnstile-mount" class="flex min-h-[65px] justify-center py-2"></div>' +
+        '<p id="sv-file-protocol-hint" hidden class="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs text-amber-950">' +
+        'Ta strona jest otwarta jako <strong>plik z dysku</strong> (adres zaczyna się od <code class="rounded bg-white/80 px-1">file://</code>). ' +
+        'Cloudflare Turnstile często wtedy <strong>nie wyświetla widgetu</strong>. Uruchom lokalny serwer HTTP, np. w tym folderze: ' +
+        '<code class="rounded bg-white/80 px-1">npx serve .</code> lub <code class="rounded bg-white/80 px-1">python -m http.server 8080</code>, ' +
+        'potem otwórz <code class="rounded bg-white/80 px-1">http://localhost:…</code>.</p>' +
+        '<p id="sv-msg" hidden class="rounded-xl px-4 py-3 text-sm"></p></div>'
+      );
+    }
+
+    function svRadioBlock(name, legend, opts) {
+      var h = '<fieldset class="space-y-2"><legend class="mb-2 text-sm font-medium text-charcoal">' + legend + '</legend><div class="space-y-2">';
+      opts.forEach(function (o) {
+        h += '<label class="flex cursor-pointer items-center gap-3 rounded-xl border border-slate-200 px-4 py-3 text-sm hover:border-slate-300">' +
+          '<input type="radio" name="' + name + '" value="' + o.v + '" class="h-4 w-4"/>' + o.l + '</label>';
+      });
+      return h + '</div></fieldset>';
+    }
+
+    function svRender() {
+      var holder = document.getElementById('sv-steps');
+      holder.removeAttribute('data-bound');
+      svRemoveTurnstile();
+      holder.innerHTML = surveyHtml();
+      svFamilyRelatives = [svEmptyRelative()];
+      svBindStepEvents();
+      svPaintFamilyUI();
+      var id = null;
+      try { id = JSON.parse(localStorage.getItem('wellysa_landing_identity') || 'null'); } catch (e) {}
+      if (id) {
+        var fn = document.getElementById('sv-firstName'); if (fn) fn.value = id.firstName || '';
+        var ln = document.getElementById('sv-lastName'); if (ln) ln.value = id.lastName || '';
+        var pe = document.getElementById('sv-pesel'); if (pe) pe.value = id.pesel || '';
+        var em = document.getElementById('sv-email'); if (em) em.value = id.email || '';
+        var ph = document.getElementById('sv-phone'); if (ph) ph.value = id.phone || '';
+      }
+      document.getElementById('sv-pesel').addEventListener('input', function (e) {
+        e.target.value = e.target.value.replace(/\D/g, '').slice(0, 11);
+      });
+      ;['sv-bp-sys', 'sv-bp-dia'].forEach(function (rid) {
+        var el = document.getElementById(rid);
+        if (el) el.addEventListener('input', function (e) { e.target.value = e.target.value.replace(/\D/g, '').slice(0, 3); });
+      });
+      svStep = 0;
+      svMsg = null;
+      svTurnstileBoundStep = -1;
+      svUpdateView();
+    }
+
+    function svUpdateView() {
+      document.querySelectorAll('.sv-step').forEach(function (el) {
+        el.hidden = parseInt(el.getAttribute('data-sv-step'), 10) !== svStep;
+      });
+      if (svStep === 4) {
+        var bp = document.querySelector('input[name="sv-bp"]:checked');
+        var bpBox = document.getElementById('sv-bp-controlled-wrap');
+        if (bpBox) bpBox.hidden = !(bp && bp.value === 'yes_controlled');
+        var ch = document.querySelector('input[name="sv-chol"]:checked');
+        var chBox = document.getElementById('sv-chol-yes-wrap');
+        if (chBox) chBox.hidden = !(ch && ch.value === 'yes');
+      }
+      if (svStep === 5) {
+        var yesFam5 = document.querySelector('input[name="sv-fam"][value="yes"]');
+        var famWrap5 = document.getElementById('sv-fam-wrap');
+        if (famWrap5) famWrap5.hidden = !(yesFam5 && yesFam5.checked);
+        var dyn5 = document.getElementById('sv-fam-dynamic-root');
+        if (dyn5 && yesFam5 && yesFam5.checked) {
+          if (!dyn5.querySelector('.sv-fr-rel')) svPaintFamilyUI();
+          svFrToggleCustomVisibility(dyn5);
+        }
+      }
+      if (svStep === 7) {
+        svFillSummary();
+        if (svTurnstileBoundStep !== 7) {
+          svTurnstileBoundStep = 7;
+          svEnsureTurnstile();
+        }
+        var fph = document.getElementById('sv-file-protocol-hint');
+        if (fph) fph.hidden = window.location.protocol !== 'file:';
+      } else {
+        svTurnstileBoundStep = -1;
+        svRemoveTurnstile();
+        var fph0 = document.getElementById('sv-file-protocol-hint');
+        if (fph0) fph0.hidden = true;
+      }
+      var pills = document.getElementById('sv-pills');
+      pills.innerHTML = STEP_LABELS.map(function (lb, i) {
+        var cls = 'rounded-full px-2.5 py-1 text-[11px] font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 ';
+        cls += i === svStep ? 'text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200';
+        var st = i === svStep ? 'background:#009472' : '';
+        return '<button type="button" data-sv-tab="' + i + '" class="' + cls + '" style="' + st + '">' + (i + 1) + '. ' + lb + '</button>';
+      }).join('');
+      document.getElementById('sv-back').disabled = svStep === 0;
+      var act = document.getElementById('sv-actions');
+      act.innerHTML = '';
+      if (svMsg && svMsg.indexOf('Błąd') === -1) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'rounded-full bg-charcoal px-6 py-2.5 text-sm font-bold text-white';
+        b.textContent = 'Zamknij';
+        b.onclick = function () { closeModal('survey'); };
+        act.appendChild(b);
+        return;
+      }
+      if (svStep < 7) {
+        var next = document.createElement('button');
+        next.type = 'button';
+        next.className = 'inline-flex items-center gap-1 rounded-full px-5 py-2.5 text-sm font-bold text-white hover:opacity-90';
+        next.style.background = '#009472';
+        next.textContent = 'Dalej →';
+        next.onclick = function () { svStep = Math.min(7, svStep + 1); svUpdateView(); };
+        act.appendChild(next);
+      } else {
+        var sub = document.createElement('button');
+        sub.type = 'button';
+        sub.className = 'inline-flex items-center gap-2 rounded-full px-6 py-2.5 text-sm font-bold text-white disabled:opacity-40';
+        sub.style.background = '#009472';
+        sub.textContent = 'Wyślij do Wellysa';
+        sub.disabled = !svCanSubmit() || !!svMsg;
+        sub.onclick = svSubmit;
+        act.appendChild(sub);
+      }
+      var msgEl = document.getElementById('sv-msg');
+      if (msgEl) {
+        if (svMsg) {
+          msgEl.hidden = false;
+          msgEl.textContent = svMsg;
+          msgEl.className = 'rounded-xl px-4 py-3 text-sm ' + (svMsg.indexOf('Błąd') !== -1 ? 'bg-rose-50 text-rose-800' : 'bg-wellysa-green/10 text-emerald-900');
+        } else msgEl.hidden = true;
+      }
+      refreshLucide();
+    }
+
+    function svSubmit() {
+      var f = svGetForm();
+      var base = window.WELLYSA_ADMIN_API || '';
+      var identity = { firstName: f.firstName, lastName: f.lastName, pesel: f.pesel, email: f.email, phone: f.phone || undefined };
+      var relativesPayload =
+        f.familyOncology === 'yes' && f.familyOncologyRelatives
+          ? f.familyOncologyRelatives
+              .map(function (r) {
+                var kinship = svResolveKinshipApi(r.kinship, r.kinshipCustom);
+                var cancerSites = (r.sites || [])
+                  .map(function (s) {
+                    var site = svResolveSiteApi(s.site, s.siteCustom);
+                    if (!site) return null;
+                    return { site: site, ageAtDiagnosis: s.ageAtDiagnosis || undefined };
+                  })
+                  .filter(Boolean);
+                var notes = r.notes || undefined;
+                if (!kinship && cancerSites.length === 0 && !notes) return null;
+                return { kinship: kinship, cancerSites: cancerSites, notes: notes };
+              })
+              .filter(Boolean)
+          : [];
+      var firstRel = relativesPayload[0];
+      var firstSite = firstRel && firstRel.cancerSites && firstRel.cancerSites[0];
+      var survey = {
+        heightCm: Number(f.heightCm), weightKg: Number(f.weightKg), waistCm: Number(f.waistCm),
+        activityDays: f.activityDays, vegetablesFreq: f.vegetablesFreq, fastFoodFreq: f.fastFoodFreq,
+        alcohol: f.alcohol, tobacco: f.tobacco, hypertension: f.hypertension,
+        hypertensionBpSystolic: f.hypertensionBpSystolic || undefined,
+        hypertensionBpDiastolic: f.hypertensionBpDiastolic || undefined,
+        hypertensionTherapyNote: f.hypertensionTherapyNote || undefined,
+        cholesterolHistory: f.cholesterolHistory, cholesterolDetails: f.cholesterolDetails || undefined,
+        familyOncology: f.familyOncology,
+        familyOncologyRelatives: relativesPayload.length ? relativesPayload : undefined,
+        familyCancerKinship: firstRel && firstRel.kinship,
+        familyCancerSite: firstSite && firstSite.site,
+        familyCancerAge: firstSite && firstSite.ageAtDiagnosis,
+        familyOncologyDetails: f.familyOncologyDetails || undefined,
+        chestPainRecent: f.chestPainRecent, weightLossUnplanned: f.weightLossUnplanned,
+        consentMarketing: f.consentMarketing
+      };
+      localStorage.setItem('wellysa_landing_identity', JSON.stringify({ firstName: f.firstName, lastName: f.lastName, pesel: f.pesel, email: f.email, phone: f.phone }));
+      if (!base) {
+        console.info('[Wellysa] DEMO survey', { identity, survey });
+        svMsg = 'Tryb demo — brak meta wellysa-admin-api. Dane zapisane lokalnie (localStorage).';
+        svUpdateView();
+        return;
+      }
+      var svPayload = { source: 'wellysa-landing', submittedAt: new Date().toISOString(), identity: identity, survey: survey };
+      if (getTurnstileSiteKeyStatic()) svPayload.cfTurnstileResponse = svTurnstileToken;
+      fetch(base + '/api/landing/survey', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(svPayload),
+      }).then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        svMsg = 'Dziękujemy — dane przekazane. Skontaktujemy się na e-mail.';
+        svUpdateView();
+      }).catch(function (e) {
+        svMsg = 'Błąd: ' + (e.message || 'sieć');
+        svTurnstileBoundStep = -1;
+        svRemoveTurnstile();
+        svUpdateView();
+      });
+    }
+
+    document.getElementById('sv-back').addEventListener('click', function () {
+      if (svStep > 0) { svStep--; svUpdateView(); }
+    });
+
+    (function bindSurveyTabs() {
+      var el = document.getElementById('sv-pills');
+      if (!el || el.dataset.tabDelegate) return;
+      el.dataset.tabDelegate = '1';
+      el.addEventListener('click', function (e) {
+        var btn = e.target.closest('button[data-sv-tab]');
+        if (!btn) return;
+        svStep = parseInt(btn.getAttribute('data-sv-tab'), 10);
+        svMsg = null;
+        svUpdateView();
+      });
+    })();
+
+    var mo = new MutationObserver(function () {
+      var m = document.getElementById('modal-survey');
+      if (m && m.classList.contains('flex') && !m.classList.contains('hidden')) svRender();
+    });
+    mo.observe(document.getElementById('modal-survey'), { attributes: true, attributeFilter: ['class'] });
+
+    /* Upload */
+    function loadUpIdentity() {
+      try {
+        var id = JSON.parse(localStorage.getItem('wellysa_landing_identity') || 'null');
+        if (id) {
+          document.getElementById('up-fn').value = id.firstName || '';
+          document.getElementById('up-ln').value = id.lastName || '';
+          document.getElementById('up-pesel').value = id.pesel || '';
+          document.getElementById('up-email').value = id.email || '';
+        }
+      } catch (e) {}
+    }
+    var upObs = new MutationObserver(function () {
+      var m = document.getElementById('modal-upload');
+      if (m && m.classList.contains('flex') && !m.classList.contains('hidden')) {
+        resetUploadModal();
+        loadUpIdentity();
+        document.getElementById('up-file').value = '';
+        document.getElementById('up-file-label').textContent = 'Kliknij lub upuść plik';
+        upEnsureTurnstile();
+        var uph = document.getElementById('up-file-protocol-hint');
+        if (uph) uph.hidden = window.location.protocol !== 'file:';
+        refreshLucide();
+      }
+    });
+    upObs.observe(document.getElementById('modal-upload'), { attributes: true, attributeFilter: ['class'] });
+
+    function upSetFile(file) {
+      if (!file) return;
+      var inp = document.getElementById('up-file');
+      try {
+        var dt = new DataTransfer();
+        dt.items.add(file);
+        inp.files = dt.files;
+      } catch (err) {
+        console.warn('DataTransfer niedostępny', err);
+      }
+      document.getElementById('up-file-label').textContent = file.name;
+    }
+    var dz = document.getElementById('up-dropzone');
+    ;['dragenter', 'dragover'].forEach(function (ev) {
+      dz.addEventListener(ev, function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        dz.style.borderColor = '#009472';
+        dz.style.background = 'rgba(11,176,127,0.06)';
+      });
+    });
+    dz.addEventListener('dragleave', function (e) {
+      e.preventDefault();
+      dz.style.borderColor = '';
+      dz.style.background = '';
+    });
+    dz.addEventListener('drop', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      dz.style.borderColor = '';
+      dz.style.background = '';
+      var f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+      if (f) upSetFile(f);
+    });
+
+    document.getElementById('up-file').addEventListener('change', function () {
+      var f = this.files[0];
+      document.getElementById('up-file-label').textContent = f ? f.name : 'Kliknij lub upuść plik';
+    });
+    document.getElementById('up-pesel').addEventListener('input', function (e) {
+      e.target.value = e.target.value.replace(/\D/g, '').slice(0, 11);
+    });
+
+    document.getElementById('up-submit').addEventListener('click', function () {
+      var fn = document.getElementById('up-fn').value.trim();
+      var ln = document.getElementById('up-ln').value.trim();
+      var pe = document.getElementById('up-pesel').value.replace(/\D/g, '');
+      var em = document.getElementById('up-email').value.trim();
+      var file = document.getElementById('up-file').files[0];
+      var msg = document.getElementById('up-msg');
+      if (!fn || !ln || pe.length !== 11 || !em.includes('@') || !file) {
+        msg.classList.remove('hidden');
+        msg.className = 'rounded-xl px-4 py-3 text-sm bg-rose-50 text-rose-800';
+        msg.textContent = 'Uzupełnij dane i wybierz plik.';
+        return;
+      }
+      if (getTurnstileSiteKeyStatic() && !upTurnstileToken) {
+        msg.classList.remove('hidden');
+        msg.className = 'rounded-xl px-4 py-3 text-sm bg-rose-50 text-rose-800';
+        msg.textContent = 'Potwierdź, że nie jesteś robotem (pole powyżej).';
+        return;
+      }
+      localStorage.setItem('wellysa_landing_identity', JSON.stringify({ firstName: fn, lastName: ln, pesel: pe, email: em }));
+      var base = window.WELLYSA_ADMIN_API || '';
+      if (!base) {
+        console.info('[Wellysa] DEMO upload', { fn, ln, pe, em, file: file.name });
+        msg.classList.add('hidden');
+        showUploadInterpretationStep(true, null, null);
+        return;
+      }
+      var fd = new FormData();
+      fd.append('firstName', fn);
+      fd.append('lastName', ln);
+      fd.append('pesel', pe);
+      fd.append('email', em);
+      fd.append('notes', document.getElementById('up-notes').value.trim());
+      fd.append('file', file);
+      fd.append('source', 'wellysa-landing');
+      fd.append('submittedAt', new Date().toISOString());
+      if (getTurnstileSiteKeyStatic() && upTurnstileToken) fd.append('cf-turnstile-response', upTurnstileToken);
+      fetch(base + '/api/landing/results-upload', { method: 'POST', body: fd }).then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        msg.classList.add('hidden');
+        var ct = r.headers.get('content-type') || '';
+        if (ct.indexOf('application/json') !== -1) {
+          return r
+            .json()
+            .then(function (body) {
+              var oid = body.orderId || body.resultsOrderId || '';
+              var checkout = body.panelCheckoutUrl || '';
+              showUploadInterpretationStep(false, oid || null, checkout || null);
+            })
+            .catch(function () {
+              showUploadInterpretationStep(false, null, null);
+            });
+        }
+        showUploadInterpretationStep(false, null, null);
+      }).catch(function (e) {
+        msg.classList.remove('hidden');
+        msg.className = 'rounded-xl px-4 py-3 text-sm bg-rose-50 text-rose-800';
+        msg.textContent = 'Błąd: ' + e.message;
+        upRemoveTurnstile();
+        upEnsureTurnstile();
+      });
+    });
+
+    /* Nav mobile */
+    document.getElementById('nav-toggle').addEventListener('click', function () {
+      var panel = document.getElementById('nav-mobile');
+      panel.classList.toggle('hidden');
+      var expanded = !panel.classList.contains('hidden');
+      document.getElementById('nav-toggle').setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      document.querySelector('.nav-icon-open').classList.toggle('hidden', expanded);
+      document.querySelector('.nav-icon-close').classList.toggle('hidden', !expanded);
+    });
+    document.querySelectorAll('.nav-m-link').forEach(function (a) {
+      a.addEventListener('click', function () {
+        document.getElementById('nav-mobile').classList.add('hidden');
+        document.querySelector('.nav-icon-open').classList.remove('hidden');
+        document.querySelector('.nav-icon-close').classList.add('hidden');
+      });
+    });
+
+    /* Mobile popup */
+    (function () {
+      var KEY = 'wellysa_popup_dismissed';
+      function isMobile() { return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent); }
+      function dismissed() { try { var s = localStorage.getItem(KEY); if (!s) return false; return Date.now() - parseInt(s, 10) < 7 * 864e5; } catch (e) { return false; } }
+      function show() { var p = document.getElementById('mobile-popup'); p.classList.remove('hidden'); p.classList.add('flex'); refreshLucide(); }
+      function hide(save) { var p = document.getElementById('mobile-popup'); p.classList.add('hidden'); p.classList.remove('flex'); if (save) try { localStorage.setItem(KEY, Date.now().toString()); } catch (e) {} }
+      if (isMobile() && !dismissed()) setTimeout(show, 1500);
+      document.getElementById('popup-close').onclick = function () { hide(true); };
+      document.getElementById('popup-later').onclick = function () { hide(true); };
+      document.getElementById('mobile-popup').onclick = function (e) { if (e.target === this) hide(false); };
+    })();
+
+    refreshLucide();
+  </script>
+</body>
+</html>
